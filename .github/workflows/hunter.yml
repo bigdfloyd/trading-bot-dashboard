@@ -56,6 +56,7 @@ jobs:
           git add trench_state.json Trenches 2>/dev/null || true
           git diff --cached --quiet && exit 0
           git commit -q -m "Hunter run $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git reset -q --hard HEAD   # drop other scratch changes (bot.log) so the rebase can run
           for i in 1 2 3 4 5; do
             git pull -q --rebase -X theirs && git push -q && exit 0
             sleep 7
