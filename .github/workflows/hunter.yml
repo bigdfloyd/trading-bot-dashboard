@@ -1,0 +1,63 @@
+name: Memecoin hunter (paper, every 10 min)
+
+# PAPER ONLY: simulated memecoin trades, no wallet, no real money.
+# Runs here (public repo = free Actions minutes); code, state and notes live in the private bot repo.
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+    inputs:
+      buy:
+        description: "Coin address to try buying (same rug + X checks). Empty = normal hunt."
+        type: string
+        default: ""
+
+concurrency:
+  group: memecoin-hunter
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+  issues: write   # buy/sell emails: one issue per paper trade (trade info only)
+
+jobs:
+  hunt:
+    runs-on: ubuntu-latest
+    timeout-minutes: 9
+    steps:
+      - name: Get the bot repo
+        env:
+          KEY: ${{ secrets.PRIVATE_REPO_KEY }}
+        run: |
+          mkdir -p ~/.ssh && echo "$KEY" > ~/.ssh/id_ed25519 && chmod 600 ~/.ssh/id_ed25519
+          ssh-keyscan github.com >> ~/.ssh/known_hosts 2>/dev/null
+          git clone -q --depth 1 git@github.com:bigdfloyd/trading-bot-paper.git bot
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Watch open trades, look for a new one
+        working-directory: bot
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TWITTERAPI_KEY: ${{ secrets.TWITTERAPI_KEY }}
+          BUY_MINT: ${{ inputs.buy || '' }}
+          TZ: UTC
+        run: |
+          if [ -n "$BUY_MINT" ]; then python trench.py --buy "$BUY_MINT"; else python trench.py; fi
+
+      - name: Save notes back to the bot repo
+        if: always()
+        working-directory: bot
+        run: |
+          git config user.name "memecoin-hunter"
+          git config user.email "trading-bot@users.noreply.github.com"
+          git add trench_state.json Trenches 2>/dev/null || true
+          git diff --cached --quiet && exit 0
+          git commit -q -m "Hunter run $(date -u '+%Y-%m-%d %H:%M UTC')"
+          for i in 1 2 3 4 5; do
+            git pull -q --rebase -X theirs && git push -q && exit 0
+            sleep 7
+          done
+          exit 1

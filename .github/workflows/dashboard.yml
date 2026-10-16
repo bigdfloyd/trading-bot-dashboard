@@ -1,0 +1,58 @@
+name: Rebuild dashboard
+
+# Builds the dashboard from the private bot repo and publishes index.html here (GitHub Pages).
+# Public mode: no chat excerpts, no Claude memory, no emails, no keys.
+on:
+  workflow_run:
+    workflows: ["Memecoin hunter (paper, every 10 min)"]
+    types: [completed]
+  schedule:
+    - cron: "20,50 * * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: dashboard-site
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Get the bot repo
+        env:
+          KEY: ${{ secrets.PRIVATE_REPO_KEY }}
+        run: |
+          mkdir -p ~/.ssh && echo "$KEY" > ~/.ssh/id_ed25519 && chmod 600 ~/.ssh/id_ed25519
+          ssh-keyscan github.com >> ~/.ssh/known_hosts 2>/dev/null
+          git clone -q --depth 1 git@github.com:bigdfloyd/trading-bot-paper.git bot
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build the page
+        working-directory: bot
+        env:
+          ALPACA_KEY_ID: ${{ secrets.ALPACA_KEY_ID }}
+          ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
+          DASHBOARD_PUBLIC: "1"
+          DASHBOARD_OUT: ../site
+          TZ: UTC
+        run: python dashboard.py
+
+      - name: Publish
+        run: |
+          cp site/index.html index.html
+          git config user.name "trading-bot"
+          git config user.email "trading-bot@users.noreply.github.com"
+          git add index.html
+          git diff --cached --quiet && exit 0
+          git commit -q -m "Dashboard $(date -u '+%Y-%m-%d %H:%M UTC')"
+          for i in 1 2 3; do git pull -q --rebase && git push -q && exit 0; sleep 5; done
+          exit 1
