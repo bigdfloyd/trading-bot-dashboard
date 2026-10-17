@@ -49,9 +49,10 @@ jobs:
       - name: Publish
         run: |
           cp site/index.html index.html
+          cp site/version.json version.json
           git config user.name "trading-bot"
           git config user.email "trading-bot@users.noreply.github.com"
-          git add index.html
+          git add index.html version.json
           git diff --cached --quiet && exit 0
           git commit -q -m "Dashboard $(date -u '+%Y-%m-%d %H:%M UTC')"
           for i in 1 2 3; do git pull -q --rebase && git push -q && exit 0; sleep 5; done
