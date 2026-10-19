@@ -1,0 +1,51 @@
+name: Market analysis (on demand)
+
+# Runs long offline analyses of the PAPER bot in the cloud (no trading) and saves results to the private bot repo.
+on:
+  workflow_dispatch:
+    inputs:
+      script:
+        description: "Script(s) to run, space separated"
+        default: "market_scan.py universe_test2.py"
+
+permissions:
+  contents: read
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - name: Get the bot repo
+        env:
+          KEY: ${{ secrets.PRIVATE_REPO_KEY }}
+        run: |
+          mkdir -p ~/.ssh && echo "$KEY" > ~/.ssh/id_ed25519 && chmod 600 ~/.ssh/id_ed25519
+          ssh-keyscan github.com >> ~/.ssh/known_hosts 2>/dev/null
+          git clone -q --depth 1 git@github.com:bigdfloyd/trading-bot-paper.git bot
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run
+        working-directory: bot
+        env:
+          ALPACA_KEY_ID: ${{ secrets.ALPACA_KEY_ID }}
+          ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
+          TWITTERAPI_KEY: ${{ secrets.TWITTERAPI_KEY }}
+          BOT_DRY_RUN: "1"
+          BOT_FETCH_THREADS: "4"
+          TZ: UTC
+        run: |
+          for s in ${{ inputs.script }}; do echo "=== $s"; python "$s" 2>&1 | grep -v "^20[0-9][0-9]-" | tee -a analysis_output.txt || true; done
+      - name: Save results
+        if: always()
+        working-directory: bot
+        run: |
+          git config user.name "analysis"
+          git config user.email "trading-bot@users.noreply.github.com"
+          mkdir -p Research
+          { echo "# Analysis output $(date -u '+%Y-%m-%d %H:%M UTC')"; echo; echo '```'; cat analysis_output.txt; echo '```'; } > "Research/TB Analysis $(date -u '+%Y-%m-%d %H%M').md"
+          git add -A Research *.json 2>/dev/null || true
+          git diff --cached --quiet && exit 0
+          git commit -q -m "Analysis results $(date -u '+%Y-%m-%d %H:%M UTC')"
+          for i in 1 2 3 4 5; do git pull -q --rebase -X theirs && git push -q && exit 0; sleep 7; done
