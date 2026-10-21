@@ -1,11 +1,11 @@
-name: Imaginary FOMO copy trading (every 2 min)
+name: Imaginary FOMO copy trading (live)
 
-# NO trades, not even paper money: watches 6 FOMO traders' Solana wallets and copies them with imaginary $100s.
-# GitHub's cron runs late (every 30-40 min instead of 10), so each run keeps checking every 2 minutes for ~50 minutes.
-# The next scheduled run queues behind this one (concurrency), so the checks are close to continuous.
+# NO trades, not even paper money. Listens live to 6 FOMO traders' Solana wallets and copies each swap
+# with imaginary $100s within seconds of it confirming. One run listens for ~5h40m; the next run is already
+# queued (concurrency) so they follow each other back to back. A backup sweep every 5 min catches anything missed.
 on:
   schedule:
-    - cron: "*/15 * * * *"
+    - cron: "7,37 * * * *"
   workflow_dispatch:
 
 concurrency:
@@ -18,7 +18,7 @@ permissions:
 jobs:
   copy:
     runs-on: ubuntu-latest
-    timeout-minutes: 58
+    timeout-minutes: 350
     steps:
       - uses: actions/checkout@v4
 
@@ -34,20 +34,22 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Check the wallets every 2 minutes
+      - name: Copy live
         env:
           TZ: UTC
+          PYTHONUNBUFFERED: "1"
+          COPY_PUBLISH: bash ../publish_copy.sh
         run: |
+          pip install -q websockets
           git config --global user.name "fomo-copytrade"
           git config --global user.email "trading-bot@users.noreply.github.com"
-          end=$(( $(date +%s) + 50*60 ))
-          while [ "$(date +%s)" -lt "$end" ]; do
-            (cd bot && git pull -q --rebase -X theirs || true; timeout 150 python copytrade.py || echo "check failed")
-            # private bot repo: keep the state
-            (cd bot && git add copy_state.json && { git diff --cached --quiet || git commit -q -m "Copy check $(date -u '+%Y-%m-%d %H:%M UTC')"; }               && for i in 1 2 3; do git pull -q --rebase -X theirs && git push -q && break; sleep 5; done) || echo "bot push failed"
-            # public site: the page reads this file every minute
-            cp bot/copy_state.json copy_state.json
-            git add copy_state.json && { git diff --cached --quiet || git commit -q -m "Copy check $(date -u '+%H:%M UTC')"; }
-            for i in 1 2 3; do git pull -q --rebase -X theirs && git push -q && break; sleep 5; done || echo "site push failed"
-            sleep 120
-          done
+          cat > publish_copy.sh <<'SH'
+          # runs inside bot/ after every copied swap and every backup sweep
+          git add copy_state.json && { git diff --cached --quiet || git commit -q -m "Copy $(date -u '+%Y-%m-%d %H:%M:%S UTC')"; }
+          for i in 1 2 3; do git pull -q --rebase -X theirs && git push -q && break; sleep 3; done
+          cp copy_state.json ../copy_state.json
+          cd .. && git add copy_state.json && { git diff --cached --quiet || git commit -q -m "Copy $(date -u '+%H:%M:%S UTC')"; }
+          for i in 1 2 3; do git pull -q --rebase -X theirs && git push -q && break; sleep 3; done
+          true
+          SH
+          cd bot && python copytrade.py --watch 335
