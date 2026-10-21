@@ -1,6 +1,7 @@
 name: Imaginary FOMO copy trading (live)
 
-# NO trades, not even paper money. Listens live to 6 FOMO traders' Solana wallets and copies each swap
+# NO trades, not even paper money. Listens live to the FOMO traders whose real Solana wallet was revealed
+# (copy_traders.json cloud=true; FOMO hides wallets, the rest are copied from Brave on the PC) and copies each swap
 # with imaginary $100s within seconds of it confirming. One run listens for ~5h40m; the next run is already
 # queued (concurrency) so they follow each other back to back. A backup sweep every 5 min catches anything missed.
 on:
@@ -39,16 +40,17 @@ jobs:
           TZ: UTC
           PYTHONUNBUFFERED: "1"
           COPY_PUBLISH: bash ../publish_copy.sh
+          COPY_STATE: copy_state_cloud.json
         run: |
           pip install -q websockets
           git config --global user.name "fomo-copytrade"
           git config --global user.email "trading-bot@users.noreply.github.com"
           cat > publish_copy.sh <<'SH'
           # runs inside bot/ after every copied swap and every backup sweep
-          git add copy_state.json && { git diff --cached --quiet || git commit -q -m "Copy $(date -u '+%Y-%m-%d %H:%M:%S UTC')"; }
+          git add copy_state_cloud.json && { git diff --cached --quiet || git commit -q -m "Cloud copy $(date -u '+%Y-%m-%d %H:%M:%S UTC')"; }
           for i in 1 2 3; do git pull -q --rebase -X theirs && git push -q && break; sleep 3; done
-          cp copy_state.json ../copy_state.json
-          cd .. && git add copy_state.json && { git diff --cached --quiet || git commit -q -m "Copy $(date -u '+%H:%M:%S UTC')"; }
+          cp copy_state_cloud.json ../copy_state_cloud.json
+          cd .. && git add copy_state_cloud.json && { git diff --cached --quiet || git commit -q -m "Cloud copy $(date -u '+%H:%M:%S UTC')"; }
           for i in 1 2 3; do git pull -q --rebase -X theirs && git push -q && break; sleep 3; done
           true
           SH
