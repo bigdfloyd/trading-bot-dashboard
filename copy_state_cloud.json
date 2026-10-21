@@ -1,0 +1,20 @@
+{
+ "started": 1792593138.262912,
+ "ends": 1792852338.262912,
+ "cursor": {
+  "Numerooo0:solana": "2bqWnuQ1Gu3K5fXd5QmdHeBLVnFMmUPgcYYwpA9DC75w4xJ8U3WkiyrAqaV93y7ERPL8zjA3V42sJeNzi1PAmGFE"
+ },
+ "open": {},
+ "closed": [],
+ "swaps": [],
+ "skipped": [],
+ "curve": [
+  [
+   1792593439,
+   0
+  ]
+ ],
+ "prices": {},
+ "done": [],
+ "checked": 1792593438.8088634
+}
