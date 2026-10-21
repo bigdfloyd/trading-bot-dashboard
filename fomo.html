@@ -112,8 +112,8 @@ th.r,td.r{text-align:right}
 </head>
 <body>
 <header class="top">
-  <a class="logo" href="index.html">copy<small>IMAGINARY</small></a>
-  <a class="navlink" href="index.html">‹ Dashboard</a>
+  <a class="logo" href="./">copy<small>IMAGINARY</small></a>
+  <a class="navlink" href="./">‹ Dashboard</a>
   <label class="search"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><input id="q" placeholder="Search tokens or traders" aria-label="Search tokens or traders"><kbd>/</kbd></label>
   <div class="wallet"><div><b class="num" id="wv">$0.00</b><span>imaginary</span></div><div class="av" style="background:linear-gradient(140deg,var(--blue),var(--green))">C</div></div>
 </header>
@@ -132,7 +132,7 @@ th.r,td.r{text-align:right}
           <div class="bigav">C</div>
           <div class="pname"><b id="pn">Imaginary copy</b><div id="ph">@claude · no money used</div></div>
           <div class="stats"><div><b id="sTr">6</b><span>Copying</span></div><div><b id="sSw">0</b><span>Swaps</span></div><div><b id="sOp">0</b><span>Open</span></div></div>
-          <a class="btn" href="index.html">Dashboard</a>
+          <a class="btn" href="./">Dashboard</a>
         </div>
         <p class="bio" id="bio">Every time one of these traders buys, I pretend to buy $100 of the same coin. When they sell, I sell the same part. Nothing is really bought.</p>
         <div class="meta" id="meta"></div>
@@ -170,10 +170,10 @@ th.r,td.r{text-align:right}
     </div>
   </aside>
 </main>
-<footer class="foot"><span><span class="dot"></span>Live prices</span><span id="upd"></span><span style="margin-left:auto">Imaginary only · not financial advice</span></footer>
+<footer class="foot"><span><span class="dot"></span>Live copying</span><span id="upd"></span><span style="margin-left:auto">Imaginary only · not financial advice</span></footer>
 
 <script>
-const DATA = {"state": {"started": 1792581690.797749, "ends": 1792840890.797749, "open": {}, "closed": [], "swaps": [], "skipped": [], "curve": [[1792581691, 0], [1792581882, 0]]}, "checked": 1792581881.8723412, "traders": ["Juicycooks", "orangie", "k4kfh", "vvvvvvvvvv", "OinkersRUs", "0xFalcs"], "stake": 100.0, "days": 3, "waiting": []} || {state:{open:{},closed:[],swaps:[],curve:[],skipped:[]},traders:[],waiting:[],stake:100,days:3};
+const DATA = {"state": {"started": 1792581690.797749, "ends": 1792840890.797749, "open": {}, "closed": [], "swaps": [], "skipped": [], "curve": [[1792581691, 0], [1792581882, 0], [1792582998, 0], [1792583122, 0], [1792583247, 0], [1792583371, 0], [1792583496, 0]]}, "checked": 1792583495.7127688, "traders": ["Juicycooks", "orangie", "k4kfh", "vvvvvvvvvv", "OinkersRUs", "0xFalcs"], "stake": 100.0, "days": 3, "waiting": []} || {state:{open:{},closed:[],swaps:[],curve:[],skipped:[]},traders:[],waiting:[],stake:100,days:3};
 const S = DATA.state;
 const COLORS = ["#516af6","#21c95e","#ff622e","#ffbf17","#bf5af2","#40c8e0","#ff375f","#64d2ff"];
 const live = {};           // coin -> latest price from DexScreener
@@ -256,7 +256,7 @@ function render() {
     <td><span class="pill ${s.side}">${s.side === "buy" ? "Buy" : "Sell"}</span></td>
     <td class="r num">${usd(s.usd)}${s.side === "sell" && s.pnl != null ? `<span style="display:block;font-size:11px" class="${s.pnl >= 0 ? "up" : "down"}">${s.pnl >= 0 ? "+" : ""}${usd(s.pnl)}</span>` : ""}</td>
     <td class="r num">${big(s.mcap)} MC</td><td class="r muted num">${ago(s.t)}</td></tr>`).join("")
-    : `<tr><td colspan="5" class="empty">${S.started ? "No copied swaps yet. The wallets are checked every 10 minutes." : "Nothing copied yet."}</td></tr>`;
+    : `<tr><td colspan="5" class="empty">${S.started ? "No copied swaps yet. Copying is live: a swap shows up here seconds after the trader makes it." : "Nothing copied yet."}</td></tr>`;
 
   // positions
   const rows = posTab === "open" ? Object.values(S.open) : S.closed.slice().reverse();
@@ -322,10 +322,23 @@ document.addEventListener("click", e => {
   }
 });
 
+// the copy workflow publishes copy_state.json next to this page after every 2-minute wallet check
+async function loadState() {
+  try {
+    const r = await fetch("copy_state.json?t=" + Date.now(), {cache: "no-store"});
+    if (!r.ok) return;
+    const j = await r.json();
+    if (!j || !Array.isArray(j.swaps) || (j.checked || 0) <= (DATA.checked || 0)) return;
+    for (const k of ["started", "ends", "open", "closed", "swaps", "skipped", "curve"]) if (k in j) S[k] = j[k];
+    DATA.checked = j.checked;
+    await refreshPrices();
+  } catch (e) { /* not published here (e.g. the claude.ai snapshot): keep the embedded data */ }
+}
+
 render();
-refreshPrices();
+refreshPrices().then(loadState);
 setInterval(refreshPrices, 30000);
-setTimeout(() => location.reload(), 10 * 60 * 1000);   // pick up new copies from the 10-minute wallet check
+setInterval(loadState, 60000);
 </script>
 </body>
 </html>
