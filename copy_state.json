@@ -1,14 +1,35 @@
 {
- "started": null,
- "ends": null,
+ "started": 1792593075.1870894,
+ "ends": 1792852275.1870894,
  "cursor": {},
  "open": {},
  "closed": [],
  "swaps": [],
  "skipped": [],
- "curve": [],
+ "curve": [
+  [
+   1792593075,
+   0
+  ],
+  [
+   1792593409,
+   0
+  ],
+  [
+   1792593705,
+   0
+  ],
+  [
+   1792593709,
+   0
+  ],
+  [
+   1792593710,
+   0
+  ]
+ ],
  "prices": {},
- "checked": 1792591905.786366,
+ "checked": 1792593709.7766125,
  "done": [],
  "lead": {},
  "note": "Restarted 2026-10-21 16:30 local: copying now comes from the FOMO feed in Brave (FOMO's API wallet addresses are fake)."
