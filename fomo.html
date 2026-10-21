@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<title>Imaginary Copy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#060510;--panel:#12111a;--panel2:#1a1924;--line:#22212c;--text:#f7f7f7;--muted:#9899a3;--dim:#474b52;
+  --green:#21c95e;--green-bg:rgba(33,201,94,.2);--red:#ff622e;--red-bg:rgba(255,98,46,.2);
+  --gold:#ffbf17;--gold-bg:rgba(225,176,72,.12);--blue:#516af6;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{background:var(--bg);color:var(--text)}
+body{font:500 14px/1.35 Aeonik,Inter,ui-sans-serif,system-ui,sans-serif;-webkit-font-smoothing:antialiased;min-height:100vh}
+a{color:inherit;text-decoration:none}
+.num{font-variant-numeric:tabular-nums}
+.up{color:var(--green)}.down{color:var(--red)}.muted{color:var(--muted)}
+
+/* top bar */
+.top{display:flex;align-items:center;gap:16px;height:56px;padding:0 16px;position:sticky;top:0;background:var(--bg);z-index:5}
+.logo{font-weight:700;font-size:22px;letter-spacing:-.5px}
+.logo small{font-size:10px;font-weight:700;color:var(--gold);background:var(--gold-bg);padding:2px 6px;border-radius:4px;margin-left:6px;vertical-align:4px;letter-spacing:.3px}
+.navlink{color:var(--muted);font-size:14px}
+.navlink:hover{color:var(--text)}
+.search{flex:1;max-width:420px;margin:0 auto;display:flex;align-items:center;gap:8px;background:var(--panel);border-radius:8px;padding:0 12px;height:36px;color:var(--muted)}
+.search input{flex:1;background:none;border:0;outline:0;color:var(--text);font:inherit}
+.search kbd{font:500 11px Inter,sans-serif;background:var(--panel2);border-radius:4px;padding:2px 6px;color:var(--muted)}
+.wallet{display:flex;gap:16px;align-items:center;font-size:13px}
+.wallet b{display:block;font-size:14px}
+.wallet span{color:var(--muted);font-size:11px}
+.av{width:28px;height:28px;border-radius:50%;display:grid;place-items:center;font-weight:700;font-size:12px;flex:none;color:#fff}
+
+/* layout */
+.grid{display:grid;grid-template-columns:260px minmax(0,1fr) 300px;gap:12px;padding:0 12px 40px}
+.panel{background:var(--panel);border-radius:8px}
+.side{padding:8px;align-self:start;position:sticky;top:64px;max-height:calc(100vh - 76px);overflow:auto}
+.tabs{display:flex;gap:4px;padding:4px;font-size:13px}
+.tab{padding:5px 10px;border-radius:6px;color:var(--muted);cursor:pointer;border:0;background:none;font:inherit}
+.tab.on{background:var(--panel2);color:var(--text)}
+.trow{display:flex;align-items:center;gap:10px;padding:8px;border-radius:8px;cursor:pointer}
+.trow:hover,.trow.on{background:var(--panel2)}
+.trow .n{flex:1;min-width:0}
+.trow .n b{display:block;font-weight:500;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.trow .n span{font-size:12px;color:var(--muted)}
+.trow .r{text-align:right;font-size:13px}
+.trow .r span{display:block;font-size:12px}
+
+/* profile */
+.banner{height:84px;border-radius:8px 8px 0 0;background:linear-gradient(120deg,#1b1640,#12111a 60%,#13221a)}
+.prof{padding:0 16px 16px;margin-top:-28px}
+.prow{display:flex;align-items:flex-end;gap:12px;flex-wrap:wrap}
+.bigav{width:64px;height:64px;border-radius:50%;border:3px solid var(--panel);background:linear-gradient(140deg,var(--blue),#21c95e);display:grid;place-items:center;font-weight:700;font-size:24px}
+.pname{flex:1;min-width:160px;padding-bottom:4px}
+.pname b{font-size:18px}
+.pname div{color:var(--muted);font-size:13px}
+.stats{display:flex;gap:20px;text-align:center;padding-bottom:4px}
+.stats b{display:block;font-size:16px}
+.stats span{font-size:12px;color:var(--muted)}
+.btn{background:var(--blue);border:1px solid rgba(203,208,235,.2);color:#fff;font:700 14px Inter,sans-serif;border-radius:8px;padding:8px 18px}
+.bio{margin-top:12px;color:var(--text)}
+.meta{display:flex;gap:14px;flex-wrap:wrap;margin-top:8px;color:var(--muted);font-size:12px}
+.cards{display:flex;gap:8px;overflow-x:auto;margin-top:14px;padding-bottom:2px}
+.card{background:var(--panel2);border-radius:12px;padding:10px 12px;min-width:150px;flex:none}
+.pill{display:inline-block;font-size:10px;font-weight:700;padding:2px 6px;border-radius:4px}
+.pill.gold{color:var(--gold);background:var(--gold-bg)}
+.pill.buy{color:var(--green);background:var(--green-bg);font-size:12px}
+.pill.sell{color:var(--red);background:var(--red-bg);font-size:12px}
+.card .v{margin-top:6px;display:flex;gap:6px;align-items:center;font-size:13px}
+.tok{width:20px;height:20px;border-radius:50%;background:var(--panel2);object-fit:cover;flex:none;display:inline-grid;place-items:center;font-size:10px;font-weight:700;color:var(--muted)}
+
+.two{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:12px;margin-top:12px}
+.box{padding:16px}
+.value{font-size:30px;font-weight:500;letter-spacing:-.5px}
+.chg{font-size:13px;margin-top:2px}
+.ranges{display:flex;gap:4px}
+.chart{width:100%;height:170px;margin-top:10px;display:block}
+.cash{display:flex;gap:10px;align-items:center;margin-top:10px}
+.cash .ic{width:28px;height:28px;border-radius:50%;background:var(--panel2);display:grid;place-items:center;font-weight:700}
+.cash span{display:block;font-size:12px;color:var(--muted)}
+.hd{display:flex;align-items:center;gap:8px;padding:12px 16px 6px}
+.hd b{font-weight:500}
+.hd .cnt{color:var(--muted)}
+table{width:100%;border-collapse:collapse;font-size:13px}
+th{color:var(--dim);font-size:12px;font-weight:500;text-align:left;padding:6px 16px}
+td{padding:9px 16px;border-top:1px solid transparent}
+tr.row:hover td{background:var(--panel2)}
+th.r,td.r{text-align:right}
+.tcell{display:flex;align-items:center;gap:8px;min-width:0}
+.tcell b{font-weight:500}
+.tcell span{display:block;font-size:11px;color:var(--muted)}
+.scroll{max-height:520px;overflow:auto}
+.empty{padding:28px 16px;text-align:center;color:var(--muted);font-size:13px;line-height:1.5}
+.note{margin:12px 0 0;padding:12px 14px;border-radius:8px;background:var(--gold-bg);color:var(--gold);font-size:13px;line-height:1.45}
+.foot{position:fixed;left:0;right:0;bottom:0;height:28px;background:var(--bg);border-top:1px solid var(--line);display:flex;align-items:center;gap:16px;padding:0 16px;font-size:11px;color:var(--muted);z-index:5}
+.dot{width:6px;height:6px;border-radius:50%;background:var(--green);display:inline-block;margin-right:5px}
+
+@media (max-width:1400px){.two{grid-template-columns:1fr}}
+@media (max-width:1100px){.grid{grid-template-columns:220px minmax(0,1fr)}.right{grid-column:1/-1}}
+@media (max-width:760px){
+  .grid{grid-template-columns:1fr;padding:0 16px 48px}
+  .side{position:static;max-height:none}
+  .two{grid-template-columns:1fr}
+  .wallet,.navlink{display:none}
+  .stats{gap:14px}
+  th,td{padding-left:10px;padding-right:10px}
+}
+</style>
+</head>
+<body>
+<header class="top">
+  <a class="logo" href="index.html">copy<small>IMAGINARY</small></a>
+  <a class="navlink" href="index.html">‹ Dashboard</a>
+  <label class="search"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><input id="q" placeholder="Search tokens or traders" aria-label="Search tokens or traders"><kbd>/</kbd></label>
+  <div class="wallet"><div><b class="num" id="wv">$0.00</b><span>imaginary</span></div><div class="av" style="background:linear-gradient(140deg,var(--blue),var(--green))">C</div></div>
+</header>
+
+<main class="grid">
+  <aside class="panel side">
+    <div class="tabs"><button class="tab on" type="button">Copying</button></div>
+    <div id="traders"></div>
+  </aside>
+
+  <section>
+    <div class="panel">
+      <div class="banner"></div>
+      <div class="prof">
+        <div class="prow">
+          <div class="bigav">C</div>
+          <div class="pname"><b id="pn">Imaginary copy</b><div id="ph">@claude · no money used</div></div>
+          <div class="stats"><div><b id="sTr">6</b><span>Copying</span></div><div><b id="sSw">0</b><span>Swaps</span></div><div><b id="sOp">0</b><span>Open</span></div></div>
+          <a class="btn" href="index.html">Dashboard</a>
+        </div>
+        <p class="bio" id="bio">Every time one of these traders buys, I pretend to buy $100 of the same coin. When they sell, I sell the same part. Nothing is really bought.</p>
+        <div class="meta" id="meta"></div>
+        <div class="cards" id="cards"></div>
+        <div class="note" id="note" hidden></div>
+      </div>
+    </div>
+
+    <div class="two">
+      <div class="panel box">
+        <div style="display:flex;justify-content:space-between;align-items:flex-start">
+          <div><div class="value num" id="val">$0.00</div><div class="chg num" id="chg"></div></div>
+          <div class="ranges"><button class="tab on" type="button" data-r="24">24H</button><button class="tab" type="button" data-r="72">3D</button><button class="tab" type="button" data-r="0">ALL</button></div>
+        </div>
+        <svg class="chart" id="chart" viewBox="0 0 400 170" preserveAspectRatio="none" aria-label="Imaginary portfolio value"></svg>
+        <div class="cash"><div class="ic">$</div><div><span>Put in so far</span><b class="num" id="inv">$0</b></div></div>
+      </div>
+
+      <div class="panel" style="padding-bottom:8px">
+        <div class="hd"><b>All swaps</b><div class="tabs" style="margin-left:auto"><button class="tab on" type="button" data-s="all">All</button><button class="tab" type="button" data-s="buy">Buys</button><button class="tab" type="button" data-s="sell">Sells</button></div></div>
+        <div class="scroll"><table><thead><tr><th>Token</th><th>Action</th><th class="r">Amount</th><th class="r">MCap</th><th class="r">Time</th></tr></thead><tbody id="swaps"></tbody></table></div>
+      </div>
+    </div>
+
+    <div class="panel" style="margin-top:12px;padding-bottom:8px">
+      <div class="hd"><b>Positions</b><span class="cnt" id="pc">0</span><div class="tabs" style="margin-left:auto"><button class="tab on" type="button" data-p="open">Open</button><button class="tab" type="button" data-p="closed">Closed</button></div></div>
+      <table><thead><tr><th>Token</th><th>Copied from</th><th class="r">Position</th></tr></thead><tbody id="pos"></tbody></table>
+    </div>
+  </section>
+
+  <aside class="right">
+    <div class="panel" style="padding-bottom:8px">
+      <div class="hd"><b>Leaderboard</b><span class="muted" style="margin-left:auto;font-size:12px">imaginary PnL</span></div>
+      <div id="lb" style="padding:0 8px"></div>
+    </div>
+  </aside>
+</main>
+<footer class="foot"><span><span class="dot"></span>Live prices</span><span id="upd"></span><span style="margin-left:auto">Imaginary only · not financial advice</span></footer>
+
+<script>
+const DATA = {"state": {"started": null, "ends": null, "open": {}, "closed": [], "swaps": [], "skipped": [], "curve": []}, "checked": 1792581589.2325687, "traders": ["Juicycooks", "orangie", "k4kfh", "vvvvvvvvvv", "OinkersRUs", "0xFalcs"], "stake": 100.0, "days": 3, "waiting": ["Juicycooks", "orangie", "k4kfh", "vvvvvvvvvv", "OinkersRUs", "0xFalcs"]} || {state:{open:{},closed:[],swaps:[],curve:[],skipped:[]},traders:[],waiting:[],stake:100,days:3};
+const S = DATA.state;
+const COLORS = ["#516af6","#21c95e","#ff622e","#ffbf17","#bf5af2","#40c8e0","#ff375f","#64d2ff"];
+const live = {};           // coin -> latest price from DexScreener
+let filter = "", swapSide = "all", posTab = "open", range = 24, who = "";
+
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const usd = (v, d = 2) => (v < 0 ? "-" : "") + "$" + Math.abs(v).toLocaleString("en-US", {minimumFractionDigits: d, maximumFractionDigits: d});
+const big = v => !v ? "--" : v >= 1e9 ? "$" + (v / 1e9).toFixed(1) + "B" : v >= 1e6 ? "$" + (v / 1e6).toFixed(1) + "M" : v >= 1e3 ? "$" + (v / 1e3).toFixed(1) + "K" : "$" + v.toFixed(0);
+const pct = v => (v >= 0 ? "▲ " : "▼ ") + Math.abs(v).toFixed(2) + "%";
+const ago = t => { const s = Date.now() / 1000 - t; return s < 3600 ? Math.max(1, Math.round(s / 60)) + "m" : s < 86400 ? Math.round(s / 3600) + "h" : Math.round(s / 86400) + "d"; };
+const color = n => COLORS[Math.abs([...n].reduce((a, c) => a * 31 + c.charCodeAt(0), 7)) % COLORS.length];
+const tokImg = (img, sym) => img ? `<img class="tok" src="${esc(img)}" alt="" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'tok',textContent:'${esc((sym || "?")[0])}'}))">` : `<span class="tok">${esc((sym || "?")[0])}</span>`;
+const avatar = (n, size = 28) => `<div class="av" style="width:${size}px;height:${size}px;background:${color(n)}">${esc(n[0].toUpperCase())}</div>`;
+
+const price = p => live[p.chain + ":" + p.coin] ?? p.price ?? (p.cost / p.qty);
+const posValue = p => p.qty * price(p);
+
+function traderStats(name) {
+  const sw = S.swaps.filter(s => s.trader === name);
+  const inv = sw.filter(s => s.side === "buy").reduce((a, s) => a + s.usd, 0);
+  const sold = sw.filter(s => s.side === "sell").reduce((a, s) => a + s.usd, 0);
+  const held = Object.values(S.open).filter(p => p.trader === name).reduce((a, p) => a + posValue(p), 0);
+  return {inv, value: sold + held, pnl: sold + held - inv, count: sw.length};
+}
+function totals() {
+  const inv = S.swaps.filter(s => s.side === "buy").reduce((a, s) => a + s.usd, 0);
+  const sold = S.swaps.filter(s => s.side === "sell").reduce((a, s) => a + s.usd, 0);
+  const held = Object.values(S.open).reduce((a, p) => a + posValue(p), 0);
+  return {inv, value: sold + held, pnl: sold + held - inv};
+}
+const match = (...xs) => !filter || xs.some(x => String(x || "").toLowerCase().includes(filter));
+
+function render() {
+  const T = totals(), traders = DATA.traders;
+  $("wv").textContent = usd(T.value);
+  $("val").textContent = usd(T.value);
+  const p = T.inv ? T.pnl / T.inv * 100 : 0;
+  $("chg").innerHTML = T.inv ? `<span class="${T.pnl >= 0 ? "up" : "down"}">${T.pnl >= 0 ? "+" : ""}${usd(T.pnl)} (${pct(p)})</span> <span class="muted">all time</span>` : `<span class="muted">No copies yet</span>`;
+  $("inv").textContent = usd(T.inv, 0);
+  $("sTr").textContent = traders.length;
+  $("sSw").textContent = S.swaps.length;
+  $("sOp").textContent = Object.keys(S.open).length;
+
+  const meta = [];
+  if (S.started) {
+    const left = S.ends - Date.now() / 1000;
+    meta.push(`Started ${new Date(S.started * 1000).toLocaleString([], {month: "short", day: "numeric", hour: "2-digit", minute: "2-digit"})}`);
+    meta.push(left > 0 ? `New buys for ${Math.floor(left / 86400)}d ${Math.floor(left % 86400 / 3600)}h more` : "3 days done · no new buys, still following sells");
+  } else meta.push("Not started yet");
+  meta.push(`$${DATA.stake} per copied buy`);
+  if (DATA.checked) meta.push(`Wallets checked ${ago(DATA.checked)} ago`);
+  $("meta").innerHTML = meta.map(esc).map(m => `<span>${m}</span>`).join("");
+
+  const note = $("note");
+  if (DATA.waiting.length) { note.hidden = false; note.textContent = `Waiting for wallet addresses: ${DATA.waiting.join(", ")}. Copying starts when they're added.`; }
+  else note.hidden = true;
+
+  // top trades cards (best positions, open or closed)
+  const all = [...Object.values(S.open).map(p => ({...p, pnl: posValue(p) - p.cost + (realized(p) || 0)})), ...S.closed];
+  const best = all.filter(x => x.pnl > 0).sort((a, b) => b.pnl - a.pnl).slice(0, 5);
+  $("cards").innerHTML = best.map((x, i) => `<div class="card"><span class="pill gold">#${i + 1} Trade</span>
+    <div class="v">${tokImg(x.img, x.sym)}<span class="up num">+${usd(x.pnl)}</span></div>
+    <div class="muted" style="font-size:11px;margin-top:3px">${esc(x.sym)} · ${esc(x.trader)}</div></div>`).join("");
+
+  // left: traders being copied
+  $("traders").innerHTML = traders.map(n => { const t = traderStats(n); return `<div class="trow${who === n ? " on" : ""}" data-t="${esc(n)}">${avatar(n, 32)}
+    <div class="n"><b>${esc(n)}</b><span>${DATA.waiting.includes(n) ? "needs wallet" : t.count + " swaps"}</span></div>
+    <div class="r num"><b>${usd(t.value, 0)}</b><span class="${t.pnl >= 0 ? "up" : "down"}">${t.inv ? (t.pnl >= 0 ? "+" : "") + usd(t.pnl, 0) : "--"}</span></div></div>`; }).join("");
+
+  // right: leaderboard by imaginary pnl
+  const ranked = traders.map(n => ({n, ...traderStats(n)})).sort((a, b) => b.pnl - a.pnl);
+  $("lb").innerHTML = ranked.map((t, i) => `<div class="trow${who === t.n ? " on" : ""}" data-t="${esc(t.n)}"><span class="muted num" style="width:18px">${i + 1}.</span>${avatar(t.n)}
+    <div class="n"><b>${esc(t.n)}</b><span>@${esc(t.n)}</span></div>
+    <div class="r num"><b class="${t.pnl >= 0 ? "up" : "down"}">${t.pnl >= 0 ? "+" : ""}${usd(t.pnl)}</b><span class="muted">${t.inv ? pct(t.pnl / t.inv * 100) : "no copies"}</span></div></div>`).join("");
+
+  // swaps
+  const sw = S.swaps.slice().reverse().filter(s => (swapSide === "all" || s.side === swapSide) && (!who || s.trader === who) && match(s.sym, s.trader, s.coin));
+  $("swaps").innerHTML = sw.length ? sw.map(s => `<tr class="row"><td><div class="tcell">${tokImg(s.img, s.sym)}<div><b>${esc(s.sym)}</b><span>${esc(s.trader)}</span></div></div></td>
+    <td><span class="pill ${s.side}">${s.side === "buy" ? "Buy" : "Sell"}</span></td>
+    <td class="r num">${usd(s.usd)}${s.side === "sell" && s.pnl != null ? `<span style="display:block;font-size:11px" class="${s.pnl >= 0 ? "up" : "down"}">${s.pnl >= 0 ? "+" : ""}${usd(s.pnl)}</span>` : ""}</td>
+    <td class="r num">${big(s.mcap)} MC</td><td class="r muted num">${ago(s.t)}</td></tr>`).join("")
+    : `<tr><td colspan="5" class="empty">${S.started ? "No copied swaps yet. The wallets are checked every 10 minutes." : "Nothing copied yet."}</td></tr>`;
+
+  // positions
+  const rows = posTab === "open" ? Object.values(S.open) : S.closed.slice().reverse();
+  const shown = rows.filter(p => (!who || p.trader === who) && match(p.sym, p.trader, p.coin));
+  $("pc").textContent = Object.keys(S.open).length;
+  $("pos").innerHTML = shown.length ? shown.map(p => {
+    if (posTab === "open") { const v = posValue(p), r = p.cost ? (v / p.cost - 1) * 100 : 0;
+      return `<tr class="row"><td><div class="tcell">${tokImg(p.img, p.sym)}<div><b>${esc(p.sym)}</b><span>${fmtQty(p.qty)} ${esc(p.sym)}</span></div></div></td>
+      <td>${esc(p.trader)}</td><td class="r num"><b>${usd(v)}</b><span style="display:block;font-size:12px" class="${r >= 0 ? "up" : "down"}">${pct(r)}</span></td></tr>`; }
+    return `<tr class="row"><td><div class="tcell">${tokImg(p.img, p.sym)}<div><b>${esc(p.sym)}</b><span>closed ${ago(p.closed)} ago</span></div></div></td>
+      <td>${esc(p.trader)}</td><td class="r num"><b class="${p.pnl >= 0 ? "up" : "down"}">${p.pnl >= 0 ? "+" : ""}${usd(p.pnl)}</b></td></tr>`;
+  }).join("") : `<tr><td colspan="3" class="empty">${posTab === "open" ? "No open positions" : "Nothing closed yet"}</td></tr>`;
+
+  drawChart();
+  $("upd").textContent = Object.keys(live).length ? "Prices updated " + new Date().toLocaleTimeString([], {hour: "2-digit", minute: "2-digit"}) : "";
+}
+const realized = p => S.swaps.filter(s => s.side === "sell" && s.trader === p.trader && s.coin === p.coin).reduce((a, s) => a + (s.pnl || 0), 0);
+const fmtQty = q => q >= 1e9 ? (q / 1e9).toFixed(1) + "B" : q >= 1e6 ? (q / 1e6).toFixed(1) + "M" : q >= 1e3 ? (q / 1e3).toFixed(1) + "K" : q.toFixed(2);
+
+function drawChart() {
+  const svg = $("chart"), now = Date.now() / 1000;
+  let pts = (S.curve || []).map(([t, v]) => [t, v]);
+  const invAt = t => S.swaps.filter(s => s.side === "buy" && s.t <= t).reduce((a, s) => a + s.usd, 0);
+  pts = pts.map(([t, v]) => [t, v - invAt(t)]);            // plot profit, so new buys don't look like gains
+  pts.push([now, totals().pnl]);
+  if (range) pts = pts.filter(([t]) => t >= now - range * 3600);
+  if (pts.length < 2) { svg.innerHTML = `<line x1="0" y1="85" x2="400" y2="85" stroke="#22212c" stroke-width="2" stroke-dasharray="4 6"/>`; return; }
+  const xs = pts.map(p => p[0]), ys = pts.map(p => p[1]);
+  const x0 = Math.min(...xs), x1 = Math.max(...xs), y0 = Math.min(...ys, 0), y1 = Math.max(...ys, 0);
+  const X = t => (t - x0) / ((x1 - x0) || 1) * 400, Y = v => 160 - (v - y0) / ((y1 - y0) || 1) * 150;
+  const d = pts.map((p, i) => (i ? "L" : "M") + X(p[0]).toFixed(1) + " " + Y(p[1]).toFixed(1)).join(" ");
+  const c = ys[ys.length - 1] >= ys[0] ? "#21c95e" : "#ff622e";
+  svg.innerHTML = `<line x1="0" x2="400" y1="${Y(0)}" y2="${Y(0)}" stroke="#22212c" stroke-dasharray="3 5"/><path d="${d}" fill="none" stroke="${c}" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke"/>`;
+}
+
+async function refreshPrices() {
+  const by = {};
+  for (const p of Object.values(S.open)) (by[p.chain] ||= new Set()).add(p.coin);
+  for (const [chain, set] of Object.entries(by)) {
+    const coins = [...set];
+    for (let i = 0; i < coins.length; i += 30) {
+      try {
+        const r = await fetch(`https://api.dexscreener.com/tokens/v1/${chain}/${coins.slice(i, i + 30).join(",")}`);
+        const pairs = await r.json(), liq = {};
+        for (const pr of pairs || []) {
+          const a = chain === "solana" ? pr.baseToken.address : pr.baseToken.address.toLowerCase(), l = pr.liquidity?.usd || 0;
+          if ((liq[a] ?? -1) < l) { liq[a] = l; live[chain + ":" + a] = +pr.priceUsd || 0; }
+        }
+      } catch (e) { /* keep the last known prices */ }
+    }
+  }
+  render();
+}
+
+// interactions
+$("q").addEventListener("input", e => { filter = e.target.value.trim().toLowerCase(); render(); });
+document.addEventListener("keydown", e => { if (e.key === "/" && document.activeElement !== $("q")) { e.preventDefault(); $("q").focus(); } });
+document.addEventListener("click", e => {
+  const t = e.target.closest("[data-t]"); if (t) { who = who === t.dataset.t ? "" : t.dataset.t; $("pn").textContent = who ? "Copying " + who : "Imaginary copy"; render(); return; }
+  for (const [attr, set] of [["s", v => swapSide = v], ["p", v => posTab = v], ["r", v => range = +v]]) {
+    const b = e.target.closest(`[data-${attr}]`);
+    if (b) { b.parentElement.querySelectorAll(".tab").forEach(x => x.classList.toggle("on", x === b)); set(b.dataset[attr]); render(); }
+  }
+});
+
+render();
+refreshPrices();
+setInterval(refreshPrices, 30000);
+setTimeout(() => location.reload(), 10 * 60 * 1000);   // pick up new copies from the 10-minute wallet check
+</script>
+</body>
+</html>
