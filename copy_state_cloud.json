@@ -2,7 +2,7 @@
  "started": 1792593138.262912,
  "ends": 1792852338.262912,
  "cursor": {
-  "Numerooo0:solana": "3DBRfRjv25XZh59QfVF86LBm6CSz1dinF9faQ9mrNXD9dATTrUBmQPwnsj5QjJEdHfE7isz5KqWTm1LTKWCDNEA8"
+  "Numerooo0:solana": "4pGVp3kGxWc89dtyc1W7rYsva6XyBR2P5PbxifJ4BGNAAB8bSL6qPMYngXUeZvHMsyHtwZ3J5suNnMsCMJTLJGjA"
  },
  "open": {
   "Numerooo0:solana:TTWofwAge91oFhZs7kpQdyrVRkmevgM88xijGvQFbKo": {
@@ -13,12 +13,12 @@
    "sym": "TTWO",
    "name": "Take-Two Interactive Software - Backpack Securities",
    "img": "",
-   "qty": 0.9626492128578492,
-   "cost": 200.0,
+   "qty": 1.4439043261934283,
+   "cost": 300.0,
    "opened": 1792606695.190242,
-   "price": 207.78,
+   "price": 207.79,
    "mcap": 89,
-   "value": 200.01925344760392
+   "value": 300.02887993973246
   }
  },
  "closed": [],
@@ -52,6 +52,21 @@
    "mcap": 89,
    "leader_usd": 50.8,
    "sig": "2D21FYLTmdMGwjmQjurGetP2Tc98LB7wnNVAuuJ61ZBEuRnZwbnNVFvxQijSGP9jSNt76Gyqf8HXLZStFDLwrqFo"
+  },
+  {
+   "t": 1792608216.6262548,
+   "leader_t": 1792607959,
+   "trader": "Numerooo0",
+   "chain": "solana",
+   "coin": "TTWofwAge91oFhZs7kpQdyrVRkmevgM88xijGvQFbKo",
+   "sym": "TTWO",
+   "img": "",
+   "side": "buy",
+   "usd": 100.0,
+   "price": 207.79,
+   "mcap": 89,
+   "leader_usd": 34.41,
+   "sig": "4pGVp3kGxWc89dtyc1W7rYsva6XyBR2P5PbxifJ4BGNAAB8bSL6qPMYngXUeZvHMsyHtwZ3J5suNnMsCMJTLJGjA"
   }
  ],
  "skipped": [],
@@ -259,6 +274,10 @@
   [
    1792607913,
    200.02
+  ],
+  [
+   1792608217,
+   300.03
   ]
  ],
  "prices": {},
@@ -290,7 +309,8 @@
   "3KnWhLPaU4JgErDEgBudjLDYhM6iPbKrYpYzqv1h5FgEDceFXNQ1BiTZycCMq1GjnmMCF8dhAEJtCL64Gbch8z7u",
   "4J79cLYAXCHGNWPq7jJ68ed9gzDc8tT3M2hFkqC2XJG58KKy9A82qfbb7umxB5LKykyubPwR29agaULo9CQdb5bU",
   "2D21FYLTmdMGwjmQjurGetP2Tc98LB7wnNVAuuJ61ZBEuRnZwbnNVFvxQijSGP9jSNt76Gyqf8HXLZStFDLwrqFo",
-  "3DBRfRjv25XZh59QfVF86LBm6CSz1dinF9faQ9mrNXD9dATTrUBmQPwnsj5QjJEdHfE7isz5KqWTm1LTKWCDNEA8"
+  "3DBRfRjv25XZh59QfVF86LBm6CSz1dinF9faQ9mrNXD9dATTrUBmQPwnsj5QjJEdHfE7isz5KqWTm1LTKWCDNEA8",
+  "4pGVp3kGxWc89dtyc1W7rYsva6XyBR2P5PbxifJ4BGNAAB8bSL6qPMYngXUeZvHMsyHtwZ3J5suNnMsCMJTLJGjA"
  ],
- "checked": 1792607912.8296168
+ "checked": 1792608216.6262548
 }
