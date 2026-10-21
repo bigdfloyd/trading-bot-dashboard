@@ -47,6 +47,15 @@ jobs:
         run: |
           if [ -n "$BUY_MINT" ]; then python trench.py --buy "$BUY_MINT"; else python trench.py; fi
 
+      - name: Imaginary FOMO copy trading (watch trader wallets, no trades)
+        if: always()
+        continue-on-error: true
+        timeout-minutes: 4
+        working-directory: bot
+        env:
+          TZ: UTC
+        run: python copytrade.py
+
       - name: Save notes back to the bot repo
         if: always()
         working-directory: bot
@@ -54,6 +63,7 @@ jobs:
           git config user.name "memecoin-hunter"
           git config user.email "trading-bot@users.noreply.github.com"
           git add trench_state.json Trenches imaginary_state.json "Imaginary Hunter.md" 2>/dev/null || true
+          git add copy_state.json 2>/dev/null || true
           git diff --cached --quiet && exit 0
           git commit -q -m "Hunter run $(date -u '+%Y-%m-%d %H:%M UTC')"
           git reset -q --hard HEAD   # drop other scratch changes (bot.log) so the rebase can run
