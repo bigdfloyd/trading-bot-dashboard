@@ -2,9 +2,41 @@
  "started": 1792593075.1870894,
  "ends": 1792852275.1870894,
  "cursor": {},
- "open": {},
+ "open": {
+  "xfilesboy:bsc:0xed71b42b07cc1664c0f82361d48d0417a6ed7777": {
+   "id": "xfilesboy:bsc:0xed71b42b07cc1664c0f82361d48d0417a6ed7777",
+   "trader": "xfilesboy",
+   "chain": "bsc",
+   "coin": "0xed71b42b07cc1664c0f82361d48d0417a6ed7777",
+   "sym": "BINA",
+   "name": "Bina",
+   "img": "https://cdn.dexscreener.com/cms/images/QwnHBbXM0hqhMUd4?width=800&height=800&quality=95&format=auto",
+   "qty": 562746.2014631401,
+   "cost": 100.0,
+   "opened": 1792600838.049094,
+   "price": 0.0001777,
+   "mcap": 177783,
+   "value": 100.0
+  }
+ },
  "closed": [],
- "swaps": [],
+ "swaps": [
+  {
+   "t": 1792600838.049094,
+   "leader_t": 1792600838.049094,
+   "trader": "xfilesboy",
+   "chain": "bsc",
+   "coin": "0xed71b42b07cc1664c0f82361d48d0417a6ed7777",
+   "sym": "BINA",
+   "img": "https://cdn.dexscreener.com/cms/images/QwnHBbXM0hqhMUd4?width=800&height=800&quality=95&format=auto",
+   "side": "buy",
+   "usd": 100.0,
+   "price": 0.0001777,
+   "mcap": 177783,
+   "leader_usd": 1000.0,
+   "sig": "feed:4ccef12f-447d-443d-86e6-42b8026eefbb:buy:$1K:$147.7K"
+  }
+ ],
  "skipped": [
   {
    "t": 1792595720.2750652,
@@ -159,11 +191,31 @@
   [
    1792600767,
    0
+  ],
+  [
+   1792600838,
+   100.0
+  ],
+  [
+   1792600839,
+   100.0
+  ],
+  [
+   1792600839,
+   100.0
+  ],
+  [
+   1792600854,
+   100.0
   ]
  ],
  "prices": {},
- "checked": 1792600767.18646,
- "done": [],
- "lead": {},
+ "checked": 1792600853.7258906,
+ "done": [
+  "feed:4ccef12f-447d-443d-86e6-42b8026eefbb:buy:$1K:$147.7K"
+ ],
+ "lead": {
+  "xfilesboy:0xed71b42b07cc1664c0f82361d48d0417a6ed7777": 5627462.014631401
+ },
  "note": "Restarted 2026-10-21 16:30 local: copying now comes from the FOMO feed in Brave (FOMO's API wallet addresses are fake)."
 }
