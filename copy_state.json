@@ -139,10 +139,14 @@
   [
    1792599267,
    0
+  ],
+  [
+   1792599567,
+   0
   ]
  ],
  "prices": {},
- "checked": 1792599267.035371,
+ "checked": 1792599567.0634782,
  "done": [],
  "lead": {},
  "note": "Restarted 2026-10-21 16:30 local: copying now comes from the FOMO feed in Brave (FOMO's API wallet addresses are fake)."
