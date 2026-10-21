@@ -1,0 +1,38 @@
+{
+ "started": 1792581690.797749,
+ "ends": 1792840890.797749,
+ "cursor": {
+  "Juicycooks:solana": null,
+  "Juicycooks:bsc": 128929158,
+  "Juicycooks:base": 52896271,
+  "orangie:solana": null,
+  "k4kfh:solana": null,
+  "vvvvvvvvvv:solana": null,
+  "OinkersRUs:solana": null,
+  "OinkersRUs:base": 52896272,
+  "0xFalcs:solana": null,
+  "0xFalcs:base": 52896273,
+  "OinkersRUs:bsc": 128929588,
+  "0xFalcs:bsc": 128929592
+ },
+ "open": {},
+ "closed": [],
+ "swaps": [],
+ "skipped": [],
+ "curve": [
+  [
+   1792581691,
+   0
+  ],
+  [
+   1792581882,
+   0
+  ],
+  [
+   1792582998,
+   0
+  ]
+ ],
+ "prices": {},
+ "checked": 1792582998.0018058
+}
