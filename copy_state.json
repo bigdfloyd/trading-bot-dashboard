@@ -13,7 +13,12 @@
   "0xFalcs:solana": null,
   "0xFalcs:base": 52896273,
   "OinkersRUs:bsc": 128929588,
-  "0xFalcs:bsc": 128929592
+  "0xFalcs:bsc": 128929592,
+  "Numerooo0:solana": null,
+  "xfilesboy:solana": "65xkgaH5WuDH9Pwx2U36FvyqcZ9qZCoQP4J15pDzSAiLheWmvkV1Sshb3dDSBta91SHSPad8Jew7X13R2snKaiJ9",
+  "idkwhatimdoingman:solana": null,
+  "DegenRyu:solana": null,
+  "0xLingard:solana": "5ojJKakauuwpPPY9qqeFkfj6jLNKz3QtZcdtRdd7dv9QtAKkJ5okh23DNN5Ed2J1cUH3S3wLJPr2oRykA99CnFXJ"
  },
  "open": {},
  "closed": [],
@@ -147,9 +152,13 @@
   [
    1792591425,
    0
+  ],
+  [
+   1792591906,
+   0
   ]
  ],
  "prices": {},
- "checked": 1792591424.8454657,
+ "checked": 1792591905.786366,
  "done": []
 }
