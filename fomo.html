@@ -173,7 +173,7 @@ th.r,td.r{text-align:right}
 <footer class="foot"><span><span class="dot"></span>Live copying</span><span id="upd"></span><span style="margin-left:auto">Imaginary only · not financial advice</span></footer>
 
 <script>
-const DATA = {"state": {"started": null, "ends": null, "open": {}, "closed": [], "swaps": [], "skipped": [], "curve": []}, "checked": 1792591905.786366, "traders": ["Juicycooks", "orangie", "k4kfh", "vvvvvvvvvv", "OinkersRUs", "0xFalcs", "Numerooo0", "xfilesboy", "idkwhatimdoingman", "DegenRyu", "0xLingard"], "stake": 100.0, "days": 3, "waiting": []} || {state:{open:{},closed:[],swaps:[],curve:[],skipped:[]},traders:[],waiting:[],stake:100,days:3};
+const DATA = {"state": {"started": 1792593075.1870894, "ends": 1792852338.262912, "open": {}, "closed": [], "swaps": [], "skipped": [], "curve": [[1792593075, 0], [1792593409, 0], [1792593439, 0], [1792593621, 0], [1792593705, 0], [1792593709, 0], [1792593710, 0], [1792593746, 0], [1792593748, 0], [1792594009, 0], [1792594035, 0], [1792594052, 0], [1792594309, 0], [1792594357, 0]]}, "checked": 1792594357.437731, "traders": ["Juicycooks", "orangie", "k4kfh", "vvvvvvvvvv", "OinkersRUs", "0xFalcs", "Numerooo0", "xfilesboy", "idkwhatimdoingman", "DegenRyu", "0xLingard"], "stake": 100.0, "days": 3, "waiting": ["Juicycooks", "orangie", "k4kfh", "vvvvvvvvvv", "OinkersRUs", "0xFalcs", "xfilesboy", "idkwhatimdoingman", "DegenRyu", "0xLingard"]} || {state:{open:{},closed:[],swaps:[],curve:[],skipped:[]},traders:[],waiting:[],stake:100,days:3};
 const S = DATA.state;
 const COLORS = ["#516af6","#21c95e","#ff622e","#ffbf17","#bf5af2","#40c8e0","#ff375f","#64d2ff"];
 const live = {};           // coin -> latest price from DexScreener
@@ -323,14 +323,28 @@ document.addEventListener("click", e => {
 });
 
 // the copy workflow publishes copy_state.json next to this page after every 2-minute wallet check
+// two sources: copy_state.json (Brave relay, PC on) and copy_state_cloud.json (cloud, traders with revealed wallets)
 async function loadState() {
   try {
-    const r = await fetch("copy_state.json?t=" + Date.now(), {cache: "no-store"});
-    if (!r.ok) return;
-    const j = await r.json();
-    if (!j || !Array.isArray(j.swaps) || (j.checked || 0) <= (DATA.checked || 0)) return;
-    for (const k of ["started", "ends", "open", "closed", "swaps", "skipped", "curve"]) if (k in j) S[k] = j[k];
-    DATA.checked = j.checked;
+    const parts = (await Promise.all(["copy_state.json", "copy_state_cloud.json"].map(f =>
+      fetch(f + "?t=" + Date.now(), {cache: "no-store"}).then(r => r.ok ? r.json() : null).catch(() => null))))
+      .filter(j => j && Array.isArray(j.swaps));
+    if (!parts.length) return;
+    const checked = Math.max(...parts.map(j => j.checked || 0));
+    if (checked <= (DATA.checked || 0)) return;
+    const m = {open: {}, closed: [], swaps: [], skipped: [], curve: []};
+    for (const j of parts) {
+      Object.assign(m.open, j.open || {});
+      for (const k of ["closed", "swaps", "skipped"]) m[k].push(...(j[k] || []));
+    }
+    m.swaps.sort((a, b) => a.t - b.t);
+    const starts = parts.map(j => j.started).filter(Boolean), ends = parts.map(j => j.ends).filter(Boolean);
+    m.started = starts.length ? Math.min(...starts) : null;
+    m.ends = ends.length ? Math.max(...ends) : null;
+    const times = [...new Set(parts.flatMap(j => (j.curve || []).map(p => p[0])))].sort((a, b) => a - b).slice(-2000);
+    m.curve = times.map(t => [t, parts.reduce((s, j) => s + ((j.curve || []).filter(p => p[0] <= t).pop()?.[1] || 0), 0)]);
+    Object.assign(S, m);
+    DATA.checked = checked;
     await refreshPrices();
   } catch (e) { /* not published here (e.g. the claude.ai snapshot): keep the embedded data */ }
 }
