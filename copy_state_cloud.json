@@ -2,7 +2,7 @@
  "started": 1792593138.262912,
  "ends": 1792852338.262912,
  "cursor": {
-  "Numerooo0:solana": "3eQkSVKziqk5LnYXfY9gVMpLMQkE8ipgdS1GHJyY5Ww8EB9tfBuUVuyp5sbbt5zCmMtTGY7UPNdBCa3KTuggDAgw"
+  "Numerooo0:solana": "4CapACcX2kDdrXrBcUtu4dqt6qurSR4NUcFKphUDjna9NN44TQtEBiMNwoQ6kwSFXdizC3hZXuPG1Z1ztAewvsGE"
  },
  "open": {
   "Numerooo0:solana:TTWofwAge91oFhZs7kpQdyrVRkmevgM88xijGvQFbKo": {
@@ -565,6 +565,10 @@
   [
    1792623858,
    397.97
+  ],
+  [
+   1792624170,
+   397.97
   ]
  ],
  "prices": {},
@@ -638,7 +642,8 @@
   "5cBeGVK9SBMRRzgmA6VuQrirwkch8fTAwAVENE1bJUYZyAc4fnKpv6xqB5pFq3YUi1o57oeBy3Ao6nnS5LZdaCne",
   "ySaRfveAu1nHUPQXoopDT6e7NgTTYphWbpSaSAp3SDvpuC5ddjmoyixVn1nJ2GWJ3qTtgMqoZkzvGNAJzLbfysV",
   "2LB95C3A8G2nKvJcD1Xm166iAAhCNwhBog8AGvZnfXPd8FD4uQFYuQM9MHdvAenPgPuuc4gEf9ZAMuJoxY5cALzT",
-  "3eQkSVKziqk5LnYXfY9gVMpLMQkE8ipgdS1GHJyY5Ww8EB9tfBuUVuyp5sbbt5zCmMtTGY7UPNdBCa3KTuggDAgw"
+  "3eQkSVKziqk5LnYXfY9gVMpLMQkE8ipgdS1GHJyY5Ww8EB9tfBuUVuyp5sbbt5zCmMtTGY7UPNdBCa3KTuggDAgw",
+  "4CapACcX2kDdrXrBcUtu4dqt6qurSR4NUcFKphUDjna9NN44TQtEBiMNwoQ6kwSFXdizC3hZXuPG1Z1ztAewvsGE"
  ],
- "checked": 1792623858.2470531
+ "checked": 1792624169.8847718
 }
