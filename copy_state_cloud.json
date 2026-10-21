@@ -2,7 +2,7 @@
  "started": 1792593138.262912,
  "ends": 1792852338.262912,
  "cursor": {
-  "Numerooo0:solana": "4J79cLYAXCHGNWPq7jJ68ed9gzDc8tT3M2hFkqC2XJG58KKy9A82qfbb7umxB5LKykyubPwR29agaULo9CQdb5bU"
+  "Numerooo0:solana": "2D21FYLTmdMGwjmQjurGetP2Tc98LB7wnNVAuuJ61ZBEuRnZwbnNVFvxQijSGP9jSNt76Gyqf8HXLZStFDLwrqFo"
  },
  "open": {
   "Numerooo0:solana:TTWofwAge91oFhZs7kpQdyrVRkmevgM88xijGvQFbKo": {
@@ -13,12 +13,12 @@
    "sym": "TTWO",
    "name": "Take-Two Interactive Software - Backpack Securities",
    "img": "",
-   "qty": 0.48130143909130285,
-   "cost": 100.0,
+   "qty": 0.9626492128578492,
+   "cost": 200.0,
    "opened": 1792606695.190242,
-   "price": 207.73,
+   "price": 207.75,
    "mcap": 89,
-   "value": 99.98074794243634
+   "value": 199.99037397121816
   }
  },
  "closed": [],
@@ -37,6 +37,21 @@
    "mcap": 89,
    "leader_usd": 21.68,
    "sig": "323N5ySw7FmrjYEoYg24E3zTipmt66B11tdsw4xY8Ah1qbUkF4wZfEkpnLb2NthtYSz53vmei9qrFqg7P3B6m3DN"
+  },
+  {
+   "t": 1792607305.0823212,
+   "leader_t": 1792607205,
+   "trader": "Numerooo0",
+   "chain": "solana",
+   "coin": "TTWofwAge91oFhZs7kpQdyrVRkmevgM88xijGvQFbKo",
+   "sym": "TTWO",
+   "img": "",
+   "side": "buy",
+   "usd": 100.0,
+   "price": 207.75,
+   "mcap": 89,
+   "leader_usd": 50.8,
+   "sig": "2D21FYLTmdMGwjmQjurGetP2Tc98LB7wnNVAuuJ61ZBEuRnZwbnNVFvxQijSGP9jSNt76Gyqf8HXLZStFDLwrqFo"
   }
  ],
  "skipped": [],
@@ -232,6 +247,10 @@
   [
    1792607000,
    99.98
+  ],
+  [
+   1792607305,
+   199.99
   ]
  ],
  "prices": {},
@@ -261,7 +280,8 @@
   "4anXXcoQViQsd1SP52sRqreY1SSA5ExC6qqHVuVotcK6T7XsbAHuHBps5T2DuC7bmxpDWtvwGgSVKrXejCRjVQPN",
   "323N5ySw7FmrjYEoYg24E3zTipmt66B11tdsw4xY8Ah1qbUkF4wZfEkpnLb2NthtYSz53vmei9qrFqg7P3B6m3DN",
   "3KnWhLPaU4JgErDEgBudjLDYhM6iPbKrYpYzqv1h5FgEDceFXNQ1BiTZycCMq1GjnmMCF8dhAEJtCL64Gbch8z7u",
-  "4J79cLYAXCHGNWPq7jJ68ed9gzDc8tT3M2hFkqC2XJG58KKy9A82qfbb7umxB5LKykyubPwR29agaULo9CQdb5bU"
+  "4J79cLYAXCHGNWPq7jJ68ed9gzDc8tT3M2hFkqC2XJG58KKy9A82qfbb7umxB5LKykyubPwR29agaULo9CQdb5bU",
+  "2D21FYLTmdMGwjmQjurGetP2Tc98LB7wnNVAuuJ61ZBEuRnZwbnNVFvxQijSGP9jSNt76Gyqf8HXLZStFDLwrqFo"
  ],
- "checked": 1792606999.8311038
+ "checked": 1792607305.0823212
 }
