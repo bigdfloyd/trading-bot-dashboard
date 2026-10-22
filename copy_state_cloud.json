@@ -311,6 +311,13 @@
    "coin": "7egV4drrfk7MjeirV1BmHLyWR7LBuyeHKY7y6EnNpump",
    "chain": "solana",
    "why": "no price found"
+  },
+  {
+   "t": 1792640852.604985,
+   "trader": "Numerooo0",
+   "coin": "4ZWaqSWxsTqcP2EstWHp8YybiprKP5ii3uethAM1pxLB",
+   "chain": "solana",
+   "why": "no price found"
   }
  ],
  "curve": [
@@ -1217,6 +1224,10 @@
   [
    1792640806,
    1031.44
+  ],
+  [
+   1792640853,
+   1031.44
   ]
  ],
  "prices": {},
@@ -1356,7 +1367,8 @@
   "fUhLHXfoH2xMBCaHnbcMzc24Pui547aDMUza2eVx4LrmnfrabDUZAN7AJQcMbvZT8ssTfLwemaWuDds6Arq2WsY",
   "3f8KvqB2UYnxfVKuAWb36Tr3VU52zef7f5imvoRFPsFaHXEyGTKPq4ShDTN7BbMiXk2w5Z4AVQT6hrXhnGWq7YiQ",
   "3azSL5LvEeB3fXCb2pmGQFN6PdH6euH4SuTc3fjE1kzm2jKETutgwQg8cRGkxRC6g81T6tsCDvGZDxm5Fc6j1gcZ",
-  "2fgNSdoR7t1iU3oxupXgwMbXr2JtWGJZ7mudePQ38Bvwmbzni5bY6aiQC8sJF63YsLpeMVncsST6nZcW3gqAhwDe"
+  "2fgNSdoR7t1iU3oxupXgwMbXr2JtWGJZ7mudePQ38Bvwmbzni5bY6aiQC8sJF63YsLpeMVncsST6nZcW3gqAhwDe",
+  "3SS5CxDdWGZY93utDQx2LPxRQoaJ5XrtwJXKNwF8DGdKeYEcV1XvWR7h8Bf6mztKV9ydkKVKzgs8yHwauvLP3u9X"
  ],
- "checked": 1792640806.0414503
+ "checked": 1792640852.604985
 }
