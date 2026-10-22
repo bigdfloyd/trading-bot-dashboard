@@ -16,9 +16,9 @@
    "qty": 1.9253447960793268,
    "cost": 400.0,
    "opened": 1792606695.190242,
-   "price": 206.51,
+   "price": 206.49,
    "mcap": 88,
-   "value": 397.60295383834176
+   "value": 397.5644469424202
   },
   "Numerooo0:solana:58eo3pKwDZ2GKT2XvRumuns6RustWyvqtgfyubA3kYAJ": {
    "id": "Numerooo0:solana:58eo3pKwDZ2GKT2XvRumuns6RustWyvqtgfyubA3kYAJ",
@@ -58,12 +58,12 @@
    "sym": "RETAIL",
    "name": "Retail",
    "img": "https://cdn.dexscreener.com/cms/images/e18jtlTPfMqlbx_z?width=800&height=800&quality=95&format=auto",
-   "qty": 243309.00243309,
-   "cost": 100.0,
+   "qty": 459525.2186493062,
+   "cost": 200.0,
    "opened": 1792635664.9345813,
-   "price": 0.0004121,
-   "mcap": 372852,
-   "value": 100.2676399026764
+   "price": 0.0004625,
+   "mcap": 418423,
+   "value": 212.53041362530413
   }
  },
  "closed": [
@@ -251,6 +251,21 @@
    "mcap": 371778,
    "leader_usd": 1804.59,
    "sig": "36a2ygcbrgRHhXWiZAi8Q7cc36KWRqzgrQtcpxZXG2dJ766LeK3W7rCepeTNcVr2fmpQHZfyRZrddC9cYBQEnmjM"
+  },
+  {
+   "t": 1792635703.4880514,
+   "leader_t": 1792635696,
+   "trader": "Numerooo0",
+   "chain": "solana",
+   "coin": "86j9yoVzuuCjLAq4hFyaX1cphRc9SJhWhSN4h9Hh79Be",
+   "sym": "RETAIL",
+   "img": "https://cdn.dexscreener.com/cms/images/e18jtlTPfMqlbx_z?width=800&height=800&quality=95&format=auto",
+   "side": "buy",
+   "usd": 100.0,
+   "price": 0.0004625,
+   "mcap": 418423,
+   "leader_usd": 945.53,
+   "sig": "4yDd5Zza3xanMaA2vf5PorWgbiJptFeVRn1yyWiVBsxfEwR5ryWeKG1oT5oaMb2RUwiZXZtdonhNm5iqWi1maK4r"
   }
  ],
  "skipped": [
@@ -1014,6 +1029,10 @@
   [
    1792635668,
    947.18
+  ],
+  [
+   1792635703,
+   1059.41
   ]
  ],
  "prices": {},
@@ -1118,7 +1137,8 @@
   "62qjyNmyVZpdUMe43nJniUdqh94cSMsCj6eiQa4Ut8uDJpUU7hYemuZETrFFBDjAB2TC7r1tWbpJ4TWv9nkNnm7A",
   "2A2g8Qe7cDw498wbSD8chJ78eMKddrwJGFV7paKbdDC6vAXnUycN7M3zrb7SRYQBxSJzZogaFecM996Zi16yoGaZ",
   "4ynaUX3VvtPhnE7QNevpFMZwVEUT6SDL9xXpUTJXDVmzcDQbkryNdRh9Li9ZB6yfLG8o6jzu76yKpQ5ZShSCEdrC",
-  "36a2ygcbrgRHhXWiZAi8Q7cc36KWRqzgrQtcpxZXG2dJ766LeK3W7rCepeTNcVr2fmpQHZfyRZrddC9cYBQEnmjM"
+  "36a2ygcbrgRHhXWiZAi8Q7cc36KWRqzgrQtcpxZXG2dJ766LeK3W7rCepeTNcVr2fmpQHZfyRZrddC9cYBQEnmjM",
+  "4yDd5Zza3xanMaA2vf5PorWgbiJptFeVRn1yyWiVBsxfEwR5ryWeKG1oT5oaMb2RUwiZXZtdonhNm5iqWi1maK4r"
  ],
- "checked": 1792635668.4226995
+ "checked": 1792635703.4880514
 }
