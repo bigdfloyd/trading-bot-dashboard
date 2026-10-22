@@ -2,7 +2,7 @@
  "started": 1792593138.262912,
  "ends": 1792852338.262912,
  "cursor": {
-  "Numerooo0:solana": "qwW5aux86iNTVi5vYYYnAgsCz3Gsr5kWhW6Qhb15Czt6S47oQPXvdQiW9WBzs6yTmJ678dLQsKSaYqZtju8frw8"
+  "Numerooo0:solana": "4nA5QyZYJikaC72ABrsUJWJS9Nn7ugrxazgVS221zcp5yFKMGe8RYq8raA4aM7WxzEu1ipRma6YkaD1haukeusd7"
  },
  "open": {
   "Numerooo0:solana:58eo3pKwDZ2GKT2XvRumuns6RustWyvqtgfyubA3kYAJ": {
@@ -16,9 +16,9 @@
    "qty": 3007785.6126772417,
    "cost": 400.0,
    "opened": 1792635408.1359124,
-   "price": 5.541e-05,
-   "mcap": 53637,
-   "value": 166.66140079844595
+   "price": 5.355e-05,
+   "mcap": 51844,
+   "value": 161.0669195588663
   },
   "Numerooo0:solana:7egV4drrfk7MjeirV1BmHLyWR7LBuyeHKY7y6EnNpump": {
    "id": "Numerooo0:solana:7egV4drrfk7MjeirV1BmHLyWR7LBuyeHKY7y6EnNpump",
@@ -46,9 +46,9 @@
    "qty": 84068.93652795292,
    "cost": 200.0,
    "opened": 1792647940.9118125,
-   "price": 0.002068,
-   "mcap": 1614669,
-   "value": 173.85456073980663
+   "price": 0.002058,
+   "mcap": 1606838,
+   "value": 173.0138713745271
   },
   "Numerooo0:solana:CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp": {
    "id": "Numerooo0:solana:CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
@@ -61,9 +61,9 @@
    "qty": 297.08853238265004,
    "cost": 100.0,
    "opened": 1792648855.2874346,
-   "price": 0.333,
-   "mcap": 295016415,
-   "value": 98.93048128342247
+   "price": 0.3353,
+   "mcap": 297126582,
+   "value": 99.61378490790256
   }
  },
  "closed": [
@@ -2189,6 +2189,10 @@
   [
    1792691504,
    1182.1
+  ],
+  [
+   1792691811,
+   1176.34
   ]
  ],
  "prices": {},
@@ -2421,7 +2425,8 @@
   "crG2rF6DxXKJa969hdXagzerUtphJmJ3eMCXXqHixaWFaCssy5kHUES4BztuvxNr5L3NeJkfFAb5jBbxMnFQxKe",
   "3nW1ZqFTDDRtanPx6aCENTkhMne7xsFHyrVV2KPi76JvcQXpUCEodJEfNpyBkRwkziYQv4wiTNR9me7GRDiFAhed",
   "5f6iHXycHNkJ5VuVRiuSck5P5oXenXVAuwKHFdhdY9uHBcGQS98cpXMSxp4BwMfnrrapLaZDtE6LywHggNUDTAFe",
-  "qwW5aux86iNTVi5vYYYnAgsCz3Gsr5kWhW6Qhb15Czt6S47oQPXvdQiW9WBzs6yTmJ678dLQsKSaYqZtju8frw8"
+  "qwW5aux86iNTVi5vYYYnAgsCz3Gsr5kWhW6Qhb15Czt6S47oQPXvdQiW9WBzs6yTmJ678dLQsKSaYqZtju8frw8",
+  "4nA5QyZYJikaC72ABrsUJWJS9Nn7ugrxazgVS221zcp5yFKMGe8RYq8raA4aM7WxzEu1ipRma6YkaD1haukeusd7"
  ],
- "checked": 1792691503.567126
+ "checked": 1792691810.8198853
 }
