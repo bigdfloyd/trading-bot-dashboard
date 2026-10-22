@@ -19,6 +19,21 @@
    "price": 206.69,
    "mcap": 88,
    "value": 397.94951590163606
+  },
+  "Numerooo0:solana:71m6o4WC6EMvbC6Pnuo53Q7SYQLuHS2VUTFe8YcBpump": {
+   "id": "Numerooo0:solana:71m6o4WC6EMvbC6Pnuo53Q7SYQLuHS2VUTFe8YcBpump",
+   "trader": "Numerooo0",
+   "chain": "solana",
+   "coin": "71m6o4WC6EMvbC6Pnuo53Q7SYQLuHS2VUTFe8YcBpump",
+   "sym": "fAu",
+   "name": "Fusion Gold",
+   "img": "https://cdn.dexscreener.com/cms/images/bdSzwOsMW7nbYr48?width=800&height=800&quality=95&format=auto",
+   "qty": 1700969.5526450076,
+   "cost": 100.0,
+   "opened": 1792632871.141636,
+   "price": 5.879e-05,
+   "mcap": 58796,
+   "value": 100.0
   }
  },
  "closed": [],
@@ -82,6 +97,21 @@
    "mcap": 89,
    "leader_usd": 26.88,
    "sig": "5cjbRPNSUauApH7hbpFvvg2MTA3nPJgDAQLgXQNNWMJtQ2ibFFdTWUPW2UQwE7hYUbhtnkWJsuRVtxyKKMf851Ak"
+  },
+  {
+   "t": 1792632871.141636,
+   "leader_t": 1792632868,
+   "trader": "Numerooo0",
+   "chain": "solana",
+   "coin": "71m6o4WC6EMvbC6Pnuo53Q7SYQLuHS2VUTFe8YcBpump",
+   "sym": "fAu",
+   "img": "https://cdn.dexscreener.com/cms/images/bdSzwOsMW7nbYr48?width=800&height=800&quality=95&format=auto",
+   "side": "buy",
+   "usd": 100.0,
+   "price": 5.879e-05,
+   "mcap": 58796,
+   "leader_usd": 1233.34,
+   "sig": "2X2DVajYVTnrBJV6X5E7G6gUCEmbJ7oZdZAUQPmGz7Y3JV5AdoKNmJjKv58CvgHAQxCXDJBtXxUMrhZpztnj1TLL"
   }
  ],
  "skipped": [],
@@ -753,6 +783,10 @@
   [
    1792632765,
    397.95
+  ],
+  [
+   1792632871,
+   497.95
   ]
  ],
  "prices": {},
@@ -845,7 +879,8 @@
   "5sVcYjRi8nv3fFJpFe4ccpaVP7qBNWEg2tZaZXXrmccXnMH169LsDrwf5uQEronzxPKaqtNygEfcXZXfRmuZ2wkG",
   "48YKKxhq6b7UQikoN5D16p5GCnk1feHYTAEBGErkbfW3qzYtjPYYw2DhjxrgsgK2cs49Y3WqcN6PW7gdpFomhgkL",
   "5niB3Py9iJaMr2Dt3WyME1jk8WcsYcLqqygxSeJJs2LFWW1oNtUtTnJAHxAv35Ndo1M6JQybJbzGRZAmfPR7QvU6",
-  "UR2Yza8hKQbvS7orBDgzEjru5zDhgqCxYosgG3FRAHv5T9obZi9yEAj6H31Ur54JppVicMLYazsR7xrvTvTH7kj"
+  "UR2Yza8hKQbvS7orBDgzEjru5zDhgqCxYosgG3FRAHv5T9obZi9yEAj6H31Ur54JppVicMLYazsR7xrvTvTH7kj",
+  "2X2DVajYVTnrBJV6X5E7G6gUCEmbJ7oZdZAUQPmGz7Y3JV5AdoKNmJjKv58CvgHAQxCXDJBtXxUMrhZpztnj1TLL"
  ],
- "checked": 1792632764.998957
+ "checked": 1792632871.141636
 }
