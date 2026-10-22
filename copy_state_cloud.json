@@ -2,7 +2,7 @@
  "started": 1792593138.262912,
  "ends": 1792852338.262912,
  "cursor": {
-  "Numerooo0:solana": "54CnqePYF1GZE1HaUX8bru1bKP6h9n14YJjuu5XwUTdX9itXZcr2Qayjco7E5qhhJpzW5didZG6UcWm2ZSgD1dMN"
+  "Numerooo0:solana": "2bapNJ1EUzQQCDfYfkHdLHMwDAkdVjZHxRxrJ6BdgiAWMf3zEhYqYgCq9F6h8PacFkq1aWuvYcyQrbvVaDr9ecMp"
  },
  "open": {
   "Numerooo0:solana:58eo3pKwDZ2GKT2XvRumuns6RustWyvqtgfyubA3kYAJ": {
@@ -16,9 +16,9 @@
    "qty": 2156721.7828900074,
    "cost": 300.0,
    "opened": 1792635408.1359124,
-   "price": 0.0001335,
-   "mcap": 129283,
-   "value": 287.922358015816
+   "price": 0.0001394,
+   "mcap": 135019,
+   "value": 300.647016534867
   },
   "Numerooo0:solana:7egV4drrfk7MjeirV1BmHLyWR7LBuyeHKY7y6EnNpump": {
    "id": "Numerooo0:solana:7egV4drrfk7MjeirV1BmHLyWR7LBuyeHKY7y6EnNpump",
@@ -46,9 +46,9 @@
    "qty": 459525.2186493062,
    "cost": 200.0,
    "opened": 1792635664.9345813,
-   "price": 0.0003317,
-   "mcap": 300086,
-   "value": 152.42451502597487
+   "price": 0.0004732,
+   "mcap": 428107,
+   "value": 217.4473334648517
   }
  },
  "closed": [
@@ -1155,6 +1155,10 @@
   [
    1792639343,
    1010.54
+  ],
+  [
+   1792639673,
+   1088.28
   ]
  ],
  "prices": {},
@@ -1282,7 +1286,10 @@
   "2uaaK8fjVA69N88duVVHwhT1JSkH3h34NzVPoWmRsvfDdD1rfapppqnNUfGSBKbsGwqRL3uF8sUde94YXTuZbEDp",
   "47hb9qwBwoXrK8jvFaBLRvtTuyrMVeMHL2mD6bDGPAuqKyqCsYn1i6qqgFUnSMnJ161enSvMJ7gTzRqezkDTTPoK",
   "fmRKZMPkZv4oSX1pTieZdd8UEXs3fZZbxrAsVzkZhTW6zAuWTLX5TNs3Pqtj7KpXAhJLHuR1doFCazpqg4dnCW2",
-  "54CnqePYF1GZE1HaUX8bru1bKP6h9n14YJjuu5XwUTdX9itXZcr2Qayjco7E5qhhJpzW5didZG6UcWm2ZSgD1dMN"
+  "54CnqePYF1GZE1HaUX8bru1bKP6h9n14YJjuu5XwUTdX9itXZcr2Qayjco7E5qhhJpzW5didZG6UcWm2ZSgD1dMN",
+  "4ALsbCSKSaH1nHGNJzXcpUPeWie1fvbo7dx1YoPvttS9FT8St42Ud8yCSzdoinN6KedMo8Va8MGBBpRkrJhxUE4P",
+  "8GgAH3JwozX718HdnNcfiM6KnGe45oenPrUrUHujKNpFaSFMoSqEmiQ4n6jDWijvGytMT5GMijFu6vK8oF6k4Da",
+  "2bapNJ1EUzQQCDfYfkHdLHMwDAkdVjZHxRxrJ6BdgiAWMf3zEhYqYgCq9F6h8PacFkq1aWuvYcyQrbvVaDr9ecMp"
  ],
- "checked": 1792639342.8817453
+ "checked": 1792639673.3189828
 }
