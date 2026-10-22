@@ -16,11 +16,13 @@
    "qty": 1.9253447960793268,
    "cost": 400.0,
    "opened": 1792606695.190242,
-   "price": 206.69,
+   "price": 206.65,
    "mcap": 88,
-   "value": 397.94951590163606
-  },
-  "Numerooo0:solana:71m6o4WC6EMvbC6Pnuo53Q7SYQLuHS2VUTFe8YcBpump": {
+   "value": 397.8725021097929
+  }
+ },
+ "closed": [
+  {
    "id": "Numerooo0:solana:71m6o4WC6EMvbC6Pnuo53Q7SYQLuHS2VUTFe8YcBpump",
    "trader": "Numerooo0",
    "chain": "solana",
@@ -28,15 +30,16 @@
    "sym": "fAu",
    "name": "Fusion Gold",
    "img": "https://cdn.dexscreener.com/cms/images/bdSzwOsMW7nbYr48?width=800&height=800&quality=95&format=auto",
-   "qty": 1700969.5526450076,
-   "cost": 100.0,
+   "qty": 0.0,
+   "cost": 0.0,
    "opened": 1792632871.141636,
    "price": 5.879e-05,
    "mcap": 58796,
-   "value": 100.0
+   "value": 100.0,
+   "closed": 1792632970.4835434,
+   "pnl": 72.82
   }
- },
- "closed": [],
+ ],
  "swaps": [
   {
    "t": 1792606695.190242,
@@ -112,6 +115,22 @@
    "mcap": 58796,
    "leader_usd": 1233.34,
    "sig": "2X2DVajYVTnrBJV6X5E7G6gUCEmbJ7oZdZAUQPmGz7Y3JV5AdoKNmJjKv58CvgHAQxCXDJBtXxUMrhZpztnj1TLL"
+  },
+  {
+   "t": 1792632970.4835434,
+   "leader_t": 1792632968,
+   "trader": "Numerooo0",
+   "chain": "solana",
+   "coin": "71m6o4WC6EMvbC6Pnuo53Q7SYQLuHS2VUTFe8YcBpump",
+   "sym": "fAu",
+   "img": "https://cdn.dexscreener.com/cms/images/bdSzwOsMW7nbYr48?width=800&height=800&quality=95&format=auto",
+   "side": "sell",
+   "usd": 172.82,
+   "price": 0.0001016,
+   "mcap": 101683,
+   "pnl": 72.82,
+   "frac": 1.0,
+   "sig": "5wHrDGuSM8aVvx4UAfUSWt5iHDBVNgFUnR3ZGbpfNuzRc4ih7uduzvjFyXt8DhfGgybTJfNi2SR5v5mL9KbuAiHw"
   }
  ],
  "skipped": [],
@@ -787,6 +806,10 @@
   [
    1792632871,
    497.95
+  ],
+  [
+   1792632970,
+   570.69
   ]
  ],
  "prices": {},
@@ -880,7 +903,8 @@
   "48YKKxhq6b7UQikoN5D16p5GCnk1feHYTAEBGErkbfW3qzYtjPYYw2DhjxrgsgK2cs49Y3WqcN6PW7gdpFomhgkL",
   "5niB3Py9iJaMr2Dt3WyME1jk8WcsYcLqqygxSeJJs2LFWW1oNtUtTnJAHxAv35Ndo1M6JQybJbzGRZAmfPR7QvU6",
   "UR2Yza8hKQbvS7orBDgzEjru5zDhgqCxYosgG3FRAHv5T9obZi9yEAj6H31Ur54JppVicMLYazsR7xrvTvTH7kj",
-  "2X2DVajYVTnrBJV6X5E7G6gUCEmbJ7oZdZAUQPmGz7Y3JV5AdoKNmJjKv58CvgHAQxCXDJBtXxUMrhZpztnj1TLL"
+  "2X2DVajYVTnrBJV6X5E7G6gUCEmbJ7oZdZAUQPmGz7Y3JV5AdoKNmJjKv58CvgHAQxCXDJBtXxUMrhZpztnj1TLL",
+  "5wHrDGuSM8aVvx4UAfUSWt5iHDBVNgFUnR3ZGbpfNuzRc4ih7uduzvjFyXt8DhfGgybTJfNi2SR5v5mL9KbuAiHw"
  ],
- "checked": 1792632871.141636
+ "checked": 1792632970.4835434
 }
