@@ -2,7 +2,7 @@
  "started": 1792593138.262912,
  "ends": 1792852338.262912,
  "cursor": {
-  "Numerooo0:solana": "2gLp7LLWxL2a6BGgY4PzKxCXsU4bLs1d6fHuAtHQVC1NAoySNKhTm1N9DiJXixC2AXuSAAmjCqs69MczuyjtN8iE"
+  "Numerooo0:solana": "4t7GGrT6CZhrqAg7LMNb7xXQE31LAhpx2pJkRoYrxAHd9H3jeRPNYzd8AjZAeG9Bp22Pt2tk5b45Wn7HZm98m4rw"
  },
  "open": {
   "Numerooo0:solana:58eo3pKwDZ2GKT2XvRumuns6RustWyvqtgfyubA3kYAJ": {
@@ -16,9 +16,9 @@
    "qty": 2156721.7828900074,
    "cost": 300.0,
    "opened": 1792635408.1359124,
-   "price": 0.0001291,
-   "mcap": 125000,
-   "value": 278.4327821710999
+   "price": 0.0001299,
+   "mcap": 125770,
+   "value": 280.158159597412
   },
   "Numerooo0:solana:7egV4drrfk7MjeirV1BmHLyWR7LBuyeHKY7y6EnNpump": {
    "id": "Numerooo0:solana:7egV4drrfk7MjeirV1BmHLyWR7LBuyeHKY7y6EnNpump",
@@ -1304,6 +1304,10 @@
   [
    1792645503,
    1021.08
+  ],
+  [
+   1792645807,
+   1022.81
   ]
  ],
  "prices": {},
@@ -1455,7 +1459,8 @@
   "3TZrbWS7Sht5WzUt2WkCTkQmktXQ3Lna92WGWbSopR9aSxkQpSYbsm5cBcHoCcswrhbSRFCnmTx6w1tqFdic1Vru",
   "5vdDfTiXCnLv63aXpBbtUtrkmBa55h3KMgXeHqorTqnP14kGngQ66hHmon32qXaTKtZ7LbmjNQoS9BiCzCr8ZA7W",
   "2gLp7LLWxL2a6BGgY4PzKxCXsU4bLs1d6fHuAtHQVC1NAoySNKhTm1N9DiJXixC2AXuSAAmjCqs69MczuyjtN8iE",
-  "2WKHXRXzbhqoeFbkGbmdmXwS2Q9skXUYykknoVYLvVCEadVfgR4rE9vDztZ9a5xtC7nHWn4NVR5nAYHZmgVwKjar"
+  "2WKHXRXzbhqoeFbkGbmdmXwS2Q9skXUYykknoVYLvVCEadVfgR4rE9vDztZ9a5xtC7nHWn4NVR5nAYHZmgVwKjar",
+  "4t7GGrT6CZhrqAg7LMNb7xXQE31LAhpx2pJkRoYrxAHd9H3jeRPNYzd8AjZAeG9Bp22Pt2tk5b45Wn7HZm98m4rw"
  ],
- "checked": 1792645502.8114543
+ "checked": 1792645807.4305522
 }
