@@ -46,9 +46,9 @@
    "qty": 459525.2186493062,
    "cost": 200.0,
    "opened": 1792635664.9345813,
-   "price": 0.0004635,
-   "mcap": 419329,
-   "value": 212.98993884395344
+   "price": 0.000483,
+   "mcap": 436944,
+   "value": 221.95068060761488
   }
  },
  "closed": [
@@ -1167,6 +1167,10 @@
   [
    1792640090,
    1074.34
+  ],
+  [
+   1792640125,
+   1083.3
   ]
  ],
  "prices": {},
@@ -1299,7 +1303,8 @@
   "8GgAH3JwozX718HdnNcfiM6KnGe45oenPrUrUHujKNpFaSFMoSqEmiQ4n6jDWijvGytMT5GMijFu6vK8oF6k4Da",
   "2bapNJ1EUzQQCDfYfkHdLHMwDAkdVjZHxRxrJ6BdgiAWMf3zEhYqYgCq9F6h8PacFkq1aWuvYcyQrbvVaDr9ecMp",
   "UfBN49Vuea8Dm3t28sx7dbracTWNaFTtSDVVwJcbdTGSXe21trr8uym33fB3KZd9Et6XrBEqafJR8s172xLDnJk",
-  "5eVHMbVkpdkLo2rT9wJsmdUjEdJMaR2WwtPw2hdRqnkxHU1AfpsExr9KgWLu2ys2cWGW3D8dqJs4ZfYKtjTVbMT4"
+  "5eVHMbVkpdkLo2rT9wJsmdUjEdJMaR2WwtPw2hdRqnkxHU1AfpsExr9KgWLu2ys2cWGW3D8dqJs4ZfYKtjTVbMT4",
+  "2oEUdUFYTw9XAipbJbnzt8QiUQg7PgYu9YGPNHJ7N3saEeB65krguZ4bki1RRJhcz3SKb53HoWWM9xqz1HhdWuqF"
  ],
- "checked": 1792640090.2519073
+ "checked": 1792640124.5534954
 }
