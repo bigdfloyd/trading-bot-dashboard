@@ -19,6 +19,21 @@
    "price": 206.55,
    "mcap": 88,
    "value": 397.679967630185
+  },
+  "Numerooo0:solana:58eo3pKwDZ2GKT2XvRumuns6RustWyvqtgfyubA3kYAJ": {
+   "id": "Numerooo0:solana:58eo3pKwDZ2GKT2XvRumuns6RustWyvqtgfyubA3kYAJ",
+   "trader": "Numerooo0",
+   "chain": "solana",
+   "coin": "58eo3pKwDZ2GKT2XvRumuns6RustWyvqtgfyubA3kYAJ",
+   "sym": "ZDOG",
+   "name": "Anonymous Dog",
+   "img": "https://cdn.dexscreener.com/cms/images/PqtVVC5PKyl32MOh?width=800&height=800&quality=95&format=auto",
+   "qty": 718907.2609633357,
+   "cost": 100.0,
+   "opened": 1792635408.1359124,
+   "price": 0.0001391,
+   "mcap": 134672,
+   "value": 100.0
   }
  },
  "closed": [
@@ -131,6 +146,21 @@
    "pnl": 72.82,
    "frac": 1.0,
    "sig": "5wHrDGuSM8aVvx4UAfUSWt5iHDBVNgFUnR3ZGbpfNuzRc4ih7uduzvjFyXt8DhfGgybTJfNi2SR5v5mL9KbuAiHw"
+  },
+  {
+   "t": 1792635408.1359124,
+   "leader_t": 1792635407,
+   "trader": "Numerooo0",
+   "chain": "solana",
+   "coin": "58eo3pKwDZ2GKT2XvRumuns6RustWyvqtgfyubA3kYAJ",
+   "sym": "ZDOG",
+   "img": "https://cdn.dexscreener.com/cms/images/PqtVVC5PKyl32MOh?width=800&height=800&quality=95&format=auto",
+   "side": "buy",
+   "usd": 100.0,
+   "price": 0.0001391,
+   "mcap": 134672,
+   "leader_usd": 98.17,
+   "sig": "3Wcu5pgYVqc3EmGRY8Kw3nFL2FfoXQ3gKTa9vixT59qEsVb4Tt5AQwM4LUY8BUuQZoavfb1dXdEWK7r1mEnT7tuk"
   }
  ],
  "skipped": [],
@@ -858,6 +888,10 @@
   [
    1792635357,
    570.5
+  ],
+  [
+   1792635408,
+   670.5
   ]
  ],
  "prices": {},
@@ -956,7 +990,8 @@
   "2DbWp1kNXafEGjFB9Je2d8791A6XK5eXMWwa5dSYtmWMAmhXpNqMpVw8SPadNDzNgAep2L7fPbdSx36DChFekF4N",
   "hnStWyxF5mxH6YLhasz1f2tK2C4Fn12inVJL4jHhkQNmd69u7Zmapfnkzj5CFQN8vkqW6vDatLMCdc2Rty6pTJU",
   "24KSM9wjgGNafmRyB3NF97cNJexaGSvMkitRn4JfKpQikzRQerEoTq99Uf9tXEzwDXWKnDxGirE4kwGheYtr95uy",
-  "Cppv8Rmp1RNtgKoZjN8znyT6VfkMQRcSB2VjE8g5crwb6TEDwPLBqJNr4aZjhfxCZcAX7WHZv6aH8gBoZR7mxmK"
+  "Cppv8Rmp1RNtgKoZjN8znyT6VfkMQRcSB2VjE8g5crwb6TEDwPLBqJNr4aZjhfxCZcAX7WHZv6aH8gBoZR7mxmK",
+  "3Wcu5pgYVqc3EmGRY8Kw3nFL2FfoXQ3gKTa9vixT59qEsVb4Tt5AQwM4LUY8BUuQZoavfb1dXdEWK7r1mEnT7tuk"
  ],
- "checked": 1792635357.0575287
+ "checked": 1792635408.1359124
 }
