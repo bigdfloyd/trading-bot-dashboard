@@ -2,24 +2,9 @@
  "started": 1792593138.262912,
  "ends": 1792852338.262912,
  "cursor": {
-  "Numerooo0:solana": "4Ue8DuXqtJLdFQkosCg55jrgp6AM45k87t7oRa6ZDsXDKQhg6ryTpTZ6qU932iaKgiYeGcxxWxF7RB7UUCHQFUBM"
+  "Numerooo0:solana": "e5LWv85QYhs6DBGan1pkPW8Zr7MRdLcfScyau83YJSNiUUCu5NNv5yyFSK48ExVZpD9TBzQnAf4zqFW9zSdCbwi"
  },
  "open": {
-  "Numerooo0:solana:TTWofwAge91oFhZs7kpQdyrVRkmevgM88xijGvQFbKo": {
-   "id": "Numerooo0:solana:TTWofwAge91oFhZs7kpQdyrVRkmevgM88xijGvQFbKo",
-   "trader": "Numerooo0",
-   "chain": "solana",
-   "coin": "TTWofwAge91oFhZs7kpQdyrVRkmevgM88xijGvQFbKo",
-   "sym": "TTWO",
-   "name": "Take-Two Interactive Software - Backpack Securities",
-   "img": "",
-   "qty": 1.9253447960793268,
-   "cost": 400.0,
-   "opened": 1792606695.190242,
-   "price": 206.39,
-   "mcap": 88,
-   "value": 397.37191246281225
-  },
   "Numerooo0:solana:58eo3pKwDZ2GKT2XvRumuns6RustWyvqtgfyubA3kYAJ": {
    "id": "Numerooo0:solana:58eo3pKwDZ2GKT2XvRumuns6RustWyvqtgfyubA3kYAJ",
    "trader": "Numerooo0",
@@ -31,9 +16,9 @@
    "qty": 2156721.7828900074,
    "cost": 300.0,
    "opened": 1792635408.1359124,
-   "price": 0.0001253,
-   "mcap": 121364,
-   "value": 270.23723939611796
+   "price": 0.0001335,
+   "mcap": 129286,
+   "value": 287.922358015816
   },
   "Numerooo0:solana:7egV4drrfk7MjeirV1BmHLyWR7LBuyeHKY7y6EnNpump": {
    "id": "Numerooo0:solana:7egV4drrfk7MjeirV1BmHLyWR7LBuyeHKY7y6EnNpump",
@@ -61,9 +46,9 @@
    "qty": 459525.2186493062,
    "cost": 200.0,
    "opened": 1792635664.9345813,
-   "price": 0.0005615,
-   "mcap": 507933,
-   "value": 258.0234102715855
+   "price": 0.0004545,
+   "mcap": 411169,
+   "value": 208.85421187610967
   }
  },
  "closed": [
@@ -83,6 +68,23 @@
    "value": 100.0,
    "closed": 1792632970.4835434,
    "pnl": 72.82
+  },
+  {
+   "id": "Numerooo0:solana:TTWofwAge91oFhZs7kpQdyrVRkmevgM88xijGvQFbKo",
+   "trader": "Numerooo0",
+   "chain": "solana",
+   "coin": "TTWofwAge91oFhZs7kpQdyrVRkmevgM88xijGvQFbKo",
+   "sym": "TTWO",
+   "name": "Take-Two Interactive Software - Backpack Securities",
+   "img": "",
+   "qty": 0.0,
+   "cost": 0.0,
+   "opened": 1792606695.190242,
+   "price": 206.39,
+   "mcap": 88,
+   "value": 397.37191246281225,
+   "closed": 1792638428.070719,
+   "pnl": -2.63
   }
  ],
  "swaps": [
@@ -266,6 +268,22 @@
    "mcap": 418423,
    "leader_usd": 945.53,
    "sig": "4yDd5Zza3xanMaA2vf5PorWgbiJptFeVRn1yyWiVBsxfEwR5ryWeKG1oT5oaMb2RUwiZXZtdonhNm5iqWi1maK4r"
+  },
+  {
+   "t": 1792638428.070719,
+   "leader_t": 1792638297,
+   "trader": "Numerooo0",
+   "chain": "solana",
+   "coin": "TTWofwAge91oFhZs7kpQdyrVRkmevgM88xijGvQFbKo",
+   "sym": "TTWO",
+   "img": "",
+   "side": "sell",
+   "usd": 397.37,
+   "price": 206.39,
+   "mcap": 88,
+   "pnl": -2.63,
+   "frac": 1.0,
+   "sig": "3Mr3GYD4PFe5xkMRGvdzzeX27KS2cQLMVkUGWsMQULsyVEGn8rk6n7BNdKNYyrx9VdLiSxf53hYqoe9gikb1GP5s"
   }
  ],
  "skipped": [
@@ -1117,6 +1135,10 @@
   [
    1792638167,
    1098.45
+  ],
+  [
+   1792638428,
+   1066.97
   ]
  ],
  "prices": {},
@@ -1237,7 +1259,9 @@
   "4CPLAbiTQkpM9u7aCaucLuFMuJtzbNyAXg8XJS7rgW2Undvb3gRLDiAwB3d6FNMvqLfdiYHT232gV47b72MHYnK1",
   "5VgXvniWBvsE7bXVamKyuS5mhkZ71UggCLL5oATcVsSHNUp7udU6hZ7Z72yjcjdADA85Mn4pPGAFwpFMBeS2SzEs",
   "4Ue8DuXqtJLdFQkosCg55jrgp6AM45k87t7oRa6ZDsXDKQhg6ryTpTZ6qU932iaKgiYeGcxxWxF7RB7UUCHQFUBM",
-  "vtoFDoee66WAuVGB4eBfTM5GuQ4PUCY2uDenR4B1CwkQt2jsta92hirwdLaqs3EiUE63Wv6ULLUcSCXk8z5Ugd8"
+  "vtoFDoee66WAuVGB4eBfTM5GuQ4PUCY2uDenR4B1CwkQt2jsta92hirwdLaqs3EiUE63Wv6ULLUcSCXk8z5Ugd8",
+  "21WnF6wrzRjiPbmYbELPEnhGxqnCsYG5v7di9nB8hgQU8uiZURhBXJRBeDVwk8K7uaRp9W6b5jcSWwUTbsqmgyDY",
+  "3Mr3GYD4PFe5xkMRGvdzzeX27KS2cQLMVkUGWsMQULsyVEGn8rk6n7BNdKNYyrx9VdLiSxf53hYqoe9gikb1GP5s"
  ],
- "checked": 1792638167.1821468
+ "checked": 1792638428.070719
 }
