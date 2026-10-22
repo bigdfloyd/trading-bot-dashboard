@@ -2,7 +2,7 @@
  "started": 1792593138.262912,
  "ends": 1792852338.262912,
  "cursor": {
-  "Numerooo0:solana": "3CcLJ9XWbihRYYEfMtN3uWvxDpwKWUKMqCjHy5ySt78whHARHHdpfEaEc1ch7RwKrupbH3bsmXVYfwkYUygMm9T2"
+  "Numerooo0:solana": "2mjjAuLmKU2swG6A7fQ7gz1gSezA6BdHLBRtAydf3WhSypAt173fCRhWCFKeNw5RtyJZjJqs5Cqm94NPePfJZCtV"
  },
  "open": {
   "Numerooo0:solana:58eo3pKwDZ2GKT2XvRumuns6RustWyvqtgfyubA3kYAJ": {
@@ -34,6 +34,21 @@
    "price": 0.0,
    "mcap": 0,
    "value": 0.0
+  },
+  "Numerooo0:solana:BZFYNPeQAEW3HWQ4DNsTVahC1n4ZjTgn6jB2nnBbB96W": {
+   "id": "Numerooo0:solana:BZFYNPeQAEW3HWQ4DNsTVahC1n4ZjTgn6jB2nnBbB96W",
+   "trader": "Numerooo0",
+   "chain": "solana",
+   "coin": "BZFYNPeQAEW3HWQ4DNsTVahC1n4ZjTgn6jB2nnBbB96W",
+   "sym": "SAPLING",
+   "name": "Sapling",
+   "img": "https://cdn.dexscreener.com/cms/images/Nzw6zffhr6V8siIo?width=800&height=800&quality=95&format=auto",
+   "qty": 84068.93652795292,
+   "cost": 200.0,
+   "opened": 1792647940.9118125,
+   "price": 0.002379,
+   "mcap": 1858033,
+   "value": 200.0
   }
  },
  "closed": [
@@ -302,6 +317,36 @@
    "pnl": -27.54,
    "frac": 1.0,
    "sig": "2fgNSdoR7t1iU3oxupXgwMbXr2JtWGJZ7mudePQ38Bvwmbzni5bY6aiQC8sJF63YsLpeMVncsST6nZcW3gqAhwDe"
+  },
+  {
+   "t": 1792647940.9118125,
+   "leader_t": 1792647641,
+   "trader": "Numerooo0",
+   "chain": "solana",
+   "coin": "BZFYNPeQAEW3HWQ4DNsTVahC1n4ZjTgn6jB2nnBbB96W",
+   "sym": "SAPLING",
+   "img": "https://cdn.dexscreener.com/cms/images/Nzw6zffhr6V8siIo?width=800&height=800&quality=95&format=auto",
+   "side": "buy",
+   "usd": 100.0,
+   "price": 0.002379,
+   "mcap": 1858033,
+   "leader_usd": 2124.53,
+   "sig": "124u4FgHT14d9k1nGyZYZfttiMWnUdD8C7VWpH7JG6uPXFYphMwu1xsFDjEKV4o7dx3X9QB5PSoJd67BcaJ1cHkx"
+  },
+  {
+   "t": 1792647940.9118125,
+   "leader_t": 1792647654,
+   "trader": "Numerooo0",
+   "chain": "solana",
+   "coin": "BZFYNPeQAEW3HWQ4DNsTVahC1n4ZjTgn6jB2nnBbB96W",
+   "sym": "SAPLING",
+   "img": "https://cdn.dexscreener.com/cms/images/Nzw6zffhr6V8siIo?width=800&height=800&quality=95&format=auto",
+   "side": "buy",
+   "usd": 100.0,
+   "price": 0.002379,
+   "mcap": 1858033,
+   "leader_usd": 4086.05,
+   "sig": "4x6sUvquvBrM4SsVB9CDdRuBWdpg2YJCwBnaDztibFdQi44uGEEaH1yKKArHpCm3QMKVqTSfxcZ3WNWpA9nzKCBr"
   }
  ],
  "skipped": [
@@ -314,6 +359,13 @@
   },
   {
    "t": 1792640852.604985,
+   "trader": "Numerooo0",
+   "coin": "4ZWaqSWxsTqcP2EstWHp8YybiprKP5ii3uethAM1pxLB",
+   "chain": "solana",
+   "why": "no price found"
+  },
+  {
+   "t": 1792647940.9118125,
    "trader": "Numerooo0",
    "coin": "4ZWaqSWxsTqcP2EstWHp8YybiprKP5ii3uethAM1pxLB",
    "chain": "solana",
@@ -1344,6 +1396,10 @@
   [
    1792647885,
    1009.22
+  ],
+  [
+   1792647941,
+   1209.22
   ]
  ],
  "prices": {},
@@ -1500,7 +1556,10 @@
   "3YHbvof583hqGcSee8yVoiSBaMthBNsKcKHBNAAY5wgYQrkMUWeMSNZ21eHqDU3oFQnD6tJdEVSM4d14VxfmCG5G",
   "QKs6aghDa8J34S91mkWdk8iQe7mSnbJLF13sLwignwv2ddspBy4tS3wVw2upKuYZrZzJczpDrqN26fzzuFTYLox",
   "sbMB8Gokcj1ovshCy4PGwxQD5kWr4Q1x8TnvirmyRLsp9DSyPyLh2u8UEEtn2jNh9SbqQLPsp3rvqXunvnCHBev",
-  "2mjjAuLmKU2swG6A7fQ7gz1gSezA6BdHLBRtAydf3WhSypAt173fCRhWCFKeNw5RtyJZjJqs5Cqm94NPePfJZCtV"
+  "2mjjAuLmKU2swG6A7fQ7gz1gSezA6BdHLBRtAydf3WhSypAt173fCRhWCFKeNw5RtyJZjJqs5Cqm94NPePfJZCtV",
+  "124u4FgHT14d9k1nGyZYZfttiMWnUdD8C7VWpH7JG6uPXFYphMwu1xsFDjEKV4o7dx3X9QB5PSoJd67BcaJ1cHkx",
+  "4x6sUvquvBrM4SsVB9CDdRuBWdpg2YJCwBnaDztibFdQi44uGEEaH1yKKArHpCm3QMKVqTSfxcZ3WNWpA9nzKCBr",
+  "2QSPHsMEpSnz7NBsLhBv1ks7CZwFpjH73zdt1SAd6xPFZ9tRFTn3om8tzd998SRHDAtuqKUjHzoozeSSLFHLC1U5"
  ],
- "checked": 1792647884.9294834
+ "checked": 1792647940.9118125
 }
