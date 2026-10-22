@@ -28,12 +28,12 @@
    "sym": "ZDOG",
    "name": "Anonymous Dog",
    "img": "https://cdn.dexscreener.com/cms/images/PqtVVC5PKyl32MOh?width=800&height=800&quality=95&format=auto",
-   "qty": 1437814.5219266715,
-   "cost": 200.0,
+   "qty": 2156721.7828900074,
+   "cost": 300.0,
    "opened": 1792635408.1359124,
    "price": 0.0001391,
    "mcap": 134672,
-   "value": 200.0
+   "value": 300.0
   }
  },
  "closed": [
@@ -176,6 +176,21 @@
    "mcap": 134672,
    "leader_usd": 93.58,
    "sig": "3EN7bbDiAagmhg22AyhQdWruo1iEmioAJpRpC1o3QKnUxhu821TGN8x7nUU2DMC1gquusd3x7ar4aE9TseLcA9Yk"
+  },
+  {
+   "t": 1792635417.293901,
+   "leader_t": 1792635414,
+   "trader": "Numerooo0",
+   "chain": "solana",
+   "coin": "58eo3pKwDZ2GKT2XvRumuns6RustWyvqtgfyubA3kYAJ",
+   "sym": "ZDOG",
+   "img": "https://cdn.dexscreener.com/cms/images/PqtVVC5PKyl32MOh?width=800&height=800&quality=95&format=auto",
+   "side": "buy",
+   "usd": 100.0,
+   "price": 0.0001391,
+   "mcap": 134672,
+   "leader_usd": 92.6,
+   "sig": "62qjyNmyVZpdUMe43nJniUdqh94cSMsCj6eiQa4Ut8uDJpUU7hYemuZETrFFBDjAB2TC7r1tWbpJ4TWv9nkNnm7A"
   }
  ],
  "skipped": [],
@@ -911,6 +926,10 @@
   [
    1792635414,
    770.5
+  ],
+  [
+   1792635417,
+   870.5
   ]
  ],
  "prices": {},
@@ -1011,7 +1030,8 @@
   "24KSM9wjgGNafmRyB3NF97cNJexaGSvMkitRn4JfKpQikzRQerEoTq99Uf9tXEzwDXWKnDxGirE4kwGheYtr95uy",
   "Cppv8Rmp1RNtgKoZjN8znyT6VfkMQRcSB2VjE8g5crwb6TEDwPLBqJNr4aZjhfxCZcAX7WHZv6aH8gBoZR7mxmK",
   "3Wcu5pgYVqc3EmGRY8Kw3nFL2FfoXQ3gKTa9vixT59qEsVb4Tt5AQwM4LUY8BUuQZoavfb1dXdEWK7r1mEnT7tuk",
-  "3EN7bbDiAagmhg22AyhQdWruo1iEmioAJpRpC1o3QKnUxhu821TGN8x7nUU2DMC1gquusd3x7ar4aE9TseLcA9Yk"
+  "3EN7bbDiAagmhg22AyhQdWruo1iEmioAJpRpC1o3QKnUxhu821TGN8x7nUU2DMC1gquusd3x7ar4aE9TseLcA9Yk",
+  "62qjyNmyVZpdUMe43nJniUdqh94cSMsCj6eiQa4Ut8uDJpUU7hYemuZETrFFBDjAB2TC7r1tWbpJ4TWv9nkNnm7A"
  ],
- "checked": 1792635414.0329244
+ "checked": 1792635417.293901
 }
