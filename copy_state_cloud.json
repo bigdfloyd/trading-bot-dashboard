@@ -2,7 +2,7 @@
  "started": 1792593138.262912,
  "ends": 1792852338.262912,
  "cursor": {
-  "Numerooo0:solana": "5WRY85u5sRmJKMpVrthZLH5KA66dTeVtSNsMz9ppnz16NgKbMdmv98Kp7P5PARD3fooedUkWXzXq8qLfHDNEqpm9"
+  "Numerooo0:solana": "Hzqg3AFKY4wZKAkawZ8Cb8bVDZHgAMpND1NrM2iNMB2KsZLfXwtgxmrABaWvNGUbvrwygk39TMPcDptDAuUnkxG"
  },
  "open": {
   "Numerooo0:solana:58eo3pKwDZ2GKT2XvRumuns6RustWyvqtgfyubA3kYAJ": {
@@ -16,9 +16,9 @@
    "qty": 3007785.6126772417,
    "cost": 400.0,
    "opened": 1792635408.1359124,
-   "price": 8.26e-05,
-   "mcap": 79959,
-   "value": 248.44309160714016
+   "price": 7.356e-05,
+   "mcap": 71209,
+   "value": 221.25270966853788
   },
   "Numerooo0:solana:7egV4drrfk7MjeirV1BmHLyWR7LBuyeHKY7y6EnNpump": {
    "id": "Numerooo0:solana:7egV4drrfk7MjeirV1BmHLyWR7LBuyeHKY7y6EnNpump",
@@ -46,9 +46,9 @@
    "qty": 84068.93652795292,
    "cost": 200.0,
    "opened": 1792647940.9118125,
-   "price": 0.00237,
-   "mcap": 1849760,
-   "value": 199.24337957124843
+   "price": 0.002373,
+   "mcap": 1852154,
+   "value": 199.49558638083226
   },
   "Numerooo0:solana:CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp": {
    "id": "Numerooo0:solana:CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
@@ -62,7 +62,7 @@
    "cost": 100.0,
    "opened": 1792648855.2874346,
    "price": 0.3344,
-   "mcap": 301881347,
+   "mcap": 301887862,
    "value": 99.34640522875817
   }
  },
@@ -2029,6 +2029,10 @@
   [
    1792679258,
    1289.68
+  ],
+  [
+   1792679563,
+   1262.74
   ]
  ],
  "prices": {},
@@ -2242,7 +2246,8 @@
   "2ZqG6DHDLQcJAUeg4Uz6SWcmV89i5iYDuvi842XwGgrizWXfAyioXp45SEZyommEbCuZHG6W22jGfbQWpGiAFt6V",
   "z8Pe784sZavAyQgEjdrNfc5Bayr6om7Dv1B3nqQQYHDV3se3s5GmEgXWeGo5XGpqmciToyYtYrmswHyXSS2iWeu",
   "3EH9WTMgZvKNfaTDstaDRH3xPN4AkVAVu11XtZLb2MdzUbyG4MFiM7XYkk3D3xhoawvk1uNb39WBSWGLQ7nuJ34E",
-  "5WRY85u5sRmJKMpVrthZLH5KA66dTeVtSNsMz9ppnz16NgKbMdmv98Kp7P5PARD3fooedUkWXzXq8qLfHDNEqpm9"
+  "5WRY85u5sRmJKMpVrthZLH5KA66dTeVtSNsMz9ppnz16NgKbMdmv98Kp7P5PARD3fooedUkWXzXq8qLfHDNEqpm9",
+  "Hzqg3AFKY4wZKAkawZ8Cb8bVDZHgAMpND1NrM2iNMB2KsZLfXwtgxmrABaWvNGUbvrwygk39TMPcDptDAuUnkxG"
  ],
- "checked": 1792679257.7531617
+ "checked": 1792679563.4574225
 }
