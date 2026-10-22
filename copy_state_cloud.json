@@ -2,7 +2,7 @@
  "started": 1792593138.262912,
  "ends": 1792852338.262912,
  "cursor": {
-  "Numerooo0:solana": "2Mjgmhsyv3MXMyQsBhJxXgduhgkYjcVT2pXCjYJBwJBDLySBRJnjFXRSkZpJsKcSDDJtvPCieFcxdFz72T3izL8G"
+  "Numerooo0:solana": "5sVcYjRi8nv3fFJpFe4ccpaVP7qBNWEg2tZaZXXrmccXnMH169LsDrwf5uQEronzxPKaqtNygEfcXZXfRmuZ2wkG"
  },
  "open": {
   "Numerooo0:solana:TTWofwAge91oFhZs7kpQdyrVRkmevgM88xijGvQFbKo": {
@@ -725,6 +725,10 @@
   [
    1792631701,
    397.95
+  ],
+  [
+   1792631839,
+   397.95
   ]
  ],
  "prices": {},
@@ -816,5 +820,5 @@
   "2Mjgmhsyv3MXMyQsBhJxXgduhgkYjcVT2pXCjYJBwJBDLySBRJnjFXRSkZpJsKcSDDJtvPCieFcxdFz72T3izL8G",
   "5sVcYjRi8nv3fFJpFe4ccpaVP7qBNWEg2tZaZXXrmccXnMH169LsDrwf5uQEronzxPKaqtNygEfcXZXfRmuZ2wkG"
  ],
- "checked": 1792631700.711977
+ "checked": 1792631838.9413223
 }
