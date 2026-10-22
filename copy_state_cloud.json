@@ -34,6 +34,21 @@
    "price": 0.0001399,
    "mcap": 135497,
    "value": 301.72537742631204
+  },
+  "Numerooo0:solana:7egV4drrfk7MjeirV1BmHLyWR7LBuyeHKY7y6EnNpump": {
+   "id": "Numerooo0:solana:7egV4drrfk7MjeirV1BmHLyWR7LBuyeHKY7y6EnNpump",
+   "trader": "Numerooo0",
+   "chain": "solana",
+   "coin": "7egV4drrfk7MjeirV1BmHLyWR7LBuyeHKY7y6EnNpump",
+   "sym": "7egV\u2026",
+   "name": "",
+   "img": "",
+   "qty": 3223369.820420999,
+   "cost": 100.0,
+   "opened": 1792635576.0745842,
+   "price": 0.0,
+   "mcap": 0,
+   "value": 0.0
   }
  },
  "closed": [
@@ -191,6 +206,21 @@
    "mcap": 134672,
    "leader_usd": 92.6,
    "sig": "62qjyNmyVZpdUMe43nJniUdqh94cSMsCj6eiQa4Ut8uDJpUU7hYemuZETrFFBDjAB2TC7r1tWbpJ4TWv9nkNnm7A"
+  },
+  {
+   "t": 1792635576.0745842,
+   "leader_t": 1792635569,
+   "trader": "Numerooo0",
+   "chain": "solana",
+   "coin": "7egV4drrfk7MjeirV1BmHLyWR7LBuyeHKY7y6EnNpump",
+   "sym": "7egV\u2026",
+   "img": "",
+   "side": "buy",
+   "usd": 100.0,
+   "price": 3.1023433726552406e-05,
+   "mcap": 0,
+   "leader_usd": 100.0,
+   "sig": "4ynaUX3VvtPhnE7QNevpFMZwVEUT6SDL9xXpUTJXDVmzcDQbkryNdRh9Li9ZB6yfLG8o6jzu76yKpQ5ZShSCEdrC"
   }
  ],
  "skipped": [
@@ -942,6 +972,10 @@
   [
    1792635572,
    872.23
+  ],
+  [
+   1792635576,
+   872.23
   ]
  ],
  "prices": {},
@@ -1044,7 +1078,8 @@
   "3Wcu5pgYVqc3EmGRY8Kw3nFL2FfoXQ3gKTa9vixT59qEsVb4Tt5AQwM4LUY8BUuQZoavfb1dXdEWK7r1mEnT7tuk",
   "3EN7bbDiAagmhg22AyhQdWruo1iEmioAJpRpC1o3QKnUxhu821TGN8x7nUU2DMC1gquusd3x7ar4aE9TseLcA9Yk",
   "62qjyNmyVZpdUMe43nJniUdqh94cSMsCj6eiQa4Ut8uDJpUU7hYemuZETrFFBDjAB2TC7r1tWbpJ4TWv9nkNnm7A",
-  "2A2g8Qe7cDw498wbSD8chJ78eMKddrwJGFV7paKbdDC6vAXnUycN7M3zrb7SRYQBxSJzZogaFecM996Zi16yoGaZ"
+  "2A2g8Qe7cDw498wbSD8chJ78eMKddrwJGFV7paKbdDC6vAXnUycN7M3zrb7SRYQBxSJzZogaFecM996Zi16yoGaZ",
+  "4ynaUX3VvtPhnE7QNevpFMZwVEUT6SDL9xXpUTJXDVmzcDQbkryNdRh9Li9ZB6yfLG8o6jzu76yKpQ5ZShSCEdrC"
  ],
- "checked": 1792635572.3847618
+ "checked": 1792635576.0745842
 }
