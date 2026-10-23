@@ -73,12 +73,12 @@
    "sym": "NOX",
    "name": "NoxApp",
    "img": "https://cdn.dexscreener.com/cms/images/ymgvlvQc5I1VCBLz?width=800&height=800&quality=95&format=auto",
-   "qty": 624609.6189881325,
-   "cost": 200.0,
+   "qty": 936914.4284821986,
+   "cost": 300.0,
    "opened": 1792724748.2663324,
    "price": 0.0003202,
    "mcap": 320288,
-   "value": 200.0
+   "value": 300.0
   }
  },
  "closed": [
@@ -452,6 +452,21 @@
    "mcap": 320288,
    "leader_usd": 1506.72,
    "sig": "3Ves1CNYm3R492dat8t3ntfoaJfKiZHJkZpuLMwYGDk94n2JkVJdbFmTC7vZxVSpSNZVVUxBpBx7rb3fR9PJq8Hc"
+  },
+  {
+   "t": 1792724776.0143397,
+   "leader_t": 1792724775,
+   "trader": "Numerooo0",
+   "chain": "solana",
+   "coin": "Hht3ozgbgvBsoD6h1fgDzfrViWvf5tQuLqJcUptwAq4z",
+   "sym": "NOX",
+   "img": "https://cdn.dexscreener.com/cms/images/ymgvlvQc5I1VCBLz?width=800&height=800&quality=95&format=auto",
+   "side": "buy",
+   "usd": 100.0,
+   "price": 0.0003202,
+   "mcap": 320288,
+   "leader_usd": 1352.19,
+   "sig": "4kK2RCemvQxUQm64fjDHkpj8igiJpHECvthW7ZDiV865Tqodr5FSnC7ih4ykRFCRVTm2cG4EcqsCquuFuud3NfpU"
   }
  ],
  "skipped": [
@@ -2729,6 +2744,10 @@
   [
    1792724766,
    1456.5
+  ],
+  [
+   1792724776,
+   1556.5
   ]
  ],
  "prices": {},
@@ -2988,7 +3007,8 @@
   "E93f9PgPNafJSsNkZePnmsadP593pefsMpSzRKJwwjQu7eLUU41C1AJD2G2ePpFW7JDbmsiFK7WKgseS436ANbf",
   "59ZffJMjdAhnnH4uSwi5QAj96cZcafAJcieyvL974GaxcT5bAmD8AwiXteptdqPDrbhBEeKTAFK3qkfEWig3mh2L",
   "4zbnjjvNcuywgF68ipJtrkzwPxAX2t2i2eYSZKw6LyBBCa1RBtrvoG7sq8CbUvnqZM9DyevSCpGuyiZz5Ej6e4gs",
-  "3Ves1CNYm3R492dat8t3ntfoaJfKiZHJkZpuLMwYGDk94n2JkVJdbFmTC7vZxVSpSNZVVUxBpBx7rb3fR9PJq8Hc"
+  "3Ves1CNYm3R492dat8t3ntfoaJfKiZHJkZpuLMwYGDk94n2JkVJdbFmTC7vZxVSpSNZVVUxBpBx7rb3fR9PJq8Hc",
+  "4kK2RCemvQxUQm64fjDHkpj8igiJpHECvthW7ZDiV865Tqodr5FSnC7ih4ykRFCRVTm2cG4EcqsCquuFuud3NfpU"
  ],
- "checked": 1792724765.5048037
+ "checked": 1792724776.0143397
 }
