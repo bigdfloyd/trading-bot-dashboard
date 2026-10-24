@@ -62,7 +62,7 @@
    "cost": 200.0,
    "opened": 1792648855.2874346,
    "price": 0.3367,
-   "mcap": 298316674,
+   "mcap": 298330222,
    "value": 195.30418536710357
   },
   "Numerooo0:solana:Hht3ozgbgvBsoD6h1fgDzfrViWvf5tQuLqJcUptwAq4z": {
@@ -76,9 +76,24 @@
    "qty": 1601358.7310069012,
    "cost": 600.0,
    "opened": 1792724748.2663324,
-   "price": 0.0003711,
-   "mcap": 371140,
-   "value": 594.2642250766611
+   "price": 0.000369,
+   "mcap": 369010,
+   "value": 590.9013717415467
+  },
+  "Numerooo0:solana:8WRdyRqn2GeAxNb5MpGqHytXTD1MHEiTewbadR5hpump": {
+   "id": "Numerooo0:solana:8WRdyRqn2GeAxNb5MpGqHytXTD1MHEiTewbadR5hpump",
+   "trader": "Numerooo0",
+   "chain": "solana",
+   "coin": "8WRdyRqn2GeAxNb5MpGqHytXTD1MHEiTewbadR5hpump",
+   "sym": "KURIBO",
+   "name": "KuriboCoin",
+   "img": "https://cdn.dexscreener.com/cms/images/hZZk_uXoiizSPTAB?width=800&height=800&quality=95&format=auto",
+   "qty": 480076.8122899664,
+   "cost": 100.0,
+   "opened": 1792800459.2132468,
+   "price": 0.0002083,
+   "mcap": 203358,
+   "value": 100.0
   }
  },
  "closed": [
@@ -512,6 +527,21 @@
    "mcap": 430450,
    "leader_usd": 1033.46,
    "sig": "4Q9A8Wqvdv9EtRsacvbamyaaPr3DEw3Nhn5gn2aM2boKxpeDJiFRxEAsuJahgDWPQprZPYPwAqzgpqW2VErAwfpe"
+  },
+  {
+   "t": 1792800459.2132468,
+   "leader_t": 1792800458,
+   "trader": "Numerooo0",
+   "chain": "solana",
+   "coin": "8WRdyRqn2GeAxNb5MpGqHytXTD1MHEiTewbadR5hpump",
+   "sym": "KURIBO",
+   "img": "https://cdn.dexscreener.com/cms/images/hZZk_uXoiizSPTAB?width=800&height=800&quality=95&format=auto",
+   "side": "buy",
+   "usd": 100.0,
+   "price": 0.0002083,
+   "mcap": 203358,
+   "leader_usd": 1024.69,
+   "sig": "5EbN3kY2rjGaZkc1yELFs5yNU2YpxTGCWpTje7KwoUnWX9ubRscKHX3jAUu7baxnQ8SUykudQPrGCeJASPzP1LQk"
   }
  ],
  "skipped": [
@@ -3817,6 +3847,10 @@
   [
    1792800311,
    1756.56
+  ],
+  [
+   1792800459,
+   1853.19
   ]
  ],
  "prices": {},
@@ -4090,7 +4124,8 @@
   "4Q9A8Wqvdv9EtRsacvbamyaaPr3DEw3Nhn5gn2aM2boKxpeDJiFRxEAsuJahgDWPQprZPYPwAqzgpqW2VErAwfpe",
   "5ZhVRjDkZkkFUWHQ3DwG8xVkgYreWxxfWTgd9NMtjrFfsU8z5AoyXDYWXwhqorpVeabzmcaXtYKCeDfkaT5kh4UE",
   "2DqCx1tyRTojy6aAnYCfbxYRsVRMdQTF9KonLvwAXLdZbpsxRFsE7b9dAk9L48zP55zRTE9o7z9F64GtsdH8jU6U",
-  "aefAeiTDXZC1Tksvgd9L6oLrV9pYE941NVfac8c3wxYzdHpPwDsx7Pz2p3XZq8kptM7UD6xiGGNPPHboSHdsNbP"
+  "aefAeiTDXZC1Tksvgd9L6oLrV9pYE941NVfac8c3wxYzdHpPwDsx7Pz2p3XZq8kptM7UD6xiGGNPPHboSHdsNbP",
+  "5EbN3kY2rjGaZkc1yELFs5yNU2YpxTGCWpTje7KwoUnWX9ubRscKHX3jAUu7baxnQ8SUykudQPrGCeJASPzP1LQk"
  ],
- "checked": 1792800311.0892155
+ "checked": 1792800459.2132468
 }
