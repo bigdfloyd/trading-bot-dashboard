@@ -16,9 +16,9 @@
    "qty": 3007785.6126772417,
    "cost": 400.0,
    "opened": 1792635408.1359124,
-   "price": 3.308e-05,
-   "mcap": 32027,
-   "value": 99.49754806736316
+   "price": 3.282e-05,
+   "mcap": 31777,
+   "value": 98.71552380806708
   },
   "Numerooo0:solana:7egV4drrfk7MjeirV1BmHLyWR7LBuyeHKY7y6EnNpump": {
    "id": "Numerooo0:solana:7egV4drrfk7MjeirV1BmHLyWR7LBuyeHKY7y6EnNpump",
@@ -76,9 +76,9 @@
    "qty": 1601358.7310069012,
    "cost": 600.0,
    "opened": 1792724748.2663324,
-   "price": 0.0004053,
-   "mcap": 405324,
-   "value": 649.030693677097
+   "price": 0.0003995,
+   "mcap": 399594,
+   "value": 639.7428130372571
   },
   "Numerooo0:solana:FUMMypMwEQqvx2zNXBA5gororx5nEjPtV9WUPxN8kRuu": {
    "id": "Numerooo0:solana:FUMMypMwEQqvx2zNXBA5gororx5nEjPtV9WUPxN8kRuu",
@@ -91,9 +91,9 @@
    "qty": 4908985.025007072,
    "cost": 500.0,
    "opened": 1792801784.9267616,
-   "price": 0.0002336,
-   "mcap": 222210,
-   "value": 1146.738901841652
+   "price": 0.0002513,
+   "mcap": 239046,
+   "value": 1233.6279367842772
   },
   "Numerooo0:solana:AtCe7TaMEkzC9XaHshBBmiqVJo7dGwbi5VtVY9BSpump": {
    "id": "Numerooo0:solana:AtCe7TaMEkzC9XaHshBBmiqVJo7dGwbi5VtVY9BSpump",
@@ -106,6 +106,21 @@
    "qty": 5182107.6021696,
    "cost": 100.0,
    "opened": 1792803721.2727082,
+   "price": 0.0,
+   "mcap": 0,
+   "value": 0.0
+  },
+  "Numerooo0:solana:6i4B8yhrLgawaGRJbkBKugLwpuRzoSTSCLneLytopump": {
+   "id": "Numerooo0:solana:6i4B8yhrLgawaGRJbkBKugLwpuRzoSTSCLneLytopump",
+   "trader": "Numerooo0",
+   "chain": "solana",
+   "coin": "6i4B8yhrLgawaGRJbkBKugLwpuRzoSTSCLneLytopump",
+   "sym": "6i4B\u2026",
+   "name": "",
+   "img": "",
+   "qty": 4856257.1506348,
+   "cost": 100.0,
+   "opened": 1792805004.5476174,
    "price": 0.0,
    "mcap": 0,
    "value": 0.0
@@ -758,6 +773,21 @@
    "mcap": 0,
    "leader_usd": 500.0,
    "sig": "3iT1dfCBnrLbXGbWmvkV5o5N6Rhdcrgx7c3B3Fa7ZjpkXKKTemkkLhtkgTD7uHifBtuFHJohMt23S1ebMbcqMsC4"
+  },
+  {
+   "t": 1792805004.5476174,
+   "leader_t": 1792805003,
+   "trader": "Numerooo0",
+   "chain": "solana",
+   "coin": "6i4B8yhrLgawaGRJbkBKugLwpuRzoSTSCLneLytopump",
+   "sym": "6i4B\u2026",
+   "img": "",
+   "side": "buy",
+   "usd": 100.0,
+   "price": 2.0591990271134675e-05,
+   "mcap": 0,
+   "leader_usd": 500.0,
+   "sig": "5AJGjm9ECHRhHiT7HXtGLcBsh6zXUFsYLpawc9r6prtkdeJmbkchAXscQuJydAYBv5nDAydAU3yf6sBgbrSbENTd"
   }
  ],
  "skipped": [
@@ -4182,6 +4212,10 @@
   [
    1792804931,
    3313.08
+  ],
+  [
+   1792805005,
+   3389.9
   ]
  ],
  "prices": {},
@@ -4468,7 +4502,8 @@
   "4Ma5h3C9ZsMPR2Th9eKdKavXTvbMh91CREojCcbVhf3GKELVakkvqwyDJadkr15ojJv8PF2BW2CEKbHHBtYN2sdz",
   "4ethM2EwiWetHuzGJCtuynxurSv7eLWnRFFhn5uawSNToEooTHAke2mUxR6jmEoA2jBLMBFnRA32VC1aKCeqRhk3",
   "nc7BYATgur4G4BLJaS4B9MjLEL6DMyjYtehJoEnRhdYTAtYujAqkQSzddN8xu5W6yxQRzY8Z2eFTjgsgjFVUiej",
-  "3iT1dfCBnrLbXGbWmvkV5o5N6Rhdcrgx7c3B3Fa7ZjpkXKKTemkkLhtkgTD7uHifBtuFHJohMt23S1ebMbcqMsC4"
+  "3iT1dfCBnrLbXGbWmvkV5o5N6Rhdcrgx7c3B3Fa7ZjpkXKKTemkkLhtkgTD7uHifBtuFHJohMt23S1ebMbcqMsC4",
+  "5AJGjm9ECHRhHiT7HXtGLcBsh6zXUFsYLpawc9r6prtkdeJmbkchAXscQuJydAYBv5nDAydAU3yf6sBgbrSbENTd"
  ],
- "checked": 1792804931.1648905
+ "checked": 1792805004.5476174
 }
