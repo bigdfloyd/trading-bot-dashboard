@@ -46,9 +46,9 @@
    "qty": 84068.93652795292,
    "cost": 200.0,
    "opened": 1792647940.9118125,
-   "price": 0.001683,
-   "mcap": 1312811,
-   "value": 141.48802017654475
+   "price": 0.001638,
+   "mcap": 1277456,
+   "value": 137.70491803278688
   },
   "Numerooo0:solana:CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp": {
    "id": "Numerooo0:solana:CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
@@ -62,7 +62,7 @@
    "cost": 200.0,
    "opened": 1792648855.2874346,
    "price": 0.364,
-   "mcap": 322529861,
+   "mcap": 322531004,
    "value": 211.1396598563282
   },
   "Numerooo0:solana:Hht3ozgbgvBsoD6h1fgDzfrViWvf5tQuLqJcUptwAq4z": {
@@ -76,9 +76,9 @@
    "qty": 1601358.7310069012,
    "cost": 600.0,
    "opened": 1792724748.2663324,
-   "price": 0.0003982,
-   "mcap": 398265,
-   "value": 637.661046686948
+   "price": 0.0003801,
+   "mcap": 380188,
+   "value": 608.6764536557232
   },
   "Numerooo0:solana:FUMMypMwEQqvx2zNXBA5gororx5nEjPtV9WUPxN8kRuu": {
    "id": "Numerooo0:solana:FUMMypMwEQqvx2zNXBA5gororx5nEjPtV9WUPxN8kRuu",
@@ -91,9 +91,9 @@
    "qty": 4908985.025007072,
    "cost": 500.0,
    "opened": 1792801784.9267616,
-   "price": 0.0002424,
-   "mcap": 230556,
-   "value": 1189.9379700617142
+   "price": 0.000164,
+   "mcap": 156055,
+   "value": 805.0735441011598
   },
   "Numerooo0:solana:AtCe7TaMEkzC9XaHshBBmiqVJo7dGwbi5VtVY9BSpump": {
    "id": "Numerooo0:solana:AtCe7TaMEkzC9XaHshBBmiqVJo7dGwbi5VtVY9BSpump",
@@ -121,9 +121,9 @@
    "qty": 4856257.1506348,
    "cost": 100.0,
    "opened": 1792805004.5476174,
-   "price": 9.261e-06,
-   "mcap": 9261,
-   "value": 44.973797472028885
+   "price": 3.346e-06,
+   "mcap": 3347,
+   "value": 16.24903642602404
   }
  },
  "closed": [
@@ -4224,6 +4224,10 @@
   [
    1792805541,
    3392.75
+  ],
+  [
+   1792805846,
+   2946.39
   ]
  ],
  "prices": {},
@@ -4513,5 +4517,5 @@
   "3iT1dfCBnrLbXGbWmvkV5o5N6Rhdcrgx7c3B3Fa7ZjpkXKKTemkkLhtkgTD7uHifBtuFHJohMt23S1ebMbcqMsC4",
   "5AJGjm9ECHRhHiT7HXtGLcBsh6zXUFsYLpawc9r6prtkdeJmbkchAXscQuJydAYBv5nDAydAU3yf6sBgbrSbENTd"
  ],
- "checked": 1792805541.1443794
+ "checked": 1792805845.7832522
 }
