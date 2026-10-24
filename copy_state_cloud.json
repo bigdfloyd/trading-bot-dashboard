@@ -2,7 +2,7 @@
  "started": 1792593138.262912,
  "ends": 1792852338.262912,
  "cursor": {
-  "Numerooo0:solana": "5Sdry7iPbGkgedW3VDTuqzDrkhgWVWvzRUCz8NN3AYsr6LwiVmwKvZ9LoQYWQcvbxEQgFD9MPhu2Ct7LZj1dMDa2"
+  "Numerooo0:solana": "4c1K7own6EojxLHRaDkVtQzXgwpdE8kZdP5YMf1tNScQCrhhNCGcM5XVB1C8dZPDqjPhfPaw3tFLd7BC9yv4SUzT"
  },
  "open": {
   "Numerooo0:solana:CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp": {
@@ -16,9 +16,9 @@
    "qty": 1698.1565776476518,
    "cost": 600.0,
    "opened": 1792648855.2874346,
-   "price": 0.3167,
-   "mcap": 280592189,
-   "value": 537.8061881410113
+   "price": 0.3185,
+   "mcap": 282220609,
+   "value": 540.8628699807771
   },
   "Numerooo0:solana:Hht3ozgbgvBsoD6h1fgDzfrViWvf5tQuLqJcUptwAq4z": {
    "id": "Numerooo0:solana:Hht3ozgbgvBsoD6h1fgDzfrViWvf5tQuLqJcUptwAq4z",
@@ -31,9 +31,9 @@
    "qty": 1601358.7310069012,
    "cost": 600.0,
    "opened": 1792724748.2663324,
-   "price": 0.000267,
-   "mcap": 267052,
-   "value": 427.5627811788426
+   "price": 0.0002703,
+   "mcap": 270356,
+   "value": 432.84726499116545
   }
  },
  "closed": [
@@ -1268,6 +1268,37 @@
    "coin": "AcsdEAts1wWTW3wXCs96L33PPovrDiymT1hf8sY5pump",
    "chain": "solana",
    "sym": "BIBI",
+   "why": "after the 3 days, no new buys"
+  },
+  {
+   "t": 1792879839.2784262,
+   "trader": "Numerooo0",
+   "coin": "92a7oRhNyhq2McpHdZZZN6MWzMXqzMz2kN2husWcpump",
+   "chain": "solana",
+   "why": "no price found"
+  },
+  {
+   "t": 1792879839.2784262,
+   "trader": "Numerooo0",
+   "coin": "92a7oRhNyhq2McpHdZZZN6MWzMXqzMz2kN2husWcpump",
+   "chain": "solana",
+   "sym": "92a7\u2026",
+   "why": "after the 3 days, no new buys"
+  },
+  {
+   "t": 1792879839.2784262,
+   "trader": "Numerooo0",
+   "coin": "92a7oRhNyhq2McpHdZZZN6MWzMXqzMz2kN2husWcpump",
+   "chain": "solana",
+   "sym": "92a7\u2026",
+   "why": "after the 3 days, no new buys"
+  },
+  {
+   "t": 1792879839.2784262,
+   "trader": "Numerooo0",
+   "coin": "92a7oRhNyhq2McpHdZZZN6MWzMXqzMz2kN2husWcpump",
+   "chain": "solana",
+   "sym": "92a7\u2026",
    "why": "after the 3 days, no new buys"
   }
  ],
@@ -5895,6 +5926,10 @@
   [
    1792879533,
    3114.04
+  ],
+  [
+   1792879839,
+   3122.38
   ]
  ],
  "prices": {},
@@ -6267,7 +6302,12 @@
   "5pmAm6sSmD8BhSGfKJymY8eG3DLjyRfdq91qQNw3SRV6SNPrGNxfnUieQeXTGYiBd8CN2hhbrJQQ9najnWARB7Hg",
   "5h53g4LRzW8WqasnNpkdiW15gWEsnFdWUrQewtGwoFUVKguoQvU7aJzTbzNscAVMZHXBCokdr8aq6rMDXsqTEMzi",
   "4QoBR84iadz4FAo9N5dU56ijsf3BJNnukwffjFS3Xdt7VmWddftsfUUXSRkkgXHZ6Y8XCGzc6UHnjWd73xTej5Rj",
-  "5Sdry7iPbGkgedW3VDTuqzDrkhgWVWvzRUCz8NN3AYsr6LwiVmwKvZ9LoQYWQcvbxEQgFD9MPhu2Ct7LZj1dMDa2"
+  "5Sdry7iPbGkgedW3VDTuqzDrkhgWVWvzRUCz8NN3AYsr6LwiVmwKvZ9LoQYWQcvbxEQgFD9MPhu2Ct7LZj1dMDa2",
+  "44jLzRpQPWdLNwfbpTawA1bBeRk2WShA5iA2KC7w58nS1PaWqeAJDXXpcdd1wG2AG9ud57WUtHdWvakMc4PVFubM",
+  "wqSRLxT6zfkxL6NFPaU2UoMiCytMpGpo8hECjuyp3XfkaLvxrCgwPCUGvekQGJDptVyjKykWmkhyiq6TAsCq1du",
+  "67nQN4aJWXwJgo1KXvfoHZRWiEj9ZWR76NMH3WXdWsy9RmoVxDADpWwsacUmLMCJ5L1XSw7X7uwyiumetvky7y1H",
+  "oxWzfwrd85SkNuuuXUULV7867NcBuBVynNwhNgcESUD5Si4BHMCPfk8awyLf8t4HuEQ6eLXtagogifopoCLnek6",
+  "4c1K7own6EojxLHRaDkVtQzXgwpdE8kZdP5YMf1tNScQCrhhNCGcM5XVB1C8dZPDqjPhfPaw3tFLd7BC9yv4SUzT"
  ],
- "checked": 1792879532.535353
+ "checked": 1792879839.2784262
 }
