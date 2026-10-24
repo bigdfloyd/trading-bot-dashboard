@@ -16,9 +16,9 @@
    "qty": 3007785.6126772417,
    "cost": 400.0,
    "opened": 1792635408.1359124,
-   "price": 3.286e-05,
-   "mcap": 31813,
-   "value": 98.83583523257417
+   "price": 3.262e-05,
+   "mcap": 31580,
+   "value": 98.11396668553164
   },
   "Numerooo0:solana:7egV4drrfk7MjeirV1BmHLyWR7LBuyeHKY7y6EnNpump": {
    "id": "Numerooo0:solana:7egV4drrfk7MjeirV1BmHLyWR7LBuyeHKY7y6EnNpump",
@@ -61,9 +61,9 @@
    "qty": 580.0540105943082,
    "cost": 200.0,
    "opened": 1792648855.2874346,
-   "price": 0.336,
-   "mcap": 297721758,
-   "value": 194.89814755968757
+   "price": 0.3359,
+   "mcap": 297645063,
+   "value": 194.8401421586281
   },
   "Numerooo0:solana:Hht3ozgbgvBsoD6h1fgDzfrViWvf5tQuLqJcUptwAq4z": {
    "id": "Numerooo0:solana:Hht3ozgbgvBsoD6h1fgDzfrViWvf5tQuLqJcUptwAq4z",
@@ -76,9 +76,9 @@
    "qty": 1601358.7310069012,
    "cost": 600.0,
    "opened": 1792724748.2663324,
-   "price": 0.0003759,
-   "mcap": 375955,
-   "value": 601.9507469854941
+   "price": 0.0004099,
+   "mcap": 409909,
+   "value": 656.3969438397288
   },
   "Numerooo0:solana:8WRdyRqn2GeAxNb5MpGqHytXTD1MHEiTewbadR5hpump": {
    "id": "Numerooo0:solana:8WRdyRqn2GeAxNb5MpGqHytXTD1MHEiTewbadR5hpump",
@@ -91,9 +91,24 @@
    "qty": 904525.0296074536,
    "cost": 200.0,
    "opened": 1792800459.2132468,
-   "price": 0.0002817,
-   "mcap": 275044,
-   "value": 254.8047008404197
+   "price": 0.0002964,
+   "mcap": 289389,
+   "value": 268.1012187756493
+  },
+  "Numerooo0:solana:FUMMypMwEQqvx2zNXBA5gororx5nEjPtV9WUPxN8kRuu": {
+   "id": "Numerooo0:solana:FUMMypMwEQqvx2zNXBA5gororx5nEjPtV9WUPxN8kRuu",
+   "trader": "Numerooo0",
+   "chain": "solana",
+   "coin": "FUMMypMwEQqvx2zNXBA5gororx5nEjPtV9WUPxN8kRuu",
+   "sym": "ELON",
+   "name": "Elon Coin",
+   "img": "",
+   "qty": 1436162.573603332,
+   "cost": 100.0,
+   "opened": 1792801784.9267616,
+   "price": 6.963e-05,
+   "mcap": 69630,
+   "value": 100.0
   }
  },
  "closed": [
@@ -620,6 +635,21 @@
    "pnl": 0.0,
    "frac": 1.0,
    "sig": "3Vnj7nzHiTCKGDGGQ76DrWESqBm3MaTVJQQis3efqyJwRrHJmGtoJ9R2U1xARJNATe1SXD7M21S6Z1aKo2sYvbt2"
+  },
+  {
+   "t": 1792801784.9267616,
+   "leader_t": 1792801784,
+   "trader": "Numerooo0",
+   "chain": "solana",
+   "coin": "FUMMypMwEQqvx2zNXBA5gororx5nEjPtV9WUPxN8kRuu",
+   "sym": "ELON",
+   "img": "",
+   "side": "buy",
+   "usd": 100.0,
+   "price": 6.963e-05,
+   "mcap": 69630,
+   "leader_usd": 817.48,
+   "sig": "3DWB6preagUnYLWSu9JZxZUZ63wjqGLPXMT7pD5R5uud7rnADkD2LxATW5NrNSY1V6zv8robaSDjReVftdv115DY"
   }
  ],
  "skipped": [
@@ -3961,6 +3991,10 @@
   [
    1792801663,
    2228.99
+  ],
+  [
+   1792801785,
+   2395.96
   ]
  ],
  "prices": {},
@@ -4239,7 +4273,8 @@
   "ExoSWcXCQpFaEb4pVaXqd3ziS1zjBX46oyXJmPJZ7Bc1ivPVNHWHUS5fbmfA7H4Ma8y5bKxaQvHWJu8oLvg78fm",
   "3xcPbsZAdpzcbdwjtZa5pHHapNME4z6YqMYs95yWZT416zPbPRDXWof55Ghf7dH5EYTgkQ3tDxNuKsg7Z92RWmQ2",
   "419u2R8ygdD1dkLiwe4QNzJVGuuzZ3Evu4SMWXHm8XcFoG8cefsquUKvzhWhp3WKDkfgzZTsV7zeQ5QDbn6JUbRg",
-  "3Vnj7nzHiTCKGDGGQ76DrWESqBm3MaTVJQQis3efqyJwRrHJmGtoJ9R2U1xARJNATe1SXD7M21S6Z1aKo2sYvbt2"
+  "3Vnj7nzHiTCKGDGGQ76DrWESqBm3MaTVJQQis3efqyJwRrHJmGtoJ9R2U1xARJNATe1SXD7M21S6Z1aKo2sYvbt2",
+  "3DWB6preagUnYLWSu9JZxZUZ63wjqGLPXMT7pD5R5uud7rnADkD2LxATW5NrNSY1V6zv8robaSDjReVftdv115DY"
  ],
- "checked": 1792801663.317457
+ "checked": 1792801784.9267616
 }
