@@ -61,9 +61,9 @@
    "qty": 580.0540105943082,
    "cost": 200.0,
    "opened": 1792648855.2874346,
-   "price": 0.3372,
-   "mcap": 298768023,
-   "value": 195.59421237240073
+   "price": 0.3492,
+   "mcap": 309358648,
+   "value": 202.55486049953245
   },
   "Numerooo0:solana:Hht3ozgbgvBsoD6h1fgDzfrViWvf5tQuLqJcUptwAq4z": {
    "id": "Numerooo0:solana:Hht3ozgbgvBsoD6h1fgDzfrViWvf5tQuLqJcUptwAq4z",
@@ -76,24 +76,9 @@
    "qty": 1601358.7310069012,
    "cost": 600.0,
    "opened": 1792724748.2663324,
-   "price": 0.0004043,
-   "mcap": 404312,
-   "value": 647.4293349460902
-  },
-  "Numerooo0:solana:8WRdyRqn2GeAxNb5MpGqHytXTD1MHEiTewbadR5hpump": {
-   "id": "Numerooo0:solana:8WRdyRqn2GeAxNb5MpGqHytXTD1MHEiTewbadR5hpump",
-   "trader": "Numerooo0",
-   "chain": "solana",
-   "coin": "8WRdyRqn2GeAxNb5MpGqHytXTD1MHEiTewbadR5hpump",
-   "sym": "KURIBO",
-   "name": "KuriboCoin",
-   "img": "https://cdn.dexscreener.com/cms/images/hZZk_uXoiizSPTAB?width=800&height=800&quality=95&format=auto",
-   "qty": 904525.0296074536,
-   "cost": 200.0,
-   "opened": 1792800459.2132468,
-   "price": 0.0002003,
-   "mcap": 195523,
-   "value": 181.17636343037296
+   "price": 0.0004146,
+   "mcap": 414698,
+   "value": 663.9233298754613
   },
   "Numerooo0:solana:FUMMypMwEQqvx2zNXBA5gororx5nEjPtV9WUPxN8kRuu": {
    "id": "Numerooo0:solana:FUMMypMwEQqvx2zNXBA5gororx5nEjPtV9WUPxN8kRuu",
@@ -106,9 +91,9 @@
    "qty": 4908985.025007072,
    "cost": 500.0,
    "opened": 1792801784.9267616,
-   "price": 0.0001927,
-   "mcap": 192753,
-   "value": 945.9614143188627
+   "price": 0.0002219,
+   "mcap": 221980,
+   "value": 1089.3037770490694
   }
  },
  "closed": [
@@ -179,6 +164,23 @@
    "value": 200.0,
    "closed": 1792801663.317457,
    "pnl": 0.0
+  },
+  {
+   "id": "Numerooo0:solana:8WRdyRqn2GeAxNb5MpGqHytXTD1MHEiTewbadR5hpump",
+   "trader": "Numerooo0",
+   "chain": "solana",
+   "coin": "8WRdyRqn2GeAxNb5MpGqHytXTD1MHEiTewbadR5hpump",
+   "sym": "KURIBO",
+   "name": "KuriboCoin",
+   "img": "https://cdn.dexscreener.com/cms/images/hZZk_uXoiizSPTAB?width=800&height=800&quality=95&format=auto",
+   "qty": 0.0,
+   "cost": 0.0,
+   "opened": 1792800459.2132468,
+   "price": 0.0002003,
+   "mcap": 195523,
+   "value": 181.17636343037296,
+   "closed": 1792803077.0182064,
+   "pnl": -73.82
   }
  ],
  "swaps": [
@@ -710,6 +712,22 @@
    "mcap": 147395,
    "leader_usd": 93.25,
    "sig": "4Ma5h3C9ZsMPR2Th9eKdKavXTvbMh91CREojCcbVhf3GKELVakkvqwyDJadkr15ojJv8PF2BW2CEKbHHBtYN2sdz"
+  },
+  {
+   "t": 1792803077.0182064,
+   "leader_t": 1792803074,
+   "trader": "Numerooo0",
+   "chain": "solana",
+   "coin": "8WRdyRqn2GeAxNb5MpGqHytXTD1MHEiTewbadR5hpump",
+   "sym": "KURIBO",
+   "img": "https://cdn.dexscreener.com/cms/images/hZZk_uXoiizSPTAB?width=800&height=800&quality=95&format=auto",
+   "side": "sell",
+   "usd": 126.18,
+   "price": 0.0001395,
+   "mcap": 136183,
+   "pnl": -73.82,
+   "frac": 1.0,
+   "sig": "4ethM2EwiWetHuzGJCtuynxurSv7eLWnRFFhn5uawSNToEooTHAke2mUxR6jmEoA2jBLMBFnRA32VC1aKCeqRhk3"
   }
  ],
  "skipped": [
@@ -4087,6 +4105,10 @@
   [
    1792802780,
    3154.68
+  ],
+  [
+   1792803077,
+   3266.48
   ]
  ],
  "prices": {},
@@ -4370,7 +4392,8 @@
   "5GygZqWPBfSCQqvbczefmApUFQcH3gZAVdJDfCxDg32snkmztq4dKpBcvBjkCvoYYTL5QD8yHQa81GQnfbC2xFcM",
   "3V9Q5ptKqad6thSd2PiVJbyu12nsFnnLDF2EFUaWeH4DUjzony12KyZe2FECYCYYoEkXqbeQtQcHQfqnU2ysdMSD",
   "4UfuiQhLGdHPHSh1AoApzYvYs3dauC2FjfALeznR3yhgHWXcvK8c4nyYmTkVfDuqwQpsAY6wd4ukqijmvdZdBeoS",
-  "4Ma5h3C9ZsMPR2Th9eKdKavXTvbMh91CREojCcbVhf3GKELVakkvqwyDJadkr15ojJv8PF2BW2CEKbHHBtYN2sdz"
+  "4Ma5h3C9ZsMPR2Th9eKdKavXTvbMh91CREojCcbVhf3GKELVakkvqwyDJadkr15ojJv8PF2BW2CEKbHHBtYN2sdz",
+  "4ethM2EwiWetHuzGJCtuynxurSv7eLWnRFFhn5uawSNToEooTHAke2mUxR6jmEoA2jBLMBFnRA32VC1aKCeqRhk3"
  ],
- "checked": 1792802780.300884
+ "checked": 1792803077.0182064
 }
