@@ -2,7 +2,7 @@
  "started": 1792593138.262912,
  "ends": 1792852338.262912,
  "cursor": {
-  "Numerooo0:solana": "5rXo9Cbv5tDYtjEGiJduzWE8HyuFBNJKYdD1piUNDXWF3jBm3x9FrzGgCmmb5CiugkzoKgXL8fGsj1DeHL5Wr3PF"
+  "Numerooo0:solana": "A3tc4ab7K8oz2tKGemHa9bfua42KFTMa5EQxNsFyp7NraBHzfit6LwSiUA8LgusWJub3pemT9HJ4zxCZ6h3oT4b"
  },
  "open": {
   "Numerooo0:solana:BZFYNPeQAEW3HWQ4DNsTVahC1n4ZjTgn6jB2nnBbB96W": {
@@ -16,9 +16,9 @@
    "qty": 84068.93652795292,
    "cost": 200.0,
    "opened": 1792647940.9118125,
-   "price": 0.001698,
-   "mcap": 1324192,
-   "value": 142.74905422446406
+   "price": 0.001729,
+   "mcap": 1348981,
+   "value": 145.3551912568306
   },
   "Numerooo0:solana:CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp": {
    "id": "Numerooo0:solana:CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
@@ -28,12 +28,12 @@
    "sym": "CARDS",
    "name": "Collector Crypt",
    "img": "https://cdn.dexscreener.com/cms/images/3277f5f414a940e7d009f9cbc9147c6ab25eae6a6cda10e682319f7b6394e328?width=800&height=800&quality=95&format=auto",
-   "qty": 1419.449777201721,
-   "cost": 500.0,
+   "qty": 1698.1565776476518,
+   "cost": 600.0,
    "opened": 1792648855.2874346,
-   "price": 0.3575,
-   "mcap": 316792175,
-   "value": 507.45329534961525
+   "price": 0.3588,
+   "mcap": 317869262,
+   "value": 609.2985800599774
   },
   "Numerooo0:solana:Hht3ozgbgvBsoD6h1fgDzfrViWvf5tQuLqJcUptwAq4z": {
    "id": "Numerooo0:solana:Hht3ozgbgvBsoD6h1fgDzfrViWvf5tQuLqJcUptwAq4z",
@@ -46,9 +46,9 @@
    "qty": 1601358.7310069012,
    "cost": 600.0,
    "opened": 1792724748.2663324,
-   "price": 0.0003467,
-   "mcap": 346798,
-   "value": 555.1910720400926
+   "price": 0.0003473,
+   "mcap": 347326,
+   "value": 556.1518872786968
   },
   "Numerooo0:solana:FUMMypMwEQqvx2zNXBA5gororx5nEjPtV9WUPxN8kRuu": {
    "id": "Numerooo0:solana:FUMMypMwEQqvx2zNXBA5gororx5nEjPtV9WUPxN8kRuu",
@@ -61,9 +61,9 @@
    "qty": 7196986.564115731,
    "cost": 700.0,
    "opened": 1792801784.9267616,
-   "price": 0.0001456,
-   "mcap": 138566,
-   "value": 1047.8812437352503
+   "price": 0.0001342,
+   "mcap": 127708,
+   "value": 965.8355969043312
   }
  },
  "closed": [
@@ -998,6 +998,21 @@
    "mcap": 316792175,
    "leader_usd": 4964.52,
    "sig": "5xA21QTff2NS3N22XrrTWNKTFmPCCavEx7jSkEgN12N3KSZUXp4UuKaA2iakfHeUqeGKyKqtLs4NRUUvU2uAvBoZ"
+  },
+  {
+   "t": 1792808949.355001,
+   "leader_t": 1792808781,
+   "trader": "Numerooo0",
+   "chain": "solana",
+   "coin": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
+   "sym": "CARDS",
+   "img": "https://cdn.dexscreener.com/cms/images/3277f5f414a940e7d009f9cbc9147c6ab25eae6a6cda10e682319f7b6394e328?width=800&height=800&quality=95&format=auto",
+   "side": "buy",
+   "usd": 100.0,
+   "price": 0.3588,
+   "mcap": 317869262,
+   "leader_usd": 1991.37,
+   "sig": "A3tc4ab7K8oz2tKGemHa9bfua42KFTMa5EQxNsFyp7NraBHzfit6LwSiUA8LgusWJub3pemT9HJ4zxCZ6h3oT4b"
   }
  ],
  "skipped": [
@@ -4626,6 +4641,10 @@
   [
    1792808773,
    3907.81
+  ],
+  [
+   1792808949,
+   3931.18
   ]
  ],
  "prices": {},
@@ -4951,7 +4970,8 @@
   "38pUH3Pi4ogriucWLjogdAaoDD9SzAyQdBrPyMajj3yj6Cs57RMGwuzdqbPpQHLHtMjCNhdsUpyErcmFrky3QGXj",
   "5rXo9Cbv5tDYtjEGiJduzWE8HyuFBNJKYdD1piUNDXWF3jBm3x9FrzGgCmmb5CiugkzoKgXL8fGsj1DeHL5Wr3PF",
   "3VoxPD6B8YYym6RiyrETkFPJE3kfTan3g9dmticMGfDbG5Z6qvaoTVrh8TzGUN8CBcQikwPe1d4X7Ljx6JzYkv7x",
-  "5xA21QTff2NS3N22XrrTWNKTFmPCCavEx7jSkEgN12N3KSZUXp4UuKaA2iakfHeUqeGKyKqtLs4NRUUvU2uAvBoZ"
+  "5xA21QTff2NS3N22XrrTWNKTFmPCCavEx7jSkEgN12N3KSZUXp4UuKaA2iakfHeUqeGKyKqtLs4NRUUvU2uAvBoZ",
+  "A3tc4ab7K8oz2tKGemHa9bfua42KFTMa5EQxNsFyp7NraBHzfit6LwSiUA8LgusWJub3pemT9HJ4zxCZ6h3oT4b"
  ],
- "checked": 1792808773.0054646
+ "checked": 1792808949.355001
 }
