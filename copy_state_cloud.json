@@ -17,7 +17,7 @@
    "cost": 600.0,
    "opened": 1792648855.2874346,
    "price": 0.3056,
-   "mcap": 270741113,
+   "mcap": 270777653,
    "value": 518.9566501291224
   },
   "Numerooo0:solana:Hht3ozgbgvBsoD6h1fgDzfrViWvf5tQuLqJcUptwAq4z": {
@@ -31,9 +31,9 @@
    "qty": 1601358.7310069012,
    "cost": 600.0,
    "opened": 1792724748.2663324,
-   "price": 0.0003554,
-   "mcap": 355451,
-   "value": 569.1228929998528
+   "price": 0.0003163,
+   "mcap": 316379,
+   "value": 506.50976661748285
   }
  },
  "closed": [
@@ -5579,6 +5579,10 @@
   [
    1792860688,
    3236.75
+  ],
+  [
+   1792860947,
+   3174.14
   ]
  ],
  "prices": {},
@@ -5935,7 +5939,8 @@
   "5w6BMPATupWqYy52UbR2eYxnCuQ1zTzvJwFFPFfTiXPbfNQ3nD4ixhxXQtP6smMBda2ms7qobEXtQiAEaBYhrzoM",
   "4FFCHzi1qyEnq4MWUxzgpVnH8Rai2VxswdgFKHaqTPD9kVUqaJwfDpYKd7U9DtwnNpfrVf6YsbLDEzeZ7TtAmQJU",
   "5aLrHrCWB1FYwxpirV6qLhBm9z9Zw9vt7aDsLEZm1GzspNey7L1xcD8nUoQ34VkvxKvJNQzdgMt8Bmp7zQbv5vco",
-  "2VMmnkiGugiP4CNMADGo4aTf3zxZ45vw1hTnz7L2Akz14NkGsAkCoHjzbgfAUb6NytoRwUggsj3FhTMZtHhRhLK7"
+  "2VMmnkiGugiP4CNMADGo4aTf3zxZ45vw1hTnz7L2Akz14NkGsAkCoHjzbgfAUb6NytoRwUggsj3FhTMZtHhRhLK7",
+  "iov6UxSAHQj8nFHj59FPmyFhwNYKk1W4yHK3FaehMWtuJg1sMPaAkuHPPuDkHH1HKPgn896KJBT9WNoMBqLYYhU"
  ],
- "checked": 1792860688.1895864
+ "checked": 1792860946.8969345
 }
