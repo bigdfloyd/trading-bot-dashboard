@@ -28,12 +28,12 @@
    "sym": "CARDS",
    "name": "Collector Crypt",
    "img": "https://cdn.dexscreener.com/cms/images/3277f5f414a940e7d009f9cbc9147c6ab25eae6a6cda10e682319f7b6394e328?width=800&height=800&quality=95&format=auto",
-   "qty": 860.0092177611616,
-   "cost": 300.0,
+   "qty": 1139.7294974814413,
+   "cost": 400.0,
    "opened": 1792648855.2874346,
    "price": 0.3575,
    "mcap": 316792175,
-   "value": 307.45329534961525
+   "value": 407.45329534961525
   },
   "Numerooo0:solana:Hht3ozgbgvBsoD6h1fgDzfrViWvf5tQuLqJcUptwAq4z": {
    "id": "Numerooo0:solana:Hht3ozgbgvBsoD6h1fgDzfrViWvf5tQuLqJcUptwAq4z",
@@ -46,9 +46,9 @@
    "qty": 1601358.7310069012,
    "cost": 600.0,
    "opened": 1792724748.2663324,
-   "price": 0.000356,
-   "mcap": 356056,
-   "value": 570.0837082384568
+   "price": 0.0003467,
+   "mcap": 346798,
+   "value": 555.1910720400926
   },
   "Numerooo0:solana:FUMMypMwEQqvx2zNXBA5gororx5nEjPtV9WUPxN8kRuu": {
    "id": "Numerooo0:solana:FUMMypMwEQqvx2zNXBA5gororx5nEjPtV9WUPxN8kRuu",
@@ -61,9 +61,9 @@
    "qty": 7196986.564115731,
    "cost": 700.0,
    "opened": 1792801784.9267616,
-   "price": 0.0001284,
-   "mcap": 122209,
-   "value": 924.0930748324599
+   "price": 0.0001456,
+   "mcap": 138566,
+   "value": 1047.8812437352503
   }
  },
  "closed": [
@@ -968,6 +968,21 @@
    "mcap": 316459779,
    "leader_usd": 4784.1,
    "sig": "5rXo9Cbv5tDYtjEGiJduzWE8HyuFBNJKYdD1piUNDXWF3jBm3x9FrzGgCmmb5CiugkzoKgXL8fGsj1DeHL5Wr3PF"
+  },
+  {
+   "t": 1792808766.360034,
+   "leader_t": 1792808765,
+   "trader": "Numerooo0",
+   "chain": "solana",
+   "coin": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
+   "sym": "CARDS",
+   "img": "https://cdn.dexscreener.com/cms/images/3277f5f414a940e7d009f9cbc9147c6ab25eae6a6cda10e682319f7b6394e328?width=800&height=800&quality=95&format=auto",
+   "side": "buy",
+   "usd": 100.0,
+   "price": 0.3575,
+   "mcap": 316792175,
+   "leader_usd": 4969.19,
+   "sig": "3VoxPD6B8YYym6RiyrETkFPJE3kfTan3g9dmticMGfDbG5Z6qvaoTVrh8TzGUN8CBcQikwPe1d4X7Ljx6JzYkv7x"
   }
  ],
  "skipped": [
@@ -4588,6 +4603,10 @@
   [
    1792808642,
    3598.92
+  ],
+  [
+   1792808766,
+   3807.81
   ]
  ],
  "prices": {},
@@ -4911,7 +4930,8 @@
   "4dKLaAJ9uszBmUupfncxbraNqJMVHyFGBwVmv6jHB6Yu4ipoaztoieNUaJuUAfFnie8J7uEPKn8ya74BMvCyuDep",
   "3okcZ5A4hhvWSdPH2Fjf1CoqgR5t3982aT7TFoEhgA2xw8biFNJ6zfGF3qPYaanFoWjhkSeYaqwTN9PMbhAdH5En",
   "38pUH3Pi4ogriucWLjogdAaoDD9SzAyQdBrPyMajj3yj6Cs57RMGwuzdqbPpQHLHtMjCNhdsUpyErcmFrky3QGXj",
-  "5rXo9Cbv5tDYtjEGiJduzWE8HyuFBNJKYdD1piUNDXWF3jBm3x9FrzGgCmmb5CiugkzoKgXL8fGsj1DeHL5Wr3PF"
+  "5rXo9Cbv5tDYtjEGiJduzWE8HyuFBNJKYdD1piUNDXWF3jBm3x9FrzGgCmmb5CiugkzoKgXL8fGsj1DeHL5Wr3PF",
+  "3VoxPD6B8YYym6RiyrETkFPJE3kfTan3g9dmticMGfDbG5Z6qvaoTVrh8TzGUN8CBcQikwPe1d4X7Ljx6JzYkv7x"
  ],
- "checked": 1792808642.1553864
+ "checked": 1792808766.360034
 }
