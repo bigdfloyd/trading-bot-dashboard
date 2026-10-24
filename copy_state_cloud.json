@@ -2,7 +2,7 @@
  "started": 1792593138.262912,
  "ends": 1792852338.262912,
  "cursor": {
-  "Numerooo0:solana": "4Qe9RKNj99shBQCU9zndZruy2vLUv6wkgTF92jbXUhPyWGUhU2DbwYZFq1tmJcfPNvNQqEVEJtjQPcmXDb3xojD2"
+  "Numerooo0:solana": "2mcyA9zL4EgeCuW4fa8Aq37nuSvy12mgBSvwNTfPxqB1N4uPCnrGKpjKdB4FDD7mUNLLZcLouKk6nk24MbdSB6hW"
  },
  "open": {
   "Numerooo0:solana:BZFYNPeQAEW3HWQ4DNsTVahC1n4ZjTgn6jB2nnBbB96W": {
@@ -16,9 +16,9 @@
    "qty": 84068.93652795292,
    "cost": 200.0,
    "opened": 1792647940.9118125,
-   "price": 0.001655,
-   "mcap": 1290964,
-   "value": 139.13408995376207
+   "price": 0.001649,
+   "mcap": 1286360,
+   "value": 138.62967633459436
   },
   "Numerooo0:solana:CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp": {
    "id": "Numerooo0:solana:CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
@@ -31,9 +31,9 @@
    "qty": 1698.1565776476518,
    "cost": 600.0,
    "opened": 1792648855.2874346,
-   "price": 0.3609,
-   "mcap": 319775609,
-   "value": 612.8647088730376
+   "price": 0.361,
+   "mcap": 319825187,
+   "value": 613.0345245308023
   },
   "Numerooo0:solana:Hht3ozgbgvBsoD6h1fgDzfrViWvf5tQuLqJcUptwAq4z": {
    "id": "Numerooo0:solana:Hht3ozgbgvBsoD6h1fgDzfrViWvf5tQuLqJcUptwAq4z",
@@ -46,9 +46,9 @@
    "qty": 1601358.7310069012,
    "cost": 600.0,
    "opened": 1792724748.2663324,
-   "price": 0.0003631,
-   "mcap": 363199,
-   "value": 581.4533552286058
+   "price": 0.0003619,
+   "mcap": 361957,
+   "value": 579.5317247513976
   },
   "Numerooo0:solana:FUMMypMwEQqvx2zNXBA5gororx5nEjPtV9WUPxN8kRuu": {
    "id": "Numerooo0:solana:FUMMypMwEQqvx2zNXBA5gororx5nEjPtV9WUPxN8kRuu",
@@ -61,9 +61,9 @@
    "qty": 7196986.564115731,
    "cost": 700.0,
    "opened": 1792801784.9267616,
-   "price": 0.0001129,
-   "mcap": 107463,
-   "value": 812.5397830886661
+   "price": 0.0001231,
+   "mcap": 117123,
+   "value": 885.9490460426466
   },
   "Numerooo0:solana:dwFDqPomgPTqSkBhWtXmeMXy6hHkQHmC9x3hLZypump": {
    "id": "Numerooo0:solana:dwFDqPomgPTqSkBhWtXmeMXy6hHkQHmC9x3hLZypump",
@@ -4794,6 +4794,10 @@
   [
    1792811201,
    3898.7
+  ],
+  [
+   1792811393,
+   3969.85
   ]
  ],
  "prices": {},
@@ -5132,5 +5136,5 @@
   "3ZsnMHZiDG4E5Cjhu4Nj9XYjJRMWY4hJ5vMEd8LiZPhKbmZ3BcHaQSNs7VJ92Qisoi7kben45FndSP4ZuatR6Gis",
   "2mcyA9zL4EgeCuW4fa8Aq37nuSvy12mgBSvwNTfPxqB1N4uPCnrGKpjKdB4FDD7mUNLLZcLouKk6nk24MbdSB6hW"
  ],
- "checked": 1792811200.8268661
+ "checked": 1792811393.279571
 }
