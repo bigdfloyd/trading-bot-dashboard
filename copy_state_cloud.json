@@ -31,9 +31,9 @@
    "qty": 1698.1565776476518,
    "cost": 600.0,
    "opened": 1792648855.2874346,
-   "price": 0.3598,
-   "mcap": 318786745,
-   "value": 610.9967366376252
+   "price": 0.36,
+   "mcap": 318973462,
+   "value": 611.3363679531546
   },
   "Numerooo0:solana:Hht3ozgbgvBsoD6h1fgDzfrViWvf5tQuLqJcUptwAq4z": {
    "id": "Numerooo0:solana:Hht3ozgbgvBsoD6h1fgDzfrViWvf5tQuLqJcUptwAq4z",
@@ -46,9 +46,9 @@
    "qty": 1601358.7310069012,
    "cost": 600.0,
    "opened": 1792724748.2663324,
-   "price": 0.0003668,
-   "mcap": 366856,
-   "value": 587.3783825333314
+   "price": 0.0003631,
+   "mcap": 363105,
+   "value": 581.4533552286058
   },
   "Numerooo0:solana:FUMMypMwEQqvx2zNXBA5gororx5nEjPtV9WUPxN8kRuu": {
    "id": "Numerooo0:solana:FUMMypMwEQqvx2zNXBA5gororx5nEjPtV9WUPxN8kRuu",
@@ -61,9 +61,24 @@
    "qty": 7196986.564115731,
    "cost": 700.0,
    "opened": 1792801784.9267616,
-   "price": 0.0001645,
-   "mcap": 156546,
-   "value": 1183.9042897970376
+   "price": 0.0001614,
+   "mcap": 153595,
+   "value": 1161.593631448279
+  },
+  "Numerooo0:solana:dwFDqPomgPTqSkBhWtXmeMXy6hHkQHmC9x3hLZypump": {
+   "id": "Numerooo0:solana:dwFDqPomgPTqSkBhWtXmeMXy6hHkQHmC9x3hLZypump",
+   "trader": "Numerooo0",
+   "chain": "solana",
+   "coin": "dwFDqPomgPTqSkBhWtXmeMXy6hHkQHmC9x3hLZypump",
+   "sym": "dwFD\u2026",
+   "name": "",
+   "img": "",
+   "qty": 7184801.540623,
+   "cost": 100.0,
+   "opened": 1792810374.9235168,
+   "price": 0.0,
+   "mcap": 0,
+   "value": 0.0
   }
  },
  "closed": [
@@ -1013,6 +1028,21 @@
    "mcap": 317869262,
    "leader_usd": 1991.37,
    "sig": "A3tc4ab7K8oz2tKGemHa9bfua42KFTMa5EQxNsFyp7NraBHzfit6LwSiUA8LgusWJub3pemT9HJ4zxCZ6h3oT4b"
+  },
+  {
+   "t": 1792810374.9235168,
+   "leader_t": 1792810373,
+   "trader": "Numerooo0",
+   "chain": "solana",
+   "coin": "dwFDqPomgPTqSkBhWtXmeMXy6hHkQHmC9x3hLZypump",
+   "sym": "dwFD\u2026",
+   "img": "",
+   "side": "buy",
+   "usd": 100.0,
+   "price": 1.3918268922892047e-05,
+   "mcap": 0,
+   "leader_usd": 100.0,
+   "sig": "drDdMhuZUCKDmoHKHhmYyHVUc25eJADXBgPhBMWBfTEhe7V9gDM5vmfogXVq3nvNcimZnszHtuyW9wdX5fynKAf"
   }
  ],
  "skipped": [
@@ -4661,6 +4691,10 @@
   [
    1792810169,
    4176.37
+  ],
+  [
+   1792810375,
+   4148.48
   ]
  ],
  "prices": {},
@@ -4987,7 +5021,8 @@
   "5rXo9Cbv5tDYtjEGiJduzWE8HyuFBNJKYdD1piUNDXWF3jBm3x9FrzGgCmmb5CiugkzoKgXL8fGsj1DeHL5Wr3PF",
   "3VoxPD6B8YYym6RiyrETkFPJE3kfTan3g9dmticMGfDbG5Z6qvaoTVrh8TzGUN8CBcQikwPe1d4X7Ljx6JzYkv7x",
   "5xA21QTff2NS3N22XrrTWNKTFmPCCavEx7jSkEgN12N3KSZUXp4UuKaA2iakfHeUqeGKyKqtLs4NRUUvU2uAvBoZ",
-  "A3tc4ab7K8oz2tKGemHa9bfua42KFTMa5EQxNsFyp7NraBHzfit6LwSiUA8LgusWJub3pemT9HJ4zxCZ6h3oT4b"
+  "A3tc4ab7K8oz2tKGemHa9bfua42KFTMa5EQxNsFyp7NraBHzfit6LwSiUA8LgusWJub3pemT9HJ4zxCZ6h3oT4b",
+  "drDdMhuZUCKDmoHKHhmYyHVUc25eJADXBgPhBMWBfTEhe7V9gDM5vmfogXVq3nvNcimZnszHtuyW9wdX5fynKAf"
  ],
- "checked": 1792810169.0074883
+ "checked": 1792810374.9235168
 }
