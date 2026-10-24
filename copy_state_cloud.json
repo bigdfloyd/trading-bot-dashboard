@@ -133,12 +133,12 @@
    "sym": "mil",
    "name": "mil",
    "img": "https://cdn.dexscreener.com/cms/images/TqACo2ItXp9hZw74?width=800&height=800&quality=95&format=auto",
-   "qty": 860585.1979345955,
-   "cost": 100.0,
+   "qty": 1721170.395869191,
+   "cost": 200.0,
    "opened": 1792806273.434243,
    "price": 0.0001162,
    "mcap": 110265,
-   "value": 100.0
+   "value": 200.0
   }
  },
  "closed": [
@@ -818,6 +818,21 @@
    "mcap": 110265,
    "leader_usd": 885.05,
    "sig": "55KSzmbxavuG4bCmJKH4cqNh5F97W4GvcW1PjFDsWqD9gjSn8kK4WyJocZ9UqvjEs1NC5Gu5DMWD3oGYwQ1VqBtF"
+  },
+  {
+   "t": 1792806277.7556798,
+   "leader_t": 1792806274,
+   "trader": "Numerooo0",
+   "chain": "solana",
+   "coin": "3w67qwokqjcS6KbZhzNonhmFNGjYbWneB7g5HTXwpump",
+   "sym": "mil",
+   "img": "https://cdn.dexscreener.com/cms/images/TqACo2ItXp9hZw74?width=800&height=800&quality=95&format=auto",
+   "side": "buy",
+   "usd": 100.0,
+   "price": 0.0001162,
+   "mcap": 110265,
+   "leader_usd": 355.45,
+   "sig": "5WeaNqJ7naUU2Uoy1s8MNkXmNkk1jqFS3pCqwTgV1cv22krPSWj15JLKh2htMi5wWWUSWqbWYDGQyFbWtwopQUDv"
   }
  ],
  "skipped": [
@@ -4266,6 +4281,10 @@
   [
    1792806273,
    3259.1
+  ],
+  [
+   1792806278,
+   3359.1
   ]
  ],
  "prices": {},
@@ -4554,7 +4573,8 @@
   "nc7BYATgur4G4BLJaS4B9MjLEL6DMyjYtehJoEnRhdYTAtYujAqkQSzddN8xu5W6yxQRzY8Z2eFTjgsgjFVUiej",
   "3iT1dfCBnrLbXGbWmvkV5o5N6Rhdcrgx7c3B3Fa7ZjpkXKKTemkkLhtkgTD7uHifBtuFHJohMt23S1ebMbcqMsC4",
   "5AJGjm9ECHRhHiT7HXtGLcBsh6zXUFsYLpawc9r6prtkdeJmbkchAXscQuJydAYBv5nDAydAU3yf6sBgbrSbENTd",
-  "55KSzmbxavuG4bCmJKH4cqNh5F97W4GvcW1PjFDsWqD9gjSn8kK4WyJocZ9UqvjEs1NC5Gu5DMWD3oGYwQ1VqBtF"
+  "55KSzmbxavuG4bCmJKH4cqNh5F97W4GvcW1PjFDsWqD9gjSn8kK4WyJocZ9UqvjEs1NC5Gu5DMWD3oGYwQ1VqBtF",
+  "5WeaNqJ7naUU2Uoy1s8MNkXmNkk1jqFS3pCqwTgV1cv22krPSWj15JLKh2htMi5wWWUSWqbWYDGQyFbWtwopQUDv"
  ],
- "checked": 1792806273.434243
+ "checked": 1792806277.7556798
 }
