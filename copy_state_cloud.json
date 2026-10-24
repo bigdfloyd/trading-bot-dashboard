@@ -2,7 +2,7 @@
  "started": 1792593138.262912,
  "ends": 1792852338.262912,
  "cursor": {
-  "Numerooo0:solana": "Yv1FyxZo8fFaF12Vwhs1RWPse6S6S7ZBZxt5fJd2SWxfz7aQMvs8BDyxTWe7LmcxMKdhJoUkBNG44Lbk94NyEbK"
+  "Numerooo0:solana": "RWihknmioxDwoXek2oMbMV4ynNW1qCbRm7dc3uE7S1XZcnnVPpabia6F3ekdYhF2j8xyGUSPzN8ntf2yL7qvLek"
  },
  "open": {
   "Numerooo0:solana:CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp": {
@@ -17,7 +17,7 @@
    "cost": 600.0,
    "opened": 1792648855.2874346,
    "price": 0.3186,
-   "mcap": 282302012,
+   "mcap": 282310128,
    "value": 541.0326856385418
   },
   "Numerooo0:solana:Hht3ozgbgvBsoD6h1fgDzfrViWvf5tQuLqJcUptwAq4z": {
@@ -31,9 +31,9 @@
    "qty": 1601358.7310069012,
    "cost": 600.0,
    "opened": 1792724748.2663324,
-   "price": 0.0002787,
-   "mcap": 278718,
-   "value": 446.29867833162336
+   "price": 0.0002776,
+   "mcap": 277621,
+   "value": 444.5371837275158
   }
  },
  "closed": [
@@ -1303,6 +1303,14 @@
   },
   {
    "t": 1792880447.6525543,
+   "trader": "Numerooo0",
+   "coin": "92a7oRhNyhq2McpHdZZZN6MWzMXqzMz2kN2husWcpump",
+   "chain": "solana",
+   "sym": "92a7\u2026",
+   "why": "after the 3 days, no new buys"
+  },
+  {
+   "t": 1792881056.5951014,
    "trader": "Numerooo0",
    "coin": "92a7oRhNyhq2McpHdZZZN6MWzMXqzMz2kN2husWcpump",
    "chain": "solana",
@@ -5950,6 +5958,10 @@
   [
    1792880751,
    3136.0
+  ],
+  [
+   1792881057,
+   3134.24
   ]
  ],
  "prices": {},
@@ -6328,7 +6340,9 @@
   "67nQN4aJWXwJgo1KXvfoHZRWiEj9ZWR76NMH3WXdWsy9RmoVxDADpWwsacUmLMCJ5L1XSw7X7uwyiumetvky7y1H",
   "oxWzfwrd85SkNuuuXUULV7867NcBuBVynNwhNgcESUD5Si4BHMCPfk8awyLf8t4HuEQ6eLXtagogifopoCLnek6",
   "4c1K7own6EojxLHRaDkVtQzXgwpdE8kZdP5YMf1tNScQCrhhNCGcM5XVB1C8dZPDqjPhfPaw3tFLd7BC9yv4SUzT",
-  "Yv1FyxZo8fFaF12Vwhs1RWPse6S6S7ZBZxt5fJd2SWxfz7aQMvs8BDyxTWe7LmcxMKdhJoUkBNG44Lbk94NyEbK"
+  "Yv1FyxZo8fFaF12Vwhs1RWPse6S6S7ZBZxt5fJd2SWxfz7aQMvs8BDyxTWe7LmcxMKdhJoUkBNG44Lbk94NyEbK",
+  "2evwniYATymYMF2YDyuPcC5F1FzcKtMXGZExnTF7dWBtbAy7jFEVFwcmJv6wrgzJboro4SRyGPUTAcuea2Kfb4ug",
+  "RWihknmioxDwoXek2oMbMV4ynNW1qCbRm7dc3uE7S1XZcnnVPpabia6F3ekdYhF2j8xyGUSPzN8ntf2yL7qvLek"
  ],
- "checked": 1792880751.2683809
+ "checked": 1792881056.5951014
 }
