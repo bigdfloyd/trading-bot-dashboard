@@ -76,9 +76,9 @@
    "qty": 1601358.7310069012,
    "cost": 600.0,
    "opened": 1792724748.2663324,
-   "price": 0.000369,
-   "mcap": 369010,
-   "value": 590.9013717415467
+   "price": 0.0003729,
+   "mcap": 372967,
+   "value": 597.1466707924735
   },
   "Numerooo0:solana:8WRdyRqn2GeAxNb5MpGqHytXTD1MHEiTewbadR5hpump": {
    "id": "Numerooo0:solana:8WRdyRqn2GeAxNb5MpGqHytXTD1MHEiTewbadR5hpump",
@@ -88,12 +88,12 @@
    "sym": "KURIBO",
    "name": "KuriboCoin",
    "img": "https://cdn.dexscreener.com/cms/images/hZZk_uXoiizSPTAB?width=800&height=800&quality=95&format=auto",
-   "qty": 480076.8122899664,
-   "cost": 100.0,
+   "qty": 904525.0296074536,
+   "cost": 200.0,
    "opened": 1792800459.2132468,
-   "price": 0.0002083,
-   "mcap": 203358,
-   "value": 100.0
+   "price": 0.0002356,
+   "mcap": 229990,
+   "value": 213.10609697551607
   }
  },
  "closed": [
@@ -542,6 +542,21 @@
    "mcap": 203358,
    "leader_usd": 1024.69,
    "sig": "5EbN3kY2rjGaZkc1yELFs5yNU2YpxTGCWpTje7KwoUnWX9ubRscKHX3jAUu7baxnQ8SUykudQPrGCeJASPzP1LQk"
+  },
+  {
+   "t": 1792800500.3577933,
+   "leader_t": 1792800499,
+   "trader": "Numerooo0",
+   "chain": "solana",
+   "coin": "8WRdyRqn2GeAxNb5MpGqHytXTD1MHEiTewbadR5hpump",
+   "sym": "KURIBO",
+   "img": "https://cdn.dexscreener.com/cms/images/hZZk_uXoiizSPTAB?width=800&height=800&quality=95&format=auto",
+   "side": "buy",
+   "usd": 100.0,
+   "price": 0.0002356,
+   "mcap": 229990,
+   "leader_usd": 927.3,
+   "sig": "ExoSWcXCQpFaEb4pVaXqd3ziS1zjBX46oyXJmPJZ7Bc1ivPVNHWHUS5fbmfA7H4Ma8y5bKxaQvHWJu8oLvg78fm"
   }
  ],
  "skipped": [
@@ -3851,6 +3866,10 @@
   [
    1792800459,
    1853.19
+  ],
+  [
+   1792800500,
+   1972.54
   ]
  ],
  "prices": {},
@@ -4125,7 +4144,8 @@
   "5ZhVRjDkZkkFUWHQ3DwG8xVkgYreWxxfWTgd9NMtjrFfsU8z5AoyXDYWXwhqorpVeabzmcaXtYKCeDfkaT5kh4UE",
   "2DqCx1tyRTojy6aAnYCfbxYRsVRMdQTF9KonLvwAXLdZbpsxRFsE7b9dAk9L48zP55zRTE9o7z9F64GtsdH8jU6U",
   "aefAeiTDXZC1Tksvgd9L6oLrV9pYE941NVfac8c3wxYzdHpPwDsx7Pz2p3XZq8kptM7UD6xiGGNPPHboSHdsNbP",
-  "5EbN3kY2rjGaZkc1yELFs5yNU2YpxTGCWpTje7KwoUnWX9ubRscKHX3jAUu7baxnQ8SUykudQPrGCeJASPzP1LQk"
+  "5EbN3kY2rjGaZkc1yELFs5yNU2YpxTGCWpTje7KwoUnWX9ubRscKHX3jAUu7baxnQ8SUykudQPrGCeJASPzP1LQk",
+  "ExoSWcXCQpFaEb4pVaXqd3ziS1zjBX46oyXJmPJZ7Bc1ivPVNHWHUS5fbmfA7H4Ma8y5bKxaQvHWJu8oLvg78fm"
  ],
- "checked": 1792800459.2132468
+ "checked": 1792800500.3577933
 }
