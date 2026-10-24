@@ -16,9 +16,9 @@
    "qty": 1698.1565776476518,
    "cost": 600.0,
    "opened": 1792648855.2874346,
-   "price": 0.3082,
-   "mcap": 273068132,
-   "value": 523.3718572310063
+   "price": 0.3055,
+   "mcap": 270694537,
+   "value": 518.7868344713577
   },
   "Numerooo0:solana:Hht3ozgbgvBsoD6h1fgDzfrViWvf5tQuLqJcUptwAq4z": {
    "id": "Numerooo0:solana:Hht3ozgbgvBsoD6h1fgDzfrViWvf5tQuLqJcUptwAq4z",
@@ -31,9 +31,9 @@
    "qty": 1601358.7310069012,
    "cost": 600.0,
    "opened": 1792724748.2663324,
-   "price": 0.00034,
-   "mcap": 340053,
-   "value": 544.4619685423464
+   "price": 0.0003489,
+   "mcap": 348955,
+   "value": 558.7140612483079
   }
  },
  "closed": [
@@ -1232,6 +1232,14 @@
   },
   {
    "t": 1792857794.4427419,
+   "trader": "Numerooo0",
+   "coin": "ABSZ6rwFCcWSTB4QiGfDqNBEgeyUswQWZm5Vt5rVpump",
+   "chain": "solana",
+   "sym": "RINA",
+   "why": "after the 3 days, no new buys"
+  },
+  {
+   "t": 1792858705.9045885,
    "trader": "Numerooo0",
    "coin": "ABSZ6rwFCcWSTB4QiGfDqNBEgeyUswQWZm5Vt5rVpump",
    "chain": "solana",
@@ -5507,6 +5515,10 @@
   [
    1792858514,
    3216.5
+  ],
+  [
+   1792858706,
+   3226.17
   ]
  ],
  "prices": {},
@@ -5856,7 +5868,8 @@
   "5MRqunMFz2rFr2YSUg42ghnAcTrJhJVRxycyESmGeprqtqR7hEZLHAbpu8RPYedmNZVi5YAzKLYLVVfrwF7NoG1s",
   "494y18CB5NagYweaFxr3fqwNZrB43AXgTo9cnj2eSqQArf82ryJUuFw3S3ofRyxsxpwxHfV1z7fJc3VqJy2tKfxW",
   "3za45qnyWZLYkTNiyJc9hbFVQwcgfxhJmjaUE3pP2X84C2vWUJAGQ7y1HeGvPDYnPQMdeJHvQkB6nrGAEigSrK1i",
-  "4hh8gXvKWFj6dDqF4Fj9ZZHRHbZYZRqJG6oSZn5jV2AuNsxdBRkZS7TsMehBYg7rQMNBZ2sTRj6fhs89z7kS3ZHi"
+  "4hh8gXvKWFj6dDqF4Fj9ZZHRHbZYZRqJG6oSZn5jV2AuNsxdBRkZS7TsMehBYg7rQMNBZ2sTRj6fhs89z7kS3ZHi",
+  "U4V2G5SwoiqHcayy4RLuzJqkzVBbYBazjJ13qzBhLxHfjQkSMct9zCVng1ypuxqzC1WyrvgqmEp7VJh5yTET6Yq"
  ],
- "checked": 1792858514.3603728
+ "checked": 1792858705.9045885
 }
