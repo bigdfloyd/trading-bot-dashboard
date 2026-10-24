@@ -5,21 +5,6 @@
   "Numerooo0:solana": "WrLEjkkV5bJtjPPtuvrR4WzcPnQCLyJKj3dfE2QJgshdCKC6KKDtE374nsViRE49ac8WL4D7qYk8bxCXBkQYQAN"
  },
  "open": {
-  "Numerooo0:solana:58eo3pKwDZ2GKT2XvRumuns6RustWyvqtgfyubA3kYAJ": {
-   "id": "Numerooo0:solana:58eo3pKwDZ2GKT2XvRumuns6RustWyvqtgfyubA3kYAJ",
-   "trader": "Numerooo0",
-   "chain": "solana",
-   "coin": "58eo3pKwDZ2GKT2XvRumuns6RustWyvqtgfyubA3kYAJ",
-   "sym": "ZDOG",
-   "name": "Anonymous Dog",
-   "img": "https://cdn.dexscreener.com/cms/images/PqtVVC5PKyl32MOh?width=800&height=800&quality=95&format=auto",
-   "qty": 3007785.6126772417,
-   "cost": 400.0,
-   "opened": 1792635408.1359124,
-   "price": 2.899e-05,
-   "mcap": 28070,
-   "value": 87.19570491151323
-  },
   "Numerooo0:solana:BZFYNPeQAEW3HWQ4DNsTVahC1n4ZjTgn6jB2nnBbB96W": {
    "id": "Numerooo0:solana:BZFYNPeQAEW3HWQ4DNsTVahC1n4ZjTgn6jB2nnBbB96W",
    "trader": "Numerooo0",
@@ -76,9 +61,9 @@
    "qty": 7196986.564115731,
    "cost": 700.0,
    "opened": 1792801784.9267616,
-   "price": 0.0001118,
-   "mcap": 106388,
-   "value": 804.6230978681386
+   "price": 0.0001113,
+   "mcap": 105907,
+   "value": 801.0246045860808
   }
  },
  "closed": [
@@ -234,6 +219,23 @@
    "value": 0.0,
    "closed": 1792808397.4320428,
    "pnl": -43.03
+  },
+  {
+   "id": "Numerooo0:solana:58eo3pKwDZ2GKT2XvRumuns6RustWyvqtgfyubA3kYAJ",
+   "trader": "Numerooo0",
+   "chain": "solana",
+   "coin": "58eo3pKwDZ2GKT2XvRumuns6RustWyvqtgfyubA3kYAJ",
+   "sym": "ZDOG",
+   "name": "Anonymous Dog",
+   "img": "https://cdn.dexscreener.com/cms/images/PqtVVC5PKyl32MOh?width=800&height=800&quality=95&format=auto",
+   "qty": 0.0,
+   "cost": 0.0,
+   "opened": 1792635408.1359124,
+   "price": 2.899e-05,
+   "mcap": 28070,
+   "value": 87.19570491151323,
+   "closed": 1792808423.2746327,
+   "pnl": -312.32
   }
  ],
  "swaps": [
@@ -935,6 +937,22 @@
    "pnl": -43.03,
    "frac": 1.0,
    "sig": "2hkew85ZUGXf5Y9TUQWqjfifvGGLxjy12nYGP6PwnH8nQJ7NnCZm1B2iq56K2ETajgpj5hiNM577iorxWGc5hxMe"
+  },
+  {
+   "t": 1792808423.2746327,
+   "leader_t": 1792808422,
+   "trader": "Numerooo0",
+   "chain": "solana",
+   "coin": "58eo3pKwDZ2GKT2XvRumuns6RustWyvqtgfyubA3kYAJ",
+   "sym": "ZDOG",
+   "img": "https://cdn.dexscreener.com/cms/images/PqtVVC5PKyl32MOh?width=800&height=800&quality=95&format=auto",
+   "side": "sell",
+   "usd": 87.68,
+   "price": 2.915e-05,
+   "mcap": 28222,
+   "pnl": -312.32,
+   "frac": 1.0,
+   "sig": "4dKLaAJ9uszBmUupfncxbraNqJMVHyFGBwVmv6jHB6Yu4ipoaztoieNUaJuUAfFnie8J7uEPKn8ya74BMvCyuDep"
   }
  ],
  "skipped": [
@@ -4535,6 +4553,10 @@
   [
    1792808416,
    3390.97
+  ],
+  [
+   1792808423,
+   3387.86
   ]
  ],
  "prices": {},
@@ -4854,7 +4876,8 @@
   "2YYLjqSqVcMRyHrWpmAe1f19hcfeZAAS4oaYF6UPZxmdgyMSY3LBbyjLdFPPiS3Cok2RJxQ7ec4oUKPeHTXEnTf",
   "2hkew85ZUGXf5Y9TUQWqjfifvGGLxjy12nYGP6PwnH8nQJ7NnCZm1B2iq56K2ETajgpj5hiNM577iorxWGc5hxMe",
   "26XDak1bjNRitY8GYJqy4u9PCBpdcDuAYAsaXa7Fbb5tDnLbB32eoZ7Uft2HbqPHUWwWjGe3w8SqjF2atDSB7QAD",
-  "5HU5jUiifPw7Xpm7GFrzz63FTUqk5JYifrJwyUmaJnejB2jJHYYZdjf95jDi3bhLDS2DmANg9mwVqWJSum7nWbva"
+  "5HU5jUiifPw7Xpm7GFrzz63FTUqk5JYifrJwyUmaJnejB2jJHYYZdjf95jDi3bhLDS2DmANg9mwVqWJSum7nWbva",
+  "4dKLaAJ9uszBmUupfncxbraNqJMVHyFGBwVmv6jHB6Yu4ipoaztoieNUaJuUAfFnie8J7uEPKn8ya74BMvCyuDep"
  ],
- "checked": 1792808416.2292461
+ "checked": 1792808423.2746327
 }
