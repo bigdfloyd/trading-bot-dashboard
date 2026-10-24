@@ -2,7 +2,7 @@
  "started": 1792593138.262912,
  "ends": 1792852338.262912,
  "cursor": {
-  "Numerooo0:solana": "5AJGjm9ECHRhHiT7HXtGLcBsh6zXUFsYLpawc9r6prtkdeJmbkchAXscQuJydAYBv5nDAydAU3yf6sBgbrSbENTd"
+  "Numerooo0:solana": "5WeaNqJ7naUU2Uoy1s8MNkXmNkk1jqFS3pCqwTgV1cv22krPSWj15JLKh2htMi5wWWUSWqbWYDGQyFbWtwopQUDv"
  },
  "open": {
   "Numerooo0:solana:58eo3pKwDZ2GKT2XvRumuns6RustWyvqtgfyubA3kYAJ": {
@@ -16,9 +16,9 @@
    "qty": 3007785.6126772417,
    "cost": 400.0,
    "opened": 1792635408.1359124,
-   "price": 3.582e-05,
-   "mcap": 34676,
-   "value": 107.73888064609879
+   "price": 3.65e-05,
+   "mcap": 35339,
+   "value": 109.78417486271933
   },
   "Numerooo0:solana:7egV4drrfk7MjeirV1BmHLyWR7LBuyeHKY7y6EnNpump": {
    "id": "Numerooo0:solana:7egV4drrfk7MjeirV1BmHLyWR7LBuyeHKY7y6EnNpump",
@@ -61,9 +61,9 @@
    "qty": 580.0540105943082,
    "cost": 200.0,
    "opened": 1792648855.2874346,
-   "price": 0.3641,
-   "mcap": 322555223,
-   "value": 211.19766525738763
+   "price": 0.363,
+   "mcap": 321639186,
+   "value": 210.5596058457339
   },
   "Numerooo0:solana:Hht3ozgbgvBsoD6h1fgDzfrViWvf5tQuLqJcUptwAq4z": {
    "id": "Numerooo0:solana:Hht3ozgbgvBsoD6h1fgDzfrViWvf5tQuLqJcUptwAq4z",
@@ -76,9 +76,9 @@
    "qty": 1601358.7310069012,
    "cost": 600.0,
    "opened": 1792724748.2663324,
-   "price": 0.0003823,
-   "mcap": 382368,
-   "value": 612.1994428639384
+   "price": 0.0003744,
+   "mcap": 374460,
+   "value": 599.5487088889838
   },
   "Numerooo0:solana:FUMMypMwEQqvx2zNXBA5gororx5nEjPtV9WUPxN8kRuu": {
    "id": "Numerooo0:solana:FUMMypMwEQqvx2zNXBA5gororx5nEjPtV9WUPxN8kRuu",
@@ -91,9 +91,9 @@
    "qty": 4908985.025007072,
    "cost": 500.0,
    "opened": 1792801784.9267616,
-   "price": 0.0002028,
-   "mcap": 192906,
-   "value": 995.5421630714342
+   "price": 0.00025,
+   "mcap": 237834,
+   "value": 1227.246256251768
   },
   "Numerooo0:solana:AtCe7TaMEkzC9XaHshBBmiqVJo7dGwbi5VtVY9BSpump": {
    "id": "Numerooo0:solana:AtCe7TaMEkzC9XaHshBBmiqVJo7dGwbi5VtVY9BSpump",
@@ -121,9 +121,9 @@
    "qty": 4856257.1506348,
    "cost": 100.0,
    "opened": 1792805004.5476174,
-   "price": 4.5e-06,
-   "mcap": 4500,
-   "value": 21.853157177856602
+   "price": 5.921e-06,
+   "mcap": 5922,
+   "value": 28.75389858890865
   },
   "Numerooo0:solana:3w67qwokqjcS6KbZhzNonhmFNGjYbWneB7g5HTXwpump": {
    "id": "Numerooo0:solana:3w67qwokqjcS6KbZhzNonhmFNGjYbWneB7g5HTXwpump",
@@ -136,9 +136,9 @@
    "qty": 1721170.395869191,
    "cost": 200.0,
    "opened": 1792806273.434243,
-   "price": 0.0001162,
-   "mcap": 110265,
-   "value": 200.0
+   "price": 0.0001577,
+   "mcap": 149576,
+   "value": 271.42857142857144
   }
  },
  "closed": [
@@ -4285,6 +4285,10 @@
   [
    1792806278,
    3359.1
+  ],
+  [
+   1792806456,
+   3657.89
   ]
  ],
  "prices": {},
@@ -4576,5 +4580,5 @@
   "55KSzmbxavuG4bCmJKH4cqNh5F97W4GvcW1PjFDsWqD9gjSn8kK4WyJocZ9UqvjEs1NC5Gu5DMWD3oGYwQ1VqBtF",
   "5WeaNqJ7naUU2Uoy1s8MNkXmNkk1jqFS3pCqwTgV1cv22krPSWj15JLKh2htMi5wWWUSWqbWYDGQyFbWtwopQUDv"
  ],
- "checked": 1792806277.7556798
+ "checked": 1792806456.3747077
 }
