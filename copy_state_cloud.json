@@ -1245,6 +1245,14 @@
    "chain": "solana",
    "sym": "RINA",
    "why": "after the 3 days, no new buys"
+  },
+  {
+   "t": 1792858717.3371933,
+   "trader": "Numerooo0",
+   "coin": "ABSZ6rwFCcWSTB4QiGfDqNBEgeyUswQWZm5Vt5rVpump",
+   "chain": "solana",
+   "sym": "RINA",
+   "why": "after the 3 days, no new buys"
   }
  ],
  "curve": [
@@ -5519,6 +5527,10 @@
   [
    1792858706,
    3226.17
+  ],
+  [
+   1792858717,
+   3226.17
   ]
  ],
  "prices": {},
@@ -5869,7 +5881,8 @@
   "494y18CB5NagYweaFxr3fqwNZrB43AXgTo9cnj2eSqQArf82ryJUuFw3S3ofRyxsxpwxHfV1z7fJc3VqJy2tKfxW",
   "3za45qnyWZLYkTNiyJc9hbFVQwcgfxhJmjaUE3pP2X84C2vWUJAGQ7y1HeGvPDYnPQMdeJHvQkB6nrGAEigSrK1i",
   "4hh8gXvKWFj6dDqF4Fj9ZZHRHbZYZRqJG6oSZn5jV2AuNsxdBRkZS7TsMehBYg7rQMNBZ2sTRj6fhs89z7kS3ZHi",
-  "U4V2G5SwoiqHcayy4RLuzJqkzVBbYBazjJ13qzBhLxHfjQkSMct9zCVng1ypuxqzC1WyrvgqmEp7VJh5yTET6Yq"
+  "U4V2G5SwoiqHcayy4RLuzJqkzVBbYBazjJ13qzBhLxHfjQkSMct9zCVng1ypuxqzC1WyrvgqmEp7VJh5yTET6Yq",
+  "2pVroogjLK5XxuRQjJTRziS6co83Vix33NhfC6AFx2o3w8F6BHySZotT9GTxzYA4NCnDt5XqJxpTu7kKMrBtsFM4"
  ],
- "checked": 1792858705.9045885
+ "checked": 1792858717.3371933
 }
