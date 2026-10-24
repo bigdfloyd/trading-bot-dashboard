@@ -2,7 +2,7 @@
  "started": 1792593138.262912,
  "ends": 1792852338.262912,
  "cursor": {
-  "Numerooo0:solana": "4c1K7own6EojxLHRaDkVtQzXgwpdE8kZdP5YMf1tNScQCrhhNCGcM5XVB1C8dZPDqjPhfPaw3tFLd7BC9yv4SUzT"
+  "Numerooo0:solana": "Yv1FyxZo8fFaF12Vwhs1RWPse6S6S7ZBZxt5fJd2SWxfz7aQMvs8BDyxTWe7LmcxMKdhJoUkBNG44Lbk94NyEbK"
  },
  "open": {
   "Numerooo0:solana:CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp": {
@@ -31,9 +31,9 @@
    "qty": 1601358.7310069012,
    "cost": 600.0,
    "opened": 1792724748.2663324,
-   "price": 0.0002724,
-   "mcap": 272478,
-   "value": 436.21011832627994
+   "price": 0.0002752,
+   "mcap": 275219,
+   "value": 440.69392277309925
   }
  },
  "closed": [
@@ -1295,6 +1295,14 @@
   },
   {
    "t": 1792879839.2784262,
+   "trader": "Numerooo0",
+   "coin": "92a7oRhNyhq2McpHdZZZN6MWzMXqzMz2kN2husWcpump",
+   "chain": "solana",
+   "sym": "92a7\u2026",
+   "why": "after the 3 days, no new buys"
+  },
+  {
+   "t": 1792880447.6525543,
    "trader": "Numerooo0",
    "coin": "92a7oRhNyhq2McpHdZZZN6MWzMXqzMz2kN2husWcpump",
    "chain": "solana",
@@ -5934,6 +5942,10 @@
   [
    1792880143,
    3125.91
+  ],
+  [
+   1792880448,
+   3130.4
   ]
  ],
  "prices": {},
@@ -6311,7 +6323,8 @@
   "wqSRLxT6zfkxL6NFPaU2UoMiCytMpGpo8hECjuyp3XfkaLvxrCgwPCUGvekQGJDptVyjKykWmkhyiq6TAsCq1du",
   "67nQN4aJWXwJgo1KXvfoHZRWiEj9ZWR76NMH3WXdWsy9RmoVxDADpWwsacUmLMCJ5L1XSw7X7uwyiumetvky7y1H",
   "oxWzfwrd85SkNuuuXUULV7867NcBuBVynNwhNgcESUD5Si4BHMCPfk8awyLf8t4HuEQ6eLXtagogifopoCLnek6",
-  "4c1K7own6EojxLHRaDkVtQzXgwpdE8kZdP5YMf1tNScQCrhhNCGcM5XVB1C8dZPDqjPhfPaw3tFLd7BC9yv4SUzT"
+  "4c1K7own6EojxLHRaDkVtQzXgwpdE8kZdP5YMf1tNScQCrhhNCGcM5XVB1C8dZPDqjPhfPaw3tFLd7BC9yv4SUzT",
+  "Yv1FyxZo8fFaF12Vwhs1RWPse6S6S7ZBZxt5fJd2SWxfz7aQMvs8BDyxTWe7LmcxMKdhJoUkBNG44Lbk94NyEbK"
  ],
- "checked": 1792880142.99538
+ "checked": 1792880447.6525543
 }
