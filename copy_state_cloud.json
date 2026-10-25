@@ -1332,6 +1332,14 @@
    "chain": "solana",
    "sym": "92a7\u2026",
    "why": "after the 3 days, no new buys"
+  },
+  {
+   "t": 1792932389.8073153,
+   "trader": "Numerooo0",
+   "coin": "92a7oRhNyhq2McpHdZZZN6MWzMXqzMz2kN2husWcpump",
+   "chain": "solana",
+   "sym": "92a7\u2026",
+   "why": "after the 3 days, no new buys"
   }
  ],
  "curve": [
@@ -6838,6 +6846,10 @@
   [
    1792932386,
    3201.55
+  ],
+  [
+   1792932390,
+   3201.55
   ]
  ],
  "prices": {},
@@ -7279,7 +7291,8 @@
   "3CAnmMy2WaW8LepxweoHrsRCYb2xUVACQ5vvcEKDkS1nhSjDwq99TaGyFh4AWdavBWn3ud4bcXmsUr9LSB2RLJeg",
   "4NrtBwgwTfHN3WVmT95N2aV5WU6fpEPVQ6Twe4MrNs1SLvYnvweqsusWBa8UpBpgx8WChbXATGd55XTVBtRYsM8f",
   "5ossUh5qXcU8wqPgVgc4Nb252pfvABaRehky29G6aJG35iK5PbYR2cqS6RwxhERkzCGyWeZK5YsYbCnGZHgPx23N",
-  "oA7vqEmNYK3giKg1WL2mQH87yLEx3jGaFqf4KkrQaMfydfcLZZUqetwY2EvcRtmWBqbWVDCg1ybgDfMCBWHxHPT"
+  "oA7vqEmNYK3giKg1WL2mQH87yLEx3jGaFqf4KkrQaMfydfcLZZUqetwY2EvcRtmWBqbWVDCg1ybgDfMCBWHxHPT",
+  "3LykXG3zYVtQCUEKwruGjumNmY5efwx2VCMaYHPZK75xVfmNN1JN5WMiPF6JSdurQ1ktrUcghqwZj9yZHTCHx5Bu"
  ],
- "checked": 1792932386.0775383
+ "checked": 1792932389.8073153
 }
