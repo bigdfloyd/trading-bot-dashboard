@@ -32,7 +32,7 @@
    "cost": 600.0,
    "opened": 1792724748.2663324,
    "price": 0.0003673,
-   "mcap": 367355,
+   "mcap": 367318,
    "value": 588.1790618988348
   }
  },
@@ -7066,6 +7066,10 @@
   [
    1792949038,
    3268.54
+  ],
+  [
+   1792949344,
+   3268.54
   ]
  ],
  "prices": {},
@@ -7523,5 +7527,5 @@
   "5iLuaVc35o3ntoaf89vGQL4UUP9AM6iP1kn1XPnpq88LrFKv4JysMBXcwaomywA4NA4S2DkQjNn3EhNUqrwM2UX8",
   "68FBfFaiVgZA2MdLMu6ZaP195emm7uZCQiKEkocikUBXLJWhpqCrPvh36mKUPjGmuFpuetdixaA55jMXXhNd8jL"
  ],
- "checked": 1792949037.6050227
+ "checked": 1792949343.6244762
 }
