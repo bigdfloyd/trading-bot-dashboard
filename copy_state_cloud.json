@@ -17,7 +17,7 @@
    "cost": 600.0,
    "opened": 1792648855.2874346,
    "price": 0.3172,
-   "mcap": 281086007,
+   "mcap": 281085997,
    "value": 538.6552664298351
   },
   "Numerooo0:solana:Hht3ozgbgvBsoD6h1fgDzfrViWvf5tQuLqJcUptwAq4z": {
@@ -6102,6 +6102,10 @@
   [
    1792888362,
    3128.82
+  ],
+  [
+   1792888645,
+   3128.82
   ]
  ],
  "prices": {},
@@ -6500,7 +6504,8 @@
   "3usRKPK7D6LmGwMeCApuCniruyTymE1gq6EzjXgy7yMezBmM98bRHy5sYCiA5C22jxBMdogRmWUvv5Q8Tw36ry7P",
   "4Q3ZHZTPWcqbCoCaCzkAaDiK8ri7D2CkZpyExcBPNBvEu9MKsuTyYiiQbGj2WoQYQJsj2bxWX81LwF6vgR88jyQG",
   "59rVycp8m5t26Gm6FVAdsofjw26du37hsYadKVphvR2dj5gNqRMZHzgvNTkmkhPK8fXNNxauqSV1S8JmSZCNfzQo",
-  "4fyfWxGDcB6VViz7ENxK33YZGcME3a9uq59a262rmV9Zuqmuzd2V8Qi2TPGiraf9irREnrBiz9QsuftwiDT8oJw3"
+  "4fyfWxGDcB6VViz7ENxK33YZGcME3a9uq59a262rmV9Zuqmuzd2V8Qi2TPGiraf9irREnrBiz9QsuftwiDT8oJw3",
+  "2jdLeo6LabMNSnbz3mHYjNRvxVZgD5cgZLgJsgQrHzZFCH82RYLkzC6KmAwChE7Cq1fU1UoVgzo8qBg7oLbKBvNd"
  ],
- "checked": 1792888361.9220183
+ "checked": 1792888645.1536663
 }
