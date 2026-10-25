@@ -31,9 +31,9 @@
    "qty": 1601358.7310069012,
    "cost": 600.0,
    "opened": 1792724748.2663324,
-   "price": 0.0002846,
-   "mcap": 284670,
-   "value": 455.74669484456405
+   "price": 0.0002802,
+   "mcap": 280248,
+   "value": 448.7007164281337
   }
  },
  "closed": [
@@ -6478,6 +6478,10 @@
   [
    1792911570,
    3139.34
+  ],
+  [
+   1792911874,
+   3132.29
   ]
  ],
  "prices": {},
@@ -6901,5 +6905,5 @@
   "4557Ef2BmZCcSgs3sBgaBuD4PtHWG69zrqo7nsyGGqFohV4dwyUhbAjcynaRm7PwM9iuHnHTpWyYCu4t23TRLsZA",
   "4TKxVT8rwY1Bz2BRypY4mvt1XXKRyEzEU4WEoza5R2qXc6gTiVZA6nBpf2W3gcSZDyewKjjKxT6g9kLfqyQ9ySka"
  ],
- "checked": 1792911569.6210878
+ "checked": 1792911873.7839723
 }
